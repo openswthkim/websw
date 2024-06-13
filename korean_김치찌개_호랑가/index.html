@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>호랑가 메뉴</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/korean_김치찌개/index.html" class="back-button">&lt; 돌아가기</a>
+        <div class="header">
+            <div>
+                <h1>호랑가</h1>
+                <p class="rating">★★★★★ 5.0 (126)</p>
+                <p>가성비 좋은 충북대 대표 맛집.</p>
+            </div>
+            <div class="header-icons">
+                <span class="heart">♡</span>
+                <span class="bookmark">🔖</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <button>예약하기</button>
+            <button>문의하기</button>
+        </div>
+        <div class="menu-tabs">
+            <a href="#menu" class="tab-link" data-target="menu">메뉴</a>
+            <a href="#gallery" class="tab-link" data-target="gallery">가게사진</a>
+        </div>
+        <div id="menu" class="menu">
+            <div class="menu-item">
+                <div class="img-container">
+                    <img src="/korean_김치찌개_호랑가/images/호랑가_menu_01.jpg" alt="돼지김치찌개+직화제육세트">
+                </div>
+                <p>돼지김치찌개+직화제육세트</p>
+                <p class="price">11,000원</p>
+            </div>
+            <div class="menu-item">
+                <div class="img-container">
+                    <img src="/korean_김치찌개_호랑가/images/호랑가_menu_02.jpg" alt="돈삼치즈돈가스김치찌개">
+                </div>
+                <p>등심치즈돈가스+김치찌개</p>
+                <p class="price">11,000원</p>
+            </div>
+            <div class="menu-item">
+                <div class="img-container">
+                    <img src="/korean_김치찌개_호랑가/images/호랑가_menu_03.jpg" alt="연탄불백김치찌개">
+                </div>
+                <p>연탄불백+김치찌개</p>
+                <p class="price">11,000원</p>
+            </div>
+            <div class="menu-item">
+                <div class="img-container">
+                    <img src="/korean_김치찌개_호랑가/images/호랑가_menu_04.jpg" alt="돼지김치볶음">
+                </div>
+                <p>돼지김치볶음</p>
+                <p class="price">10,900원</p>
+            </div>
+            <div class="menu-item">
+                <div class="img-container">
+                    <img src="/korean_김치찌개_호랑가/images/호랑가_menu_05.jpg" alt="연탄불고기백반">
+                </div>
+                <p>연탄불고기백반</p>
+                <p class="price">9,900원</p>
+            </div>
+            <div class="menu-item">
+                <div class="img-container">
+                    <img src="/korean_김치찌개_호랑가/images/호랑가_menu_06.jpg" alt="직화곱떡백반">
+                </div>
+                <p>직화제육백반</p>
+                <p class="price">9,900원</p>
+            </div>
+            <div class="menu-item">
+                <div class="img-container">
+                    <img src="/korean_김치찌개_호랑가/images/호랑가_menu_07.jpg" alt="돼지김치찌개">
+                </div>
+                <p>돼지김치찌개</p>
+                <p class="price">8,500원</p>
+            </div>
+            <div class="menu-item">
+                <div class="img-container">
+                    <img src="/korean_김치찌개_호랑가/images/호랑가_menu_08.jpg" alt="참치김치찌개">
+                </div>
+                <p>참치김치찌개</p>
+                <p class="price">8,500원</p>
+            </div>
+            <div class="menu-item">
+                <div class="img-container">
+                    <img src="/korean_김치찌개_호랑가/images/호랑가_menu_09.jpg" alt="김치부대찌개">
+                </div>
+                <p>김치부대찌개</p>
+                <p class="price">8,500원</p>
+            </div>
+        </div>
+        <div id="gallery" class="gallery">
+            <img src="/korean_김치찌개_호랑가/images/호랑가_outside_01.jpg" alt="가게사진 1">
+            <img src="/korean_김치찌개_호랑가/images/호랑가_outside_02.jpg" alt="가게사진 2">
+            <img src="/korean_김치찌개_호랑가/images/호랑가_outside_03.jpg" alt="가게사진 3">
+            <img src="/korean_김치찌개_호랑가/images/호랑가_outside_04.jpg" alt="가게사진 4">
+            <img src="/korean_김치찌개_호랑가/images/호랑가_outside_05.jpg" alt="가게사진 5">
+            <img src="/korean_김치찌개_호랑가/images/호랑가_outside_06.jpg" alt="가게사진 6">
+            <img src="/korean_김치찌개_호랑가/images/호랑가_place_01.jpg" alt="가게사진 7">
+            <img src="/korean_김치찌개_호랑가/images/호랑가_place_02.jpg" alt="가게사진 8">
+            <img src="/korean_김치찌개_호랑가/images/호랑가_place_03.jpg" alt="가게사진 9">
+        </div>
+    </div>
+    <script>
+        document.querySelector('.heart').addEventListener('click', function() {
+            if (this.textContent === '♡') {
+                this.textContent = '❤️';
+            } else {
+                this.textContent = '♡';
+            }
+        });
+
+        document.querySelector('.bookmark').addEventListener('click', function() {
+            if (this.textContent === '🔖') {
+                this.textContent = '📑';
+            } else {
+                this.textContent = '🔖';
+            }
+        });
+
+        document.querySelectorAll('.tab-link').forEach(function(tab) {
+            tab.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelectorAll('.menu, #gallery').forEach(function(section) {
+                    section.style.display = 'none';
+                });
+                document.getElementById(this.dataset.target).style.display = 'block';
+            });
+        });
+
+        document.getElementById('menu').style.display = 'block';
+    </script>
+</body>
+</html>
