@@ -71,6 +71,7 @@ body {
 	height: 400px;
 	margin-right:20px;
 	object-fit: cover;
+	cursor: pointer;
 }
 .content .info {
 	flex:1;

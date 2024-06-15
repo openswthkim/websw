@@ -1,22 +1,18 @@
 .container {
-    width: 80%;
-    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+    margin: auto;
 }
+
 .back-button {
-    display: block;
-    margin: 20px 0;
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.icons {
-    margin-left: 15px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
 }
 
 .icons i {
-    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 
 #popup, #heartOn, #heartOff, #bookmarkOn, #bookmarkOff {
@@ -30,73 +26,118 @@
     padding: 10px;
     border-radius: 5px;
 }
+
 .buttons {
     margin: 20px 0;
+    margin-bottom: 50px;
 }
+
 .buttons button {
     margin-right: 10px;
     padding: 10px 20px;
+    border: 0px;
     font-size: 1em;
     cursor: pointer;
 }
 
-li {
-    list-style: none;
+.contents {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
 }
 
-[type="radio"] {
-    appearance: none;
+.btnCon {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.tabmenu input:checked~label {
-    background: #ccc;
+label[for="tabmenu1"]{
+    position: absolute;
+    left: 400px;
 }
 
-.tabmenu input:checked~.tabCon {
+label[for="tabmenu2"]{
+    position:absolute;
+    right:400px;
+}
+
+.contents input {
+    display:none;
+}
+
+.content_menu, .content_gallery {
+    margin-top: 50px;
+}
+
+.menu, .gallery {
+    float: left;
+    width:33%;
+}
+
+.menu img, .gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding:10px;
+}
+
+.menu p {
+    width:300px;
+    position:relative;
+    left:20px;
+    bottom:10px;
+}
+
+.content_menu, .content_gallery {
+    display: none;
+}
+
+input[id="tabmenu1"]:checked~.content_menu,
+input[id="tabmenu2"]:checked~.content_gallery {
     display: block;
 }
 
-.tabCon img {
-    width: 30%;
-    margin: 1%;
-    height: auto;
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
+/*
+ .contents {
+    display: none;
+    text-align: left;
+    padding: 20px;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
 }
 
-/*
-.menu-tabs {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
+#content1 {
+    display: block;
 }
-.menu-tabs a {
-    margin: 0 20px;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
+
+#tabmenu1:checked ~ ul #content1 {
+    display: block;
 }
-.menu, .gallery {
+
+#tabmenu2:checked~ul #content2 {
+    display: block;
+} 
+
+.btnCon:checked~ #content2 {
     display: none;
 }
-.img-container {
+
+.contents_menu {
     width: 100%;
-    height: 400px;
-    overflow: hidden;
+    margin-bottom: 10px;
 }
-.img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+#tabmenu1:checked ~ ul #content1 {
+    display: block;
 }
-.gallery {
-    text-align: center;
-}
-.gallery img {
-    width: 30%;
-    margin: 1%;
+
+.contents img {
+    width: 33.3%;
     height: auto;
     object-fit: cover;
+    display:inline-block;
     aspect-ratio: 1 / 1;
 } */

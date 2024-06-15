@@ -42,21 +42,7 @@
             showPopup("popup");
           });
         };
-
-    //     document.querySelectorAll(".tab-link").forEach(function (tab) {
-    //       tab.addEventListener("click", function (e) {
-    //         document
-    //           .querySelectorAll(".menu, .gallery")
-    //           .forEach(function (section) {
-    //             section.style.display = "none";
-    //           });
-    //         document.getElementById(this.dataset.target).style.display =
-    //           "block";
-    //       });
-    //     });
-
-    //     document.getElementById("menu").style.display = "block";
-       });
+      });
     </script>
   </head>
 
@@ -82,84 +68,67 @@
           <div id="popup">URL이 복사되었습니다!</div>
         </div>
       </div>
+
       <div class="buttons">
         <button>예약하기</button>
         <button>문의하기</button>
       </div>
-      <div class="tabmenu">
-        <ul>
-          <li id="menu" class="btnCon">
-            <input type="radio" checked name="tabmenu" id="tabmenu1" />
-            <label for="tabmenu1">메뉴</label>
-            <div class="tabCon">
-              <div class="menu_item">
-                <img
-                  src="/korean_김치찌개_호랑가/images/호랑가_menu_01.jpg"
-                  alt="돼지김치찌개+직화제육세트"
-                />
-                <p>돼지김치찌개+직화제육세트</p>
-                <p class="price">11,000원</p>
-              </div>
-              <div class="menu_item">
-                <img
-                  src="/korean_김치찌개_호랑가/images/호랑가_menu_02.jpg"
-                  alt="돈삼치즈돈가스김치찌개"
-                />
-                <p>등심치즈돈가스+김치찌개</p>
-                <p class="price">11,000원</p>
-              </div>
-            </div>
-          </li>
-          <li id="gallery" class="btnCon">
-            <input type="radio" name="tabmenu" id="tebmenu2" />
-            <label for="tabmenu2">가게사진</label>
-            <div class="tabCon">
-              <div class="tab_content" id="gallery_content">
-                <img
-                  src="/korean_김치찌개_호랑가/images/호랑가_outside_01.jpg"
-                  alt="가게사진 1"
-                />
-                <img
-                  src="/korean_김치찌개_호랑가/images/호랑가_outside_02.jpg"
-                  alt="가게사진 2"
-                />
-              </div>
-            </div>
-          </li>
-        </ul>
-        <!-- <input id="menu" type="radio" name="tab_item" checked />
-        <label class="tab_menu" for="menu">메뉴</label>
-        <input id="gallery" type="radio" name="tab_item" checked />
-        <label class="tab_gallery" for="gallery">가게사진</label>
-      </div>
 
-      <div class="tab_content" id="menu_content">
-        <img
-          src="/korean_김치찌개_호랑가/images/호랑가_menu_01.jpg"
-          alt="돼지김치찌개+직화제육세트"
-        />
-        <p>돼지김치찌개+직화제육세트</p>
-        <p class="price">11,000원</p>
-      </div>
-      <div class="menu_item">
-        <img
-          src="/korean_김치찌개_호랑가/images/호랑가_menu_02.jpg"
-          alt="돈삼치즈돈가스김치찌개"
-        />
-        <p>등심치즈돈가스+김치찌개</p>
-        <p class="price">11,000원</p>
-      </div> -->
+      <div class="contents">
+        <!-- <div class="btnCon"> -->
+        <input type="radio" name="tabmenu" id="tabmenu1" checked />
+        <label for="tabmenu1">메뉴</label>&emsp;&emsp;&emsp;&emsp;
+        <input type="radio" name="tabmenu" id="tabmenu2" />
+        <label for="tabmenu2">가게사진</label>
+        <!-- </div> -->
 
-        <!-- <div class="tab_content" id="gallery_content">
-        <img
-          src="/korean_김치찌개_호랑가/images/호랑가_outside_01.jpg"
-          alt="가게사진 1"
-        />
-        <img
-          src="/korean_김치찌개_호랑가/images/호랑가_outside_02.jpg"
-          alt="가게사진 2"
-        />
-      </div> -->
+        <div class="content_menu">
+          <div class="menu">
+            <img
+              src="/korean_김치찌개_호랑가/images/호랑가_menu_01.jpg"
+              alt="돼지김치찌개+직화제육세트"
+            />
+            <p>돼지김치찌개+직화제육세트</p>
+            <p class="price">11,000원</p>
+          </div>
+          <div class="menu">
+            <img
+              src="/korean_김치찌개_호랑가/images/호랑가_menu_02.jpg"
+              alt="돈삼치즈돈가스김치찌개"
+            />
+            <p>등심치즈돈가스+김치찌개</p>
+            <p class="price">11,000원</p>
+          </div>
+          <div class="menu">
+            <img
+              src="/korean_김치찌개_호랑가/images/호랑가_menu_02.jpg"
+              alt="돈삼치즈돈가스김치찌개"
+            />
+            <p>등심치즈돈가스+김치찌개</p>
+            <p class="price">11,000원</p>
+          </div>
+        </div>
+
+        <div class="content_gallery">
+          <div class="gallery">
+            <img
+              src="/korean_김치찌개_호랑가/images/호랑가_outside_01.jpg"
+              alt="가게사진 1"
+            />
+          </div>
+          <div class="gallery">
+            <img
+              src="/korean_김치찌개_호랑가/images/호랑가_outside_02.jpg"
+              alt="가게사진 2"
+            />
+          </div>
+          <div class="gallery">
+            <img
+              src="/korean_김치찌개_호랑가/images/호랑가_outside_02.jpg"
+              alt="가게사진 2"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </body>

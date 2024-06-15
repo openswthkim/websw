@@ -3,10 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <title>korean_김치찌개</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Inter&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/03f93ebafa.js"
@@ -14,6 +10,15 @@
     ></script>
 
     <script>
+      function openModal(src) {
+        document.getElementById("myModal").style.display = "block";
+        document.getElementById("img01").src = src;
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
       function showPopup(popupId) {
         var popup = document.getElementById(popupId);
         popup.style.visibility = "visible";
@@ -22,29 +27,31 @@
         }, 1000);
       }
 
-      document.getElementById("heartIcon").onclick = function () {
-        this.classList.toggle("fa-solid");
-        if (this.classList.contains("fa-solid")) {
-          showPopup("heartOn");
-        } else {
-          showPopup("heartOff");
-        }
-      };
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("heartIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("heartOn");
+          } else {
+            showPopup("heartOff");
+          }
+        };
 
-      document.getElementById("bookmarkIcon").onclick = function () {
-        this.classList.toggle("fa-solid");
-        if (this.classList.contains("fa-solid")) {
-          showPopup("bookmarkOn");
-        } else {
-          showPopup("bookmarkOff");
-        }
-      };
+        document.getElementById("bookmarkIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("bookmarkOn");
+          } else {
+            showPopup("bookmarkOff");
+          }
+        };
 
-      document.getElementById("shareIcon").onclick = function () {
-        navigator.clipboard.writeText(window.location.href).then(function () {
-          showPopup("popup");
-        });
-      };
+        document.getElementById("shareIcon").onclick = function () {
+          navigator.clipboard.writeText(window.location.href).then(function () {
+            showPopup("popup");
+          });
+        };
+      });
     </script>
   </head>
 
@@ -77,7 +84,11 @@
       <h2>재료 및 영양소</h2>
       <hr />
       <div class="content">
-        <img src="images/kimchi.png" alt="김치찌개" />
+        <img
+          src="images/kimchi.png"
+          alt="김치찌개"
+          onclick="openModal(this.src)"
+        />
         <div class="info">
           <div class="source">
             <h3>재료</h3>
@@ -182,7 +193,12 @@
       </div>
       <div class="nearby-places">
         <div class="map">
-          <img src="images/map.png" alt="지도_김치찌개" />
+          <a
+            href="https://map.naver.com/p/search/%EA%B9%80%EC%B9%98%EC%B0%8C%EA%B0%9C"
+            target="_blank"
+          >
+            <img src="images/map.png" alt="지도_김치찌개" />
+          </a>
         </div>
         <div class="places">
           <h2>근처 맛집</h2>
@@ -202,6 +218,11 @@
           </ul>
         </div>
       </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="img01" />
     </div>
   </body>
 </html>
