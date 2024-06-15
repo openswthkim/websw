@@ -11,14 +11,24 @@
     justify-content: space-between;
     align-items: center;
 }
-.rating {
-    font-size: 1.2em;
-    margin: 0;
+.icons {
+    margin-left: 15px;
 }
-.header-icons span {
-    font-size: 1.5em;
-    margin-left: 10px;
-    cursor: pointer;
+
+.icons i {
+    margin-left: 15px;
+}
+
+#popup, #heartOn, #heartOff, #bookmarkOn, #bookmarkOff {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
 }
 .buttons {
     margin: 20px 0;
@@ -29,6 +39,32 @@
     font-size: 1em;
     cursor: pointer;
 }
+
+li {
+    list-style: none;
+}
+
+[type="radio"] {
+    appearance: none;
+}
+
+.tabmenu input:checked~label {
+    background: #ccc;
+}
+
+.tabmenu input:checked~.tabCon {
+    display: block;
+}
+
+.tabCon img {
+    width: 30%;
+    margin: 1%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+/*
 .menu-tabs {
     display: flex;
     justify-content: center;
@@ -41,14 +77,8 @@
     color: black;
     cursor: pointer;
 }
-.menu, #gallery {
+.menu, .gallery {
     display: none;
-}
-.menu-item {
-    display: inline-block;
-    width: 30%;
-    margin: 1%;
-    vertical-align: top;
 }
 .img-container {
     width: 100%;
@@ -60,14 +90,13 @@
     height: 100%;
     object-fit: cover;
 }
-#gallery {
-    display: none;
+.gallery {
     text-align: center;
 }
-#gallery img {
+.gallery img {
     width: 30%;
     margin: 1%;
     height: auto;
     object-fit: cover;
     aspect-ratio: 1 / 1;
-}
+} */

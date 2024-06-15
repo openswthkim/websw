@@ -1,14 +1,49 @@
 body {
 	background: #FFFFFF;
-	font-family: 'Inter', sans-serif;
-	margin: 0;
-	padding: 0;
 }
-.breadcrump {
-	margin: 20px;
-	font-size: 14px;
-	color: #777;
+
+.breadcrumb {
+	list-style: none;
+	display: flex;
 }
+
+.breadcrumb a:link,
+.breadcrumb a:visited,
+.breadcrumb a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.breadcrumb li+li:before {
+	content: " > ";
+	padding: 10px;
+}
+
+#popup, #heartOn, #heartOff, #bookmarkOn, #bookmarkOff {
+	visibility: hidden;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.icons {
+	margin-left: 15px;
+}
+.icons i {
+	margin-left: 15px;
+}
+.description {
+	margin: 20px 0;
+	font-size: 16px;
+	color: #333;
+	margin-left: 23px;
+}
+
 .back-button {
 	display: inline-block;
 	margin: 20px;
@@ -21,53 +56,59 @@ body {
 	margin: 20px;
 }
 .container {
-	width: 60%;
+	position: center;
+	width: 1000px;
 	margin: 0 auto;
-	background-color: #fff;
 	padding: 20px;
 }
-.header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border-bottom: 1px solid #ddd;
-	padding-bottom: 10px;
-	margin-bottom: 20px;
-}
-.header h1 {
-	margin: 0;
-}
-.header div {
-	display: flex;
-	gap: 10px;
-}
+
 .content {
 	display: flex;
 }
-.content img {
-	width: 50%;
-	height: auto;
+.content img, .map img {
+	margin-top: 20px;
+	width: 500px;
+	height: 400px;
+	margin-right:20px;
+	object-fit: cover;
 }
 .content .info {
-	width: 50%;
+	flex:1;
+	box-sizing: border-box;
 	padding-left: 20px;
 }
-.content h2 {
-	margin-top: 0;
-}
-.ingredients, .nutrition, .steps, .nearby-places {
-	margin-bottom: 20px;
-}
-.ingredients ul, .steps ol {
+
+.source ul, .nutrition ul, .steps ol{
 	padding-left: 20px;
+	list-style: none;
 }
+
+.source li, .nutrition li{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0;
+}
+
+.ingredients {
+	flex: 1;
+}
+
+.amount {
+	flex: 0 0 150px;
+	text-align: right;
+}
+.steps ,.nearby-places {
+	margin-top: 50px;
+}
+
 .steps ol {
 	list-style: none;
-	counter-reset: step-counter;
+	padding: 0 10px;
 }
 .steps li {
 	counter-increment: step-counter;
 	margin-bottom: 10px;
+	padding: 5px 0;
 }
 .steps li::before {
 	content: "Step " counter(step-counter) ". ";
@@ -77,18 +118,13 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
-.map {
-	width: 50%;
-	height: 400px;
-	background: url('images/map.png') no-repeat center center;
-	background-size: cover;
-}
+
 .places {
 	width: 45%;
 }
 .nearby-places ul {
 	list-style: none;
-	padding: 0;
+	padding: 10px;
 }
 .nearby-places li {
 	display: flex;
@@ -99,22 +135,22 @@ body {
 .nearby-places li:last-child {
 	border-bottom: none;
 }
+
+.places a:link,
+.places a:visited,
+.places a:active {
+	text-decoration: none;
+	color: black;
+}
+
 .place-title {
 	font-weight: bold;
+	font-size: 18px;
 	display: flex;
 	justify-content: space-between;
 }
 .place-description {
-	font-size: 12px;
+	font-size: 14px;
 	color: #777;
 	margin-top: 5px;
-}
-.description {
-	margin: 20px 0;
-	font-size: 16px;
-	color: #333;
-	margin-left: 23px;
-}
-.heart {
-	cursor: pointer;
 }

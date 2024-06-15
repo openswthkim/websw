@@ -1,138 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <meta charset="UTF-8" />
     <title>korean_김치찌개</title>
-    <meta name="description" content="Figma htmlGenerator">
-    <meta name="author" content="htmlGenerator">
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        
-    </style>
-</head>
-<body>
-    <div class="breadcrump">
-        <span>메인  >  한식  >  김치찌개</span>
-    </div>
-    <hr>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/03f93ebafa.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function showPopup(popupId) {
+        var popup = document.getElementById(popupId);
+        popup.style.visibility = "visible";
+        setTimeout(function () {
+          popup.style.visibility = "hidden";
+        }, 1000);
+      }
+
+      document.getElementById("heartIcon").onclick = function () {
+        this.classList.toggle("fa-solid");
+        if (this.classList.contains("fa-solid")) {
+          showPopup("heartOn");
+        } else {
+          showPopup("heartOff");
+        }
+      };
+
+      document.getElementById("bookmarkIcon").onclick = function () {
+        this.classList.toggle("fa-solid");
+        if (this.classList.contains("fa-solid")) {
+          showPopup("bookmarkOn");
+        } else {
+          showPopup("bookmarkOff");
+        }
+      };
+
+      document.getElementById("shareIcon").onclick = function () {
+        navigator.clipboard.writeText(window.location.href).then(function () {
+          showPopup("popup");
+        });
+      };
+    </script>
+  </head>
+
+  <body>
+    <nav>
+      <ul class="breadcrumb">
+        <li><a href="/main/index.html">메인</a></li>
+        <li><a href="/main_korean/index.html">한식</a></li>
+        <li><a href="/korean_김치찌개/index.html">김치찌개</a></li>
+      </ul>
+    </nav>
+    <hr />
     <a href="/main_korean/index.html" class="back-button">&lt; 돌아가기</a>
     <div class="main">김치찌개</div>
+    <div class="icons">
+      <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+      <div id="heartOn">좋아요가 반영되었습니다</div>
+      <div id="heartOff">좋아요가 해제되었습니다</div>
+      <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+      <div id="bookmarkOn">북마크가 설정되었습니다</div>
+      <div id="bookmarkOff">북마크가 해제되었습니다</div>
+      <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+      <div id="popup">URL이 복사되었습니다!</div>
+    </div>
+    <div class="description">
+      매콤한 김치찌개 한 그릇으로 스트레스를 날려보세요! 얼큰한 국물에 푹 빠진
+      두부와 돼지고기의 환상적인 맛!
+    </div>
     <div class="container">
-        <div class="header">
-            <h1>재료 및 영양소</h1>
-            <div>
-                <span class="heart">♡</span>
-                <span>🔗</span>
-                <span>🔄</span>
-            </div>
-        </div>
-        <div class="description">
-            매콤한 김치찌개 한 그릇으로 스트레스를 날려보세요! 얼큰한 국물에 푹 빠진 두부와 돼지고기의 환상적인 맛!
-        </div>
-        <div class="content">
-            <img src="images/kimchi.png" alt="김치찌개">
-            <div class="info">
-                <h2>재료 및 영양소</h2>
-                <div class="ingredients">
-                    <h3>재료</h3>
-                    <ul>
-                        <li>신 김치 400g</li>
-                        <li>돼지고기 200g</li>
-                        <li>두부 1/2모 (약 200g)</li>
-                        <li>양파 1개</li>
-                        <li>고추가루 1큰술</li>
-                        <li>참기름 1작은술</li>
-                        <li>대파 1대</li>
-                        <li>마늘 4쪽</li>
-                        <li>고추장 1큰술</li>
-                        <li>간장 1작은술</li>
-                        <li>물 4컵 (약 800ml)</li>
-                        <li>소금, 후추 약간</li>
-                    </ul>
-                </div>
-                <div class="nutrition">
-                    <h3>영양소 (1인분 기준, 추정치)</h3>
-                    <ul>
-                        <li>칼로리: 350 kcal</li>
-                        <li>탄수화물: 15g</li>
-                        <li>단백질: 25g</li>
-                        <li>지방: 20g</li>
-                        <li>식이섬유: 4g</li>
-                        <li>나트륨: 1,500mg</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="steps">
-            <h2>조리 단계</h2>
-            <ol>
-                <li>김치는 한 입 크기로 자르고, 돼지고기는 먹기 좋은 크기로 썬다. 두부는 사방 2cm 크기로 자른다. 양파는 채 썰고, 대파는 어슷하게 썬다.</li>
-                <li>냄비에 돼지고기를 넣어 김치를 넣고 볶는다.</li>
-                <li>물에 고추장, 간장, 고춧가루를 풀어 냄비에 붓고 끓인다.</li>
-                <li>양파와 대파를 넣고 끓인다.</li>
-                <li>두부를 넣고 2분 정도 추가로 끓인다.</li>
-            </ol>
-        </div>
-        <div class="nearby-places">
-          <div class="map"></div>
-          <div class="places">
-              <h2>근처 맛집</h2>
-              <ul>
-                  <li>
-                      <div class="place-title">
-                          <span><a href="/korean_김치찌개_호랑가/index.html">호랑가</a></span>
-                          <span>5.0 ★★★★★ (126)</span>
-                      </div>
-                      <div class="place-description">가성비 좋은 충북대 대표 맛집</div>
-                  </li>
-                  <li>
-                      <div class="place-title">
-                          <span>이제곧망할집</span>
-                          <span>3.5 ★★★☆☆ (15)</span>
-                      </div>
-                      <div class="place-description">이름만큼 소박한 김치찌개 맛집</div>
-                  </li>
-                  <li>
-                      <div class="place-title">
-                          <span>시민포차</span>
-                          <span>4.8 ★★★★☆ (65)</span>
-                      </div>
-                      <div class="place-description">활용 좋은 청량한 안주포차</div>
-                  </li>
-                  <li>
-                      <div class="place-title">
-                          <span>자연을담은돈까스</span>
-                          <span>4.5 ★★★★☆ (669)</span>
-                      </div>
-                      <div class="place-description">웰빙과 맛을 더한 돈까스 전문점</div>
-                  </li>
-                  <li>
-                      <div class="place-title">
-                          <span>청춘상회</span>
-                          <span>4.3 ★★★★☆ (85)</span>
-                      </div>
-                      <div class="place-description">빛나는 청춘을 위한 먹거리 가득</div>
-                  </li>
-                  <li>
-                      <div class="place-title">
-                          <span>신가네칼국수</span>
-                          <span>4.4 ★★★★☆ (70)</span>
-                      </div>
-                      <div class="place-description">역사가 오래된 칼국수 맛집</div>
-                  </li>
-              </ul>
+      <h2>재료 및 영양소</h2>
+      <hr />
+      <div class="content">
+        <img src="images/kimchi.png" alt="김치찌개" />
+        <div class="info">
+          <div class="source">
+            <h3>재료</h3>
+            <ul>
+              <li>
+                <span class="ingredient">신김치</span
+                ><span class="amount">400g</span>
+              </li>
+              <li>
+                <span class="ingredient">돼지고기</span
+                ><span class="amount">200g</span>
+              </li>
+              <li>
+                <span class="ingredient">두부</span
+                ><span class="amount">1/2모 (약 200g)</span>
+              </li>
+              <li>
+                <span class="ingredient">양파</span
+                ><span class="amount">1개</span>
+              </li>
+              <li>
+                <span class="ingredient">고추가루</span
+                ><span class="amount">1큰술</span>
+              </li>
+              <li>
+                <span class="ingredient">참기름</span
+                ><span class="amount">1작은술</span>
+              </li>
+              <li>
+                <span class="ingredient">대파</span
+                ><span class="amount">1대</span>
+              </li>
+              <li>
+                <span class="ingredient">마늘</span
+                ><span class="amount">4쪽</span>
+              </li>
+              <li>
+                <span class="ingredient">고추장</span
+                ><span class="amount">1큰술</span>
+              </li>
+              <li>
+                <span class="ingredient">간장</span
+                ><span class="amount">1작은술</span>
+              </li>
+              <li>
+                <span class="ingredient">물</span
+                ><span class="amount">4컵 (약 800ml)</span>
+              </li>
+              <li>
+                <span class="ingredient">소금, 후추</span
+                ><span class="amount">약간</span>
+              </li>
+            </ul>
           </div>
+          <div class="nutrition">
+            <h3>영양소 (1인분 기준, 추정치)</h3>
+            <ul>
+              <li>
+                <span class="ingredient">칼로리</span
+                ><span class="amount">350kcal</span>
+              </li>
+              <li>
+                <span class="ingredient">탄수화물</span
+                ><span class="amount">15g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">단백질</span
+                ><span class="amount">25g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">지방</span
+                ><span class="amount">20g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">식이섬유</span
+                ><span class="amount">4g</span>
+              </li>
+              <li>
+                <span class="ingredient">나트륨</span
+                ><span class="amount">1,500mg</span>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-  </div>
-  <script>
-      document.querySelector('.heart').addEventListener('click', function() {
-          if (this.textContent === '♡') {
-              this.textContent = '❤️';
-          } else {
-              this.textContent = '♡';
-          }
-      });
-  </script>
-</body>
+      <div class="steps">
+        <h2>조리 단계</h2>
+        <hr />
+        <ol>
+          <li>
+            김치는 한 입 크기로 자르고, 돼지고기는 먹기 좋은 크기로 썬다. 두부는
+            사방 2cm 크기로 자른다. 양파는 채 썰고, 대파는 어슷하게 썬다.
+          </li>
+          <li>냄비에 돼지고기를 넣어 김치를 넣고 볶는다.</li>
+          <li>물에 고추장, 간장, 고춧가루를 풀어 냄비에 붓고 끓인다.</li>
+          <li>양파와 대파를 넣고 끓인다.</li>
+          <li>두부를 넣고 2분 정도 추가로 끓인다.</li>
+        </ol>
+      </div>
+      <div class="nearby-places">
+        <div class="map">
+          <img src="images/map.png" alt="지도_김치찌개" />
+        </div>
+        <div class="places">
+          <h2>근처 맛집</h2>
+          <hr />
+          <ul>
+            <li>
+              <a href="/korean_김치찌개_호랑가/index.html">
+                <div class="place-title">
+                  <span>호랑가</span>
+                  <span>5.0 ★★★★★ (126)</span>
+                </div>
+                <div class="place-description">
+                  가성비 좋은 충북대 대표 맛집
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
