@@ -1,69 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="utf-8">
-    <title>Html Generated</title>
-    <meta name="description" content="Figma htmlGenerator">
-    <meta name="author" content="htmlGenerator">
+    <title>점심뭐먹지?</title>
+    <meta name="description" content="점심 메뉴 선택">
+    <meta name="author" content="Chungbuk University">
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
     <style>
-        /*
-          Figma Background for illustrative/preview purposes only.
-          You can remove this style tag with no consequence
-        */
-        body {background: #E5E5E5; }
+
     </style>
 </head>
 <body>
-    <div class="e1_4">
-        <div class="e176_5909">
-            <a href="bunsik.html">
-                <div class="e176_5910"></div>
-                <span class="e176_5911">분식</span>
-            </a>
+    <div class="container">
+        <div class="auth-buttons">
+            <a href="/login/index.html">로그인</a>
+            <a href="/sign_up/index.html">회원가입</a>
         </div>
-        <div class="e176_5912">
-            <a href="western.html">
-                <div class="e176_5913"></div>
-                <span class="e176_5914">양식</span>
-            </a>
-        </div>
-        <div class="e68_25">
-            <a href="japanese.html">
-                <div class="e1_11"></div>
-                <span class="e2_806">일식</span>
-            </a>
-        </div>
-        <div class="e68_24">
-            <a href="chinese.html">
-                <div class="e1_10"></div>
-                <span class="e2_805">중식</span>
-            </a>
-        </div>
-        <div class="e68_23">
-            <a href="/main_korean/index.html">
-                <div class="e1_12"></div>
-                <span class="e2_804">한식</span>
-            </a>
-        </div>
-        <div class="e68_28">
-            <div class="e1_7"></div>
-            <span class="e2_796">점심뭐먹지?</span>
+        <div class="header">
+            <h1>점심뭐먹지?</h1>
             <hr>
-            <span class="e2_795">점심을 골라드립니다! 메뉴를 선택하세요.</span>
-            <div class="e68_27">
-                <a href="/sign_up/index.html">
-                    <div class="e10_2"><span class="e10_3">회원가입</span></div>
+            <p>점심을 골라드립니다! 메뉴를 선택하세요.</p>
+        </div>
+        <div class="menu-container">
+            <div class="menu-row">
+                <a href="/main_korean/index.html" class="menu-item">
+                    <span>한식</span>
+                    <img src="/main/images/한식.png" alt="한식">
+                </a>
+                <a href="chinese.html" class="menu-item">
+                    <span>중식</span>
+                    <img src="/main/images/중식.png" alt="중식">
+                </a>
+                <a href="japanese.html" class="menu-item">
+                    <span>일식</span>
+                    <img src="/main/images/일식.png" alt="일식">
                 </a>
             </div>
-            <div class="e68_26">
-                <a href="/login/index.html">
-                    <div class="e10_4"><span class="e10_5">로그인</span></div>
+            <div class="menu-row">
+                <a href="western.html" class="menu-item">
+                    <span>양식</span>
+                    <img src="/main/images/양식.png" alt="양식">
+                </a>
+                <a href="bunsik.html" class="menu-item">
+                    <span>분식</span>
+                    <img src="/main/images/분식.png" alt="분식">
                 </a>
             </div>
         </div>
-        <span class="e18_457">Copyright all right reserved Chungbuk University, Cheongju-si, Korea</span>
+        <div class="footer">
+            Copyright all right reserved Chungbuk University, Cheongju-si, Korea
+        </div>
     </div>
 </body>
 </html>
