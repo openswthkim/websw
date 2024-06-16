@@ -13,6 +13,7 @@
 .icons i {
     margin-top: 15px;
     margin-right: 15px;
+    cursor:pointer;
 }
 
 #popup, #heartOn, #heartOff, #bookmarkOn, #bookmarkOff {
@@ -54,11 +55,13 @@
 label[for="tabmenu1"]{
     position: absolute;
     left: 400px;
+    cursor:pointer;
 }
 
 label[for="tabmenu2"]{
     position:absolute;
     right:400px;
+    cursor: pointer;
 }
 
 .contents input {
@@ -79,6 +82,7 @@ label[for="tabmenu2"]{
     height: 300px;
     object-fit: cover;
     padding:10px;
+    cursor: pointer;
 }
 
 .menu p {
@@ -97,47 +101,67 @@ input[id="tabmenu2"]:checked~.content_gallery {
     display: block;
 }
 
-/*
- .contents {
+/* 태형님 소스 카피 */
+.modal {
     display: none;
-    text-align: left;
-    padding: 20px;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
     left: 0;
-    top: 60px;
+    top: 0;
     width: 100%;
-    box-sizing: border-box;
-    background: #fff;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
-#content1 {
+.modal-content {
+    margin: auto;
     display: block;
-}
-
-#tabmenu1:checked ~ ul #content1 {
-    display: block;
-}
-
-#tabmenu2:checked~ul #content2 {
-    display: block;
-} 
-
-.btnCon:checked~ #content2 {
-    display: none;
-}
-
-.contents_menu {
     width: 100%;
-    margin-bottom: 10px;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#tabmenu1:checked ~ ul #content1 {
-    display: block;
+.modal-content,
+#caption {
+    animation-name: zoom;
+
 }
 
-.contents img {
-    width: 33.3%;
-    height: auto;
-    object-fit: cover;
-    display:inline-block;
-    aspect-ratio: 1 / 1;
-} */
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}

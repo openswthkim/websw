@@ -9,7 +9,37 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- 가게연결 -->
     <script>
+      const locations = [
+        "/가게이름/호랑가_5.0(126)/호랑가_menu.txt",
+        "/가게이름/호랑가_5.0(126)/호랑가_gallery.txt",
+      ];
+
+      const files = ["호랑가_menu", "호랑가_gallery"];
+
+      for (let i = 0; i < locations.length; i++) {
+        fetch(locations[i])
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById(files[i]).innerHTML = data;
+          })
+          .catch((error) =>
+            console.error("Error fetching the text file:", error)
+          );
+      }
+    </script>
+
+    <script>
+      function openModal(src) {
+        document.getElementById("myModal").style.display = "block";
+        document.getElementById("img01").src = src;
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
       function showPopup(popupId) {
         var popup = document.getElementById(popupId);
         popup.style.visibility = "visible";
@@ -48,10 +78,12 @@
 
   <body>
     <div class="container">
+      <!-- 돌아가기 링크 필요시 수정 -->
       <a href="/korean_김치찌개/index.html" class="back-button"
         >&lt; 돌아가기</a
       >
       <div class="header">
+        <!-- 식당 이름 및 별점 -->
         <div>
           <h1>호랑가</h1>
           <p>★★★★★ 5.0 (126)</p>
@@ -83,53 +115,20 @@
         <!-- </div> -->
 
         <div class="content_menu">
-          <div class="menu">
-            <img
-              src="/korean_김치찌개_호랑가/images/호랑가_menu_01.jpg"
-              alt="돼지김치찌개+직화제육세트"
-            />
-            <p>돼지김치찌개+직화제육세트</p>
-            <p class="price">11,000원</p>
-          </div>
-          <div class="menu">
-            <img
-              src="/korean_김치찌개_호랑가/images/호랑가_menu_02.jpg"
-              alt="돈삼치즈돈가스김치찌개"
-            />
-            <p>등심치즈돈가스+김치찌개</p>
-            <p class="price">11,000원</p>
-          </div>
-          <div class="menu">
-            <img
-              src="/korean_김치찌개_호랑가/images/호랑가_menu_02.jpg"
-              alt="돈삼치즈돈가스김치찌개"
-            />
-            <p>등심치즈돈가스+김치찌개</p>
-            <p class="price">11,000원</p>
-          </div>
+          <!-- 메뉴 업데이트 -->
+          <div id="호랑가_menu"></div>
         </div>
 
         <div class="content_gallery">
-          <div class="gallery">
-            <img
-              src="/korean_김치찌개_호랑가/images/호랑가_outside_01.jpg"
-              alt="가게사진 1"
-            />
-          </div>
-          <div class="gallery">
-            <img
-              src="/korean_김치찌개_호랑가/images/호랑가_outside_02.jpg"
-              alt="가게사진 2"
-            />
-          </div>
-          <div class="gallery">
-            <img
-              src="/korean_김치찌개_호랑가/images/호랑가_outside_02.jpg"
-              alt="가게사진 2"
-            />
-          </div>
+          <!-- 가게사진 업데이트 -->
+          <div id="호랑가_gallery"></div>
         </div>
       </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="img01" />
     </div>
   </body>
 </html>

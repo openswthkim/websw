@@ -1,0 +1,159 @@
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_outside_01.jpg"
+    alt="가게사진 1"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_outside_02.jpg"
+    alt="가게사진 2"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_outside_03.jpg"
+    alt="가게사진 3"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_outside_04.jpg"
+    alt="가게사진 4"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_outside_05.jpg"
+    alt="가게사진 5"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_outside_06.jpg"
+    alt="가게사진 6"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_01.jpg"
+    alt="가게사진 7"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_02.jpg"
+    alt="가게사진 8"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_03.jpg"
+    alt="가게사진 9"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_04.jpg"
+    alt="가게사진 10"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_05.jpg"
+    alt="가게사진 11"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_06.jpg"
+    alt="가게사진 12"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_07.jpg"
+    alt="가게사진 13"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_08.jpg"
+    alt="가게사진 14"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_09.jpg"
+    alt="가게사진 15"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_10.jpg"
+    alt="가게사진 16"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_11.jpeg"
+    alt="가게사진 17"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_12.jpg"
+    alt="가게사진 18"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_13.jpg"
+    alt="가게사진 19"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_place_14.jpg"
+    alt="가게사진 20"
+    onclick="openModal(this.src)"
+/>
+</div>
