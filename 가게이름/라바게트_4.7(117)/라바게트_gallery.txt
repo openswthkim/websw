@@ -1,0 +1,55 @@
+<div class="gallery">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_place_01.jpg"
+    alt="가게사진 1"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_place_02.jpg"
+    alt="가게사진 2"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_place_03.jpg"
+    alt="가게사진 3"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_place_04.jpg"
+    alt="가게사진 4"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_place_05.jpg"
+    alt="가게사진 5"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_place_06.jpg"
+    alt="가게사진 6"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_place_07.jpg"
+    alt="가게사진 7"
+    onclick="openModal(this.src)"
+/>
+</div>

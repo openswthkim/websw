@@ -1,0 +1,119 @@
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_01_패밀리팩_23200.jpg"
+    alt="패밀리팩"
+    onclick="openModal(this.src)"
+/>
+<p><strong>패밀리팩</strong></p>
+<p class="price">23,200원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_02_더블팩_15800.jpg"
+    alt="더블팩"
+    onclick="openModal(this.src)"
+/>
+<p><strong>더블팩</strong></p>
+<p class="price">15,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_03_오징어얼라이브세트_7600.jpg"
+    alt="오징어얼라이브세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>오징어얼라이브세트</strong></p>
+<p class="price">7,600원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_04_왕돈까스버거세트_9400.jpg"
+    alt="왕돈까스버거세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>왕돈까스버거세트</strong></p>
+<p class="price">9,400원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_05_전주비빔라이스버거세트_8800.jpg"
+    alt="전주비빔라이스버거세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>전주비빔 라이스버거세트</strong></p>
+<p class="price">8,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_06_불고기베이컨세트_7900.jpg"
+    alt="불고기베이컨세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>불고기베이컨세트</strong></p>
+<p class="price">7,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_07_더블치킨버거세트_7600.jpg"
+    alt="더블치킨버거세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>더블치킨버거세트</strong></p>
+<p class="price">7,600원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_08_더블한우불고기세트_14200.jpg"
+    alt="더블한우불고기세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>더블한우불고기세트</strong></p>
+<p class="price">14,200원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_09_핫크리스피버거세트_7800.jpg"
+    alt="핫크리스피버거세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>핫크리스피버거세트</strong></p>
+<p class="price">7,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_10_불고기버거세트_6900.jpg"
+    alt="불고기버거세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>불고기버거세트</strong></p>
+<p class="price">6,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_11_치킨풀팩(포테이토)_20000.jpg"
+    alt="치킨풀팩(포테이토)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>치킨풀팩(포테이토)</strong></p>
+<p class="price">20,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/롯데리아_4.5(2020)/롯데리아_menu_12_순살치킨풀팩_16800.jpg"
+    alt="순살치킨풀팩"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순살치킨풀팩</strong></p>
+<p class="price">16,800원</p>
+</div>

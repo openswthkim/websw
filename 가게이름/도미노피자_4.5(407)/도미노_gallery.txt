@@ -1,0 +1,23 @@
+<div class="gallery">
+<img
+    src="/가게이름/도미노피자_4.5(407)/도미노_place_01.jpg"
+    alt="가게사진 1"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/도미노피자_4.5(407)/도미노_place_02.jpg"
+    alt="가게사진 2"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/도미노피자_4.5(407)/도미노_place_03.jpg"
+    alt="가게사진 3"
+    onclick="openModal(this.src)"
+/>
+</div>

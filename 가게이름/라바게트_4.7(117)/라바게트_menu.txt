@@ -1,0 +1,49 @@
+<div class="menu">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_menu_01_잠봉뵈르_7300.jpg"
+    alt="잠봉뵈르"
+    onclick="openModal(this.src)"
+/>
+<p><strong>잠봉뵈르</strong></p>
+<p class="price">7,300원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_menu_02_이탈리아바게트샌드위치_7800.jpg"
+    alt="이탈리아바게트샌드위치"
+    onclick="openModal(this.src)"
+/>
+<p><strong>이탈리아 바게트샌드위치</strong></p>
+<p class="price">7,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_menu_03_바게트샌드위치_7500.jpg"
+    alt="바게트샌드위치"
+    onclick="openModal(this.src)"
+/>
+<p><strong>바게트샌드위치</strong></p>
+<p class="price">7,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_menu_04_바게플애플시나몬_4800.jpg"
+    alt="바게플애플시나몬"
+    onclick="openModal(this.src)"
+/>
+<p><strong>바게플애플시나몬</strong></p>
+<p class="price">4,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/라바게트_4.7(117)/라바게트_menu_05_바게트핫도그_6800.jpg"
+    alt="바게트핫도그"
+    onclick="openModal(this.src)"
+/>
+<p><strong>바게트핫도그</strong></p>
+<p class="price">6,800원</p>
+</div>

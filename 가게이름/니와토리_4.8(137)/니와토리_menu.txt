@@ -1,0 +1,99 @@
+<div class="menu">
+<img
+    src="/가게이름/니와토리_4.8(137)/니와토리_menu_01_닭갈비살_6900.jpg"
+    alt="닭갈비살"
+    onclick="openModal(this.src)"
+/>
+<p><strong>닭갈비살</strong></p>
+<p class="price">6,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/니와토리_4.8(137)/니와토리_menu_02_닭어깨살_6900.jpg"
+    alt="닭어깨살"
+    onclick="openModal(this.src)"
+/>
+<p><strong>닭어깨살</strong></p>
+<p class="price">6,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/니와토리_4.8(137)/니와토리_menu_03_닭목살_6900.jpg"
+    alt="닭목살"
+    onclick="openModal(this.src)"
+/>
+<p><strong>닭목살</strong></p>
+<p class="price">6,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/니와토리_4.8(137)/니와토리_menu_04_닭안창살_6900.jpg"
+    alt="닭안창살"
+    onclick="openModal(this.src)"
+/>
+<p><strong>닭안창살</strong></p>
+<p class="price">6,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/니와토리_4.8(137)/니와토리_menu_05_닭껍질_5900.jpg"
+    alt="닭껍질"
+    onclick="openModal(this.src)"
+/>
+<p><strong>닭껍질</strong></p>
+<p class="price">5,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/니와토리_4.8(137)/니와토리_menu_06_닭안심_5900.jpg"
+    alt="닭안심"
+    onclick="openModal(this.src)"
+/>
+<p><strong>닭안심</strong></p>
+<p class="price">5,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/니와토리_4.8(137)/니와토리_menu_07_니와토리라멘_5900.jpg"
+    alt="니와토리라멘"
+    onclick="openModal(this.src)"
+/>
+<p><strong>니와토리라멘</strong></p>
+<p class="price">5,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/니와토리_4.8(137)/니와토리_menu_08_오사카짜글이_5900.jpg"
+    alt="오사카짜글이"
+    onclick="openModal(this.src)"
+/>
+<p><strong>오사카짜글이</strong></p>
+<p class="price">5,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/니와토리_4.8(137)/니와토리_menu_09_츠키시비빔밥_5900.jpg"
+    alt="츠키시비빔밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>츠키시비빔밥</strong></p>
+<p class="price">5,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/니와토리_4.8(137)/니와토리_menu_10_하모네냉소바_5900.jpg"
+    alt="하모네냉소바"
+    onclick="openModal(this.src)"
+/>
+<p><strong>하모네냉소바</strong></p>
+<p class="price">5,900원</p>
+</div>

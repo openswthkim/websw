@@ -1,6 +1,6 @@
 <div class="menu">
 <img
-    src="/korean_김치찌개_호랑가/images/호랑가_menu_01.jpg"
+    src="/가게이름/호랑가_5.0(126)/호랑가_menu_01.jpg"
     alt="돼지김치찌개+직화제육세트"
     onclick="openModal(this.src)"
 />
@@ -10,7 +10,7 @@
 
 <div class="menu">
 <img
-    src="/korean_김치찌개_호랑가/images/호랑가_menu_02.jpg"
+    src="/가게이름/호랑가_5.0(126)/호랑가_menu_02.jpg"
     alt="등심치즈돈가스+김치찌개"
     onclick="openModal(this.src)"
 />
@@ -20,20 +20,70 @@
 
 <div class="menu">
 <img
-    src="/korean_김치찌개_호랑가/images/호랑가_menu_03.jpg"
+    src="/가게이름/호랑가_5.0(126)/호랑가_menu_03.jpg"
     alt="연탄불백+김치찌개"
     onclick="openModal(this.src)"
 />
-<p>연탄불백+김치찌개</p>
+<p><strong>연탄불백+김치찌개</strong></p>
 <p class="price">11,000원</p>
 </div>
 
 <div class="menu">
 <img
-    src="/korean_김치찌개_호랑가/images/호랑가_menu_04.jpg"
+    src="/가게이름/호랑가_5.0(126)/호랑가_menu_04.jpg"
     alt="돼지김치볶음"
     onclick="openModal(this.src)"
 />
-<p>돼지김치볶음</p>
+<p><strong>돼지김치볶음</strong></p>
 <p class="price">10,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_menu_05.jpg"
+    alt="연탄불고기백반"
+    onclick="openModal(this.src)"
+/>
+<p><strong>연탄불고기백반</strong></p>
+<p class="price">9,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_menu_06.jpg"
+    alt="직화제육백반"
+    onclick="openModal(this.src)"
+/>
+<p><strong>직화제육백반</strong></p>
+<p class="price">9,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_menu_07.jpg"
+    alt="돼지김치찌개"
+    onclick="openModal(this.src)"
+/>
+<p><strong>돼지김치찌개</strong></p>
+<p class="price">8,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_menu_08.jpg"
+    alt="참치김치찌개"
+    onclick="openModal(this.src)"
+/>
+<p><strong>참치김치찌개</strong></p>
+<p class="price">8,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/호랑가_5.0(126)/호랑가_menu_09.jpg"
+    alt="김치부대찌개"
+    onclick="openModal(this.src)"
+/>
+<p><strong>김치부대찌개</strong></p>
+<p class="price">8,500원</p>
 </div>

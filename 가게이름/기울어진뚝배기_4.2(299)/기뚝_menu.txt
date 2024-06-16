@@ -1,0 +1,109 @@
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_01_기뚝돼지국밥_9000.jpg"
+    alt="기뚝돼지국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>기뚝돼지국밥</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_02_기뚝수육국밥_9000.jpg"
+    alt="기뚝수육국밥"
+    onclick="openModal(this.src)"
+/>
+    alt="기뚝수육국밥"
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_03_병천식순대국밥_9000.jpg"
+    alt="병천식순대국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>병천식순대국밥</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_04_혼뚝세트_14500.jpg"
+    alt="혼뚝세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>혼뚝세트</strong></p>
+<p class="price">14,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_05_혼밥보쌈도시락_13500.jpg"
+    alt="혼밥보쌈도시락"
+    onclick="openModal(this.src)"
+/>
+<p><strong>혼밥보쌈도시락</strong></p>
+<p class="price">13,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_06_혼밥족발도시락_13500.jpg"
+    alt="혼밥족발도시락"
+    onclick="openModal(this.src)"
+/>
+<p><strong>혼밥족발도시락</strong></p>
+<p class="price">13,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_07_양념편육무절이_5900.jpg"
+    alt="양념편육무절이"
+    onclick="openModal(this.src)"
+/>
+<p><strong>양념편육무절이</strong></p>
+<p class="price">5,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_08_순살족발무절이_5900.jpg"
+    alt="순살족발무절이"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순살족발무절이</strong></p>
+<p class="price">5,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_09_토종순대무절이_5900.jpg"
+    alt="토종순대무절이"
+    onclick="openModal(this.src)"
+/>
+<p><strong>토종순대무절이</strong></p>
+<p class="price">5,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_10_삼겹보쌈무절이_6900.jpg"
+    alt="삼겹보쌈무절이"
+    onclick="openModal(this.src)"
+/>
+<p><strong>삼겹보쌈무절이</strong></p>
+<p class="price">6,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/기울어진뚝배기_4.2(299)/기울어진뚝배기_menu_11_김치전_6900.jpg"
+    alt="김치전"
+    onclick="openModal(this.src)"
+/>
+<p><strong>김치전</strong></p>
+<p class="price">6,900원</p>
+</div>

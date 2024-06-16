@@ -1,0 +1,29 @@
+<div class="menu">
+<img
+    src="/가게이름/꼬불꼬불닭갈비_4.6(241)/꼬불_menu_01_닭갈비_6000.jpg"
+    alt="닭갈비"
+    onclick="openModal(this.src)"
+/>
+<p><strong>닭갈비</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/꼬불꼬불닭갈비_4.6(241)/꼬불_menu_02_볶음밥_1500.jpg"
+    alt="볶음밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>볶음밥</strong></p>
+<p class="price">1,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/꼬불꼬불닭갈비_4.6(241)/꼬불_menu_03_낙지곱창_10000.jpg"
+    alt="낙지곱창"
+    onclick="openModal(this.src)"
+/>
+<p><strong>낙지곱창</strong></p>
+<p class="price">10,000원</p>
+</div>

@@ -1,0 +1,39 @@
+<div class="gallery">
+<img
+    src="/가게이름/꼬불꼬불닭갈비_4.6(241)/꼬불_place_01.jpg"
+    alt="가게사진 1"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/꼬불꼬불닭갈비_4.6(241)/꼬불_place_02.jpg"
+    alt="가게사진 2"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/꼬불꼬불닭갈비_4.6(241)/꼬불_place_03.jpg"
+    alt="가게사진 3"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/꼬불꼬불닭갈비_4.6(241)/꼬불_place_04.jpg"
+    alt="가게사진 4"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/꼬불꼬불닭갈비_4.6(241)/꼬불_place_05.jpg"
+    alt="가게사진 5"
+    onclick="openModal(this.src)"
+/>
+</div>

@@ -1,0 +1,39 @@
+<div class="menu">
+<img
+    src="/가게이름/도니스토리_4.6(126)/도니스토리_menu_01_냉면_4000.jpg"
+    alt="냉면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>냉면</strong></p>
+<p class="price">4,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/도니스토리_4.6(126)/도니스토리_menu_02_도니삼겹살_8000.jpg"
+    alt="도니삼겹살"
+    onclick="openModal(this.src)"
+/>
+<p><strong>도니삼겹살</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/도니스토리_4.6(126)/도니스토리_menu_03_왕갈비_11000.jpg"
+    alt="왕갈비"
+    onclick="openModal(this.src)"
+/>
+<p><strong>왕갈비</strong></p>
+<p class="price">11,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/도니스토리_4.6(126)/도니스토리_menu_04_목살삼겹살_12000.jpg"
+    alt="목살삼겹살"
+    onclick="openModal(this.src)"
+/>
+<p><strong>목살삼겹살</strong></p>
+<p class="price">12,000원</p>
+</div>

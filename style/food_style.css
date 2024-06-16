@@ -1,0 +1,246 @@
+body {
+    background: #FFFFFF;
+}
+
+.breadcrumb {
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumb a:link,
+.breadcrumb a:visited,
+.breadcrumb a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb li+li:before {
+    content: " > ";
+    padding: 10px;
+}
+
+#popup,
+#heartOn,
+#heartOff,
+#bookmarkOn,
+#bookmarkOff {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icons {
+    margin-left: 15px;
+}
+
+.icons i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.description {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #333;
+    margin-left: 23px;
+}
+
+.back-button {
+    display: inline-block;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.container {
+    position: center;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.content img,
+.map img {
+    margin-top: 20px;
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.content .info {
+    flex: 1;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.source ul,
+.nutrition ul,
+.steps ol {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.source li,
+.nutrition li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.ingredients {
+    flex: 1;
+}
+
+.amount {
+    flex: 0 0 150px;
+    text-align: right;
+}
+
+.steps,
+.nearby-places {
+    margin-top: 50px;
+}
+
+.steps ol {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.steps li {
+    counter-increment: step-counter;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.steps li::before {
+    content: "Step " counter(step-counter) ". ";
+    font-weight: bold;
+}
+
+.nearby-places {
+    display: flex;
+    justify-content: space-between;
+}
+
+.places {
+    width: 45%;
+}
+
+.nearby-places ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.nearby-places li {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.nearby-places li:last-child {
+    border-bottom: none;
+}
+
+.places a:link,
+.places a:visited,
+.places a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.place-title {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-description {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* 태형님 소스 카피 */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-content,
+#caption {
+    animation-name: zoom;
+
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
