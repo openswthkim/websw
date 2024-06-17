@@ -181,13 +181,19 @@
     .top-right-buttons button:hover {
         background-color: rgba(230, 230, 230, 1);
     }
+    .error-message {
+        color: red;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 500px;
+    }
 </style>
 </head>
 <body>
 <div class="content-container">
-    <div class="border-line"></div><span class="title-text">점심뭐먹지?</span><span class="back-link"><  돌아가기</span>
-    <div class="profile-icon">
-    </div>
+    <div class="border-line"></div><span class="title-text">점심뭐먹지?</span>
+    <span class="back-link"><  돌아가기</span>
+    <div class="profile-icon"></div>
     <div class="top-right-buttons">
         <button onclick="location.href='login.html'">로그인</button>
         <button onclick="location.href='membership.html'">회원가입</button>
@@ -196,21 +202,39 @@
         <div class="welcome-header">
             <h2>환영합니다!</h2>
         </div>
-        <div class="input-container">
-            <input type="text" placeholder="ID">
-        </div>
-        <div class="password-container">
-            <input type="password" placeholder="Password">
-        </div>
-        <div class="checkbox-container">
-            <label>
-                <input type="checkbox"> 로그인 상태 유지
-            </label>
-        </div>
-        <div class="login-button-container">
-            <input type="submit" value="로그인" class="login-button" onclick="alert('로그인 성공!')">
-        </div>
+        <form id="loginForm" onsubmit="return valid()">
+            <div class="input-container">
+                <input type="text" id="userid" placeholder="ID">
+            </div>
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <div class="checkbox-container">
+                <label>
+                    <input type="checkbox"> 로그인 상태 유지
+                </label>
+            </div>
+            <div class="error-message" id="errorMessage"></div>
+            <div class="login-button-container">
+                <input type="submit" value="로그인" class="login-button">
+            </div>
+        </form>
     </div>
 </div>
+<script>
+    function valid() {
+        var userid = document.getElementById("userid").value;
+        var password = document.getElementById("password").value;
+        var errorMessage = document.getElementById("errorMessage");
+
+        if (!userid || !password) {
+            errorMessage.textContent = "아이디와 비밀번호를 모두 입력해주세요.";
+            return false;
+        }
+
+        alert('로그인 성공!');
+        return true;
+    }
+</script>
 </body>
 </html>
