@@ -1,0 +1,143 @@
+<!-- 
+ 수정 필요한 부분은 주석처리 해놨습니다. 
+ 참고하시고 각각 context 맞게 수정하시면 됩니다. 
+ restaurant/{가게이름} 안에 넣어주시면 됩니다. 
+ comment by Hyungmin Kim
+  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 가게이름 -->
+    <title>{호랑가} 메뉴</title>
+    <link rel="stylesheet" href="/style/place_style.css" />
+    <script
+      src="https://kit.fontawesome.com/03f93ebafa.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- 가게연결 -->
+    <script>
+      const locations = [
+        "/가게이름/{호랑가_5.0(126)}/{호랑가_menu.txt}",
+        "/가게이름/{호랑가_5.0(126)}/{호랑가_gallery.txt}",
+      ];
+
+      const files = ["호랑가_menu", "호랑가_gallery"];
+
+      for (let i = 0; i < locations.length; i++) {
+        fetch(locations[i])
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById(files[i]).innerHTML = data;
+          })
+          .catch((error) =>
+            console.error("Error fetching the text file:", error)
+          );
+      }
+    </script>
+
+    <script>
+      function openModal(src) {
+        document.getElementById("myModal").style.display = "block";
+        document.getElementById("img01").src = src;
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      function showPopup(popupId) {
+        var popup = document.getElementById(popupId);
+        popup.style.visibility = "visible";
+        setTimeout(function () {
+          popup.style.visibility = "hidden";
+        }, 1000);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("heartIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("heartOn");
+          } else {
+            showPopup("heartOff");
+          }
+        };
+
+        document.getElementById("bookmarkIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("bookmarkOn");
+          } else {
+            showPopup("bookmarkOff");
+          }
+        };
+
+        document.getElementById("shareIcon").onclick = function () {
+          navigator.clipboard.writeText(window.location.href).then(function () {
+            showPopup("popup");
+          });
+        };
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- 돌아가기 링크 필요시 수정 -->
+      <div class="back-button" onclick="history.back()">&lt; 돌아가기</div>
+      <div class="header">
+        <!-- 식당 이름 및 별점 
+         평점 및 가게설명.txt 참고해서 작성해주세요-->
+        <div>
+          <h1>호랑가</h1>
+          <p>★★★★★ 5.0 (126)</p>
+          <p>가성비 좋은 충북대 대표 맛집.</p>
+        </div>
+
+        <div class="icons">
+          <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+          <div id="heartOn">좋아요가 반영되었습니다</div>
+          <div id="heartOff">좋아요가 해제되었습니다</div>
+          <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+          <div id="bookmarkOn">북마크가 설정되었습니다</div>
+          <div id="bookmarkOff">북마크가 해제되었습니다</div>
+          <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+          <div id="popup">URL이 복사되었습니다!</div>
+        </div>
+      </div>
+
+      <!-- 링크 업데이트 필요 -->
+      <div class="buttons">
+        <button>예약하기</button>
+        <button>문의하기</button>
+      </div>
+
+      <div class="contents">
+        <input type="radio" name="tabmenu" id="tabmenu1" checked />
+        <label for="tabmenu1">메뉴</label>&emsp;&emsp;&emsp;&emsp;
+        <input type="radio" name="tabmenu" id="tabmenu2" />
+        <label for="tabmenu2">가게사진</label>
+
+        <div class="content_menu">
+          <!-- 메뉴 업데이트 
+           line 27의 files[0] 쓰시면 됩니다. -->
+          <div id="호랑가_menu"></div>
+        </div>
+
+        <div class="content_gallery">
+          <!-- 가게사진 업데이트 
+            line 27의 files[1] 쓰시면 됩니다. -->
+          <div id="호랑가_gallery"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="img01" />
+    </div>
+  </body>
+</html>
