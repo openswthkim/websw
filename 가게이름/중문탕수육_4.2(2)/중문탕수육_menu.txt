@@ -1,0 +1,20 @@
+<div class="menu">
+<img
+    src="/가게이름/중문탕수육_4.2(2)/중문탕수육_menu_01_탕수육_8000.jpg"
+    alt="탕수육"
+    onclick="openModal(this.src)"
+/>
+<p><strong>탕수육</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/중문탕수육_4.2(2)/중문탕수육_menu_02_우동_5000.jpg"
+    alt="우동"
+    onclick="openModal(this.src)"
+/>
+<p><strong>우동</strong></p>
+<p class="price">5,000원</p>
+</div>
+

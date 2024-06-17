@@ -1,0 +1,70 @@
+<div class="menu">
+<img
+    src="/가게이름/에그문_4.5(181)/에그문_menu_01_반반치즈오믈렛_8500.png"
+    alt="반반치즈오믈렛"
+    onclick="openModal(this.src)"
+/>
+<p><strong>반반치즈오믈렛</strong></p>
+<p class="price">8,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/에그문_4.5(181)/에그문_menu_02_돈까스치즈오믈렛_14000.png"
+    alt="돈까스치즈오믈렛"
+    onclick="openModal(this.src)"
+/>
+<p><strong>돈까스치즈오믈렛</strong></p>
+<p class="price">14,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/에그문_4.5(181)/에그문_menu_03_돈까스_11000.png"
+    alt="돈까스"
+    onclick="openModal(this.src)"
+/>
+<p><strong>돈까스</strong></p>
+<p class="price">11,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/에그문_4.5(181)/에그문_menu_04_치즈돈까스_12000.png"
+    alt="치즈돈까스"
+    onclick="openModal(this.src)"
+/>
+<p><strong>치즈돈까스</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/에그문_4.5(181)/에그문_menu_05_멘보샤4P_6000.png"
+    alt="멘보샤4P"
+    onclick="openModal(this.src)"
+/>
+<p><strong>멘보샤 4P</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/에그문_4.5(181)/에그문_menu_06_치즈오믈렛_8500.png"
+    alt="치즈오믈렛"
+    onclick="openModal(this.src)"
+/>
+<p><strong>치즈오믈렛</strong></p>
+<p class="price">8,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/에그문_4.5(181)/에그문_menu_07_치즈오믈렛소세지_10500.png"
+    alt="치즈오믈렛소세지"
+    onclick="openModal(this.src)"
+/>
+<p><strong>치즈오믈렛소세지</strong></p>
+<p class="price">10,500원</p>
+</div>
+

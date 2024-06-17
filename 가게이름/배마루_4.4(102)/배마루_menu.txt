@@ -1,0 +1,30 @@
+<div class="menu">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_menu_01_냉삼한판(2~3인분)_15000.jpg"
+    alt="냉삼한판(2~3인분)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>냉삼한판(2~3인분)</strong></p>
+<p class="price">15,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_menu_02_냉삼무한1인_13000.jpg"
+    alt="냉삼무한1인"
+    onclick="openModal(this.src)"
+/>
+<p><strong>냉삼 무한1인</strong></p>
+<p class="price">13,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_menu_03_차돌된장술밥_6000.jpg"
+    alt="차돌된장술밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>차돌된장술밥</strong></p>
+<p class="price">6,000원</p>
+</div>
+

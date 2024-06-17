@@ -1,0 +1,50 @@
+<div class="menu">
+<img
+    src="/가게이름/샤오황추_5.0(132)/샤오황추_menu_01_훠궈무한리필_19800.jpg"
+    alt="훠궈무한리필"
+    onclick="openModal(this.src)"
+/>
+<p><strong>훠궈 무한리필</strong></p>
+<p class="price">19,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/샤오황추_5.0(132)/샤오황추_menu_02_훠궈양꼬치무한리필_23800.jpg"
+    alt="훠궈양꼬치무한리필"
+    onclick="openModal(this.src)"
+/>
+<p><strong>훠궈양꼬치 무한리필</strong></p>
+<p class="price">23,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/샤오황추_5.0(132)/샤오황추_menu_03_양꼬치1인분_13900.jpg"
+    alt="양꼬치1인분"
+    onclick="openModal(this.src)"
+/>
+<p><strong>양꼬치 1인분</strong></p>
+<p class="price">13,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/샤오황추_5.0(132)/샤오황추_menu_04_마라탕100g_1900.jpg"
+    alt="마라탕100g"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라탕 100g</strong></p>
+<p class="price">1,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/샤오황추_5.0(132)/샤오황추_menu_05_계란햄볶음밥_6000.jpg"
+    alt="계란햄볶음밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>계란햄볶음밥</strong></p>
+<p class="price">6,000원</p>
+</div>
+

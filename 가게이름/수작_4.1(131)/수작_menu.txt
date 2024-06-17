@@ -1,0 +1,269 @@
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_01_육회비빔면_18900.jpg"
+    alt="육회비빔면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>육회비빔면</strong></p>
+<p class="price">18,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_02_문어숙주냉채_21000.jpg"
+    alt="문어숙주냉채"
+    onclick="openModal(this.src)"
+/>
+<p><strong>문어숙주냉채</strong></p>
+<p class="price">21,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_03_수작꽃육회_17900.jpg"
+    alt="수작꽃육회"
+    onclick="openModal(this.src)"
+/>
+<p><strong>수작꽃육회</strong></p>
+<p class="price">17,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_04_삼겹두부김치삼합_19900.jpg"
+    alt="삼겹두부김치삼합"
+    onclick="openModal(this.src)"
+/>
+<p><strong>삼겹두부김치삼합</strong></p>
+<p class="price">19,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_05_구름탕수육_15900.jpg"
+    alt="구름탕수육"
+    onclick="openModal(this.src)"
+/>
+<p><strong>구름탕수육</strong></p>
+<p class="price">15,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_06_납작만두토핑간장찜닭_18900.jpg"
+    alt="납작만두토핑간장찜닭"
+    onclick="openModal(this.src)"
+/>
+<p><strong>납작만두토핑간장찜닭</strong></p>
+<p class="price">18,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_07_묵은지문어숙회_21000.jpg"
+    alt="묵은지문어숙회"
+    onclick="openModal(this.src)"
+/>
+<p><strong>묵은지문어숙회</strong></p>
+<p class="price">21,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_08_알배추찜과보쌈수육_24000.jpg"
+    alt="알배추찜과보쌈수육"
+    onclick="openModal(this.src)"
+/>
+<p><strong>알배추찜과 보쌈수육</strong></p>
+<p class="price">24,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_09_단호박치즈불닭_20000.jpg"
+    alt="단호박치즈불닭"
+    onclick="openModal(this.src)"
+/>
+<p><strong>단호박 치즈불닭</strong></p>
+<p class="price">20,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_10_이태리치즈감자전_14900.jpg"
+    alt="이태리치즈감자전"
+    onclick="openModal(this.src)"
+/>
+<p><strong>이태리치즈감자전</strong></p>
+<p class="price">14,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_11_수작육전_17900.jpg"
+    alt="수작육전"
+    onclick="openModal(this.src)"
+/>
+<p><strong>수작육전</strong></p>
+<p class="price">17,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_12_옥수수김치전_12900.jpg"
+    alt="옥수수김치전"
+    onclick="openModal(this.src)"
+/>
+<p><strong>옥수수김치전</strong></p>
+<p class="price">12,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_13_해물부추전_14900.jpg"
+    alt="해물부추전"
+    onclick="openModal(this.src)"
+/>
+<p><strong>해물부추전</strong></p>
+<p class="price">14,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_14_해물듬뿍쫄면순두부_19900.jpg"
+    alt="해물듬뿍쫄면순두부"
+    onclick="openModal(this.src)"
+/>
+<p><strong>해물듬뿍쫄면순두부</strong></p>
+<p class="price">19,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_15_고추장애호박우삼겹전골_19900.jpg"
+    alt="고추장애호박우삼겹전골"
+    onclick="openModal(this.src)"
+/>
+<p><strong>고추장애호박우삼겹전골</strong></p>
+<p class="price">19,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_16_미니샤브우삼겹전골_19900.jpg"
+    alt="미니샤브우삼겹전골"
+    onclick="openModal(this.src)"
+/>
+<p><strong>미니샤브우삼겹전골</strong></p>
+<p class="price">19,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_17_김치어묵칼국수_17900.jpg"
+    alt="김치어묵칼국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>김치어묵칼국수</strong></p>
+<p class="price">17,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_18_꼬치어묵유부전골_17900.jpg"
+    alt="꼬치어묵유부전골"
+    onclick="openModal(this.src)"
+/>
+<p><strong>꼬치어묵유부전골</strong></p>
+<p class="price">17,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_19_동죽칼국수_17900.jpg"
+    alt="동죽칼국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>동죽칼국수</strong></p>
+<p class="price">17,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_20_통마늘모래집볶음_16900.jpg"
+    alt="통마늘모래집볶음"
+    onclick="openModal(this.src)"
+/>
+<p><strong>통마늘모래집볶음</strong></p>
+<p class="price">16,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_21_묵은지참치김밥_9000.jpg"
+    alt="묵은지참치김밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>묵은지참치김밥</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_22_명란마요감태김밥_9000.jpg"
+    alt="명란마요감태김밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>명란마요감태김밥</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_23_네모계란김밥_9000.jpg"
+    alt="네모계란김밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>네모계란김밥</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_24_땡초해장라면_9000.jpg"
+    alt="땡초해장라면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>땡초해장라면</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_25_옛날멸치국수_7900.jpg"
+    alt="옛날멸치국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>옛날멸치국수</strong></p>
+<p class="price">7,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_26_새콤달콤비빔국수_7900.jpg"
+    alt="새콤달콤비빔국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>새콤달콤비빔국수</strong></p>
+<p class="price">7,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/수작_4.1(131)/수작_menu_27_해물짬뽕국수_12900.jpg"
+    alt="해물짬뽕국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>해물짬뽕국수</strong></p>
+<p class="price">12,900원</p>
+</div>

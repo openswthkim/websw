@@ -1,0 +1,9 @@
+<div class="menu">
+<img
+    src="/가게이름/이제곧망할집_3.5(15)/이제곧망할집_menu_망할이_13000.jpg"
+    alt="망할이"
+    onclick="openModal(this.src)"
+/>
+<p><strong>망할이</strong></p>
+<p class="price">13,000원</p>
+</div>

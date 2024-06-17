@@ -1,0 +1,60 @@
+<div class="menu">
+<img
+    src="/가게이름/와와떡볶이_4.5(633)/와와_menu_01_쌀떡볶이_4000.jpg"
+    alt="쌀떡볶이"
+    onclick="openModal(this.src)"
+/>
+<p><strong>쌀떡볶이</strong></p>
+<p class="price">4,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/와와떡볶이_4.5(633)/와와_menu_02_새우튀김_900.jpg"
+    alt="새우튀김"
+    onclick="openModal(this.src)"
+/>
+<p><strong>새우튀김</strong></p>
+<p class="price">900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/와와떡볶이_4.5(633)/와와_menu_03_치즈스틱_900.jpg"
+    alt="치즈스틱"
+    onclick="openModal(this.src)"
+/>
+<p><strong>치즈스틱</strong></p>
+<p class="price">900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/와와떡볶이_4.5(633)/와와_menu_04_매운어묵(3꼬치)_2400.jpg"
+    alt="매운어묵(3꼬치)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>매운어묵(3꼬치)</strong></p>
+<p class="price">2,400원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/와와떡볶이_4.5(633)/와와_menu_05_유부주머니_2500.jpg"
+    alt="유부주머니"
+    onclick="openModal(this.src)"
+/>
+<p><strong>유부주머니</strong></p>
+<p class="price">2,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/와와떡볶이_4.5(633)/와와_menu_06_참치마요컵밥_4000.jpg"
+    alt="참치마요컵밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>참치마요컵밥</strong></p>
+<p class="price">4,000원</p>
+</div>
+

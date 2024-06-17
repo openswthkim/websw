@@ -1,0 +1,88 @@
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_01.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_02.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_03.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_04.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_05.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_06.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_07.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_08.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_09.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_10.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_place_11.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+

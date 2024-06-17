@@ -1,0 +1,100 @@
+<div class="menu">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_menu_01_로제파스타_16000.jpg"
+    alt="로제파스타"
+    onclick="openModal(this.src)"
+/>
+<p><strong>로제파스타</strong></p>
+<p class="price">16,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_menu_02_한우곱도리탕_29000.jpg"
+    alt="한우곱도리탕"
+    onclick="openModal(this.src)"
+/>
+<p><strong>한우곱도리탕</strong></p>
+<p class="price">29,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_menu_03_꼬추크림파스타_16000.jpg"
+    alt="꼬추크림파스타"
+    onclick="openModal(this.src)"
+/>
+<p><strong>꼬추크림파스타</strong></p>
+<p class="price">16,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_menu_04_정통후라이드치킨_18000.jpg"
+    alt="정통후라이드치킨"
+    onclick="openModal(this.src)"
+/>
+<p><strong>정통후라이드치킨</strong></p>
+<p class="price">18,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_menu_05_붓산낙곱새_27000.jpg"
+    alt="붓산낙곱새"
+    onclick="openModal(this.src)"
+/>
+<p><strong>붓산낙곱새</strong></p>
+<p class="price">27,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_menu_06_믹키크림파스타_16000.jpg"
+    alt="믹키크림파스타"
+    onclick="openModal(this.src)"
+/>
+<p><strong>믹키크림파스타</strong></p>
+<p class="price">16,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_menu_07_시장닭강정_19000.jpg"
+    alt="시장닭강정"
+    onclick="openModal(this.src)"
+/>
+<p><strong>시장닭강정</strong></p>
+<p class="price">19,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_menu_08_명품닭꼬치_14000.jpg"
+    alt="명품닭꼬치"
+    onclick="openModal(this.src)"
+/>
+<p><strong>명품닭꼬치</strong></p>
+<p class="price">14,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_menu_09_나가사키짬뽕탕_19000.jpg"
+    alt="나가사키짬뽕탕"
+    onclick="openModal(this.src)"
+/>
+<p><strong>나가사키짬뽕탕</strong></p>
+<p class="price">19,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_menu_10_코리아부대찌개_19000.jpg"
+    alt="코리아부대찌개"
+    onclick="openModal(this.src)"
+/>
+<p><strong>코리아부대찌개</strong></p>
+<p class="price">19,000원</p>
+</div>
+

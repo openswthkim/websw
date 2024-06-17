@@ -1,0 +1,40 @@
+<div class="gallery">
+<img
+    src="/가게이름/한가네짬뽕_4.5(331)/한가네짬뽕_place_01.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/한가네짬뽕_4.5(331)/한가네짬뽕_place_02.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/한가네짬뽕_4.5(331)/한가네짬뽕_place_03.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/한가네짬뽕_4.5(331)/한가네짬뽕_place_04.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/한가네짬뽕_4.5(331)/한가네짬뽕_place_05.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+

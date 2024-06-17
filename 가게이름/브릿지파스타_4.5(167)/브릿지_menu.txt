@@ -1,0 +1,100 @@
+<div class="menu">
+<img
+    src="/가게이름/브릿지파스타_4.5(167)/브릿지_menu01_토마토라구파스타_10900.jpg"
+    alt="토마토라구파스타"
+    onclick="openModal(this.src)"
+/>
+<p><strong>토마토라구파스타</strong></p>
+<p class="price">10,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/브릿지파스타_4.5(167)/브릿지_menu02_쉬림프로제파스타_10900.jpg"
+    alt="쉬림프로제파스타"
+    onclick="openModal(this.src)"
+/>
+<p><strong>쉬림프로제파스타</strong></p>
+<p class="price">10,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/브릿지파스타_4.5(167)/브릿지_menu03_알리오올리오_8900.jpg"
+    alt="알리오올리오"
+    onclick="openModal(this.src)"
+/>
+<p><strong>알리오올리오</strong></p>
+<p class="price">8,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/브릿지파스타_4.5(167)/브릿지_menu04_봉골레_9900.jpg"
+    alt="봉골레"
+    onclick="openModal(this.src)"
+/>
+<p><strong>봉골레</strong></p>
+<p class="price">9,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/브릿지파스타_4.5(167)/브릿지_menu05_스테이크라이스_10900.jpg"
+    alt="스테이크라이스"
+    onclick="openModal(this.src)"
+/>
+<p><strong>스테이크라이스</strong></p>
+<p class="price">10,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/브릿지파스타_4.5(167)/브릿지_menu06_오징어먹물리소토_12900.jpg"
+    alt="오징어먹물리소토"
+    onclick="openModal(this.src)"
+/>
+<p><strong>오징어먹물리소토</strong></p>
+<p class="price">12,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/브릿지파스타_4.5(167)/브릿지_menu07_부채살스테이크_15900.jpg"
+    alt="부채살스테이크"
+    onclick="openModal(this.src)"
+/>
+<p><strong>부채살스테이크</strong></p>
+<p class="price">15,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/브릿지파스타_4.5(167)/브릿지_menu08_아란치니3PCS_5900.jpg"
+    alt="아란치니3PCS"
+    onclick="openModal(this.src)"
+/>
+<p><strong>아란치니 3PCS</strong></p>
+<p class="price">5,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/브릿지파스타_4.5(167)/브릿지_menu09_마르게리따_7900.jpg"
+    alt="마르게리따"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마르게리따</strong></p>
+<p class="price">7,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/브릿지파스타_4.5(167)/브릿지_menu10_고르곤졸라_7900.jpg"
+    alt="고르곤졸라"
+    onclick="openModal(this.src)"
+/>
+<p><strong>고르곤졸라</strong></p>
+<p class="price">7,900원</p>
+</div>
+

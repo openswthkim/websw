@@ -1,0 +1,40 @@
+<div class="menu">
+<img
+    src="/가게이름/포차안_4.3(43)/포차안_menu_01_옛날통닭_12500.jpg"
+    alt="옛날통닭"
+    onclick="openModal(this.src)"
+/>
+<p><strong>옛날통닭</strong></p>
+<p class="price">12,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/포차안_4.3(43)/포차안_menu_02_삼겹살김밥_15500.jpg"
+    alt="삼겹살김"
+    onclick="openModal(this.src)"
+/>
+<p><strong>삼겹살김</strong></p>
+<p class="price">15,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/포차안_4.3(43)/포차안_menu_03_새우감바스_16900.jpg"
+    alt="새우감바스"
+    onclick="openModal(this.src)"
+/>
+<p><strong>새우감바스</strong></p>
+<p class="price">16,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/포차안_4.3(43)/포차안_menu_04_석쇠삼겹갈비_16900.jpg"
+    alt="석쇠삼겹갈비"
+    onclick="openModal(this.src)"
+/>
+<p><strong>석쇠삼겹갈비</strong></p>
+<p class="price">16,900원</p>
+</div>
+

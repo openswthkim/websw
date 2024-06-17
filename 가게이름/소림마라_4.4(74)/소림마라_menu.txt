@@ -1,0 +1,160 @@
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_01_마라탕_10000.jpg"
+    alt="마라탕"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라탕</strong></p>
+<p class="price">10,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_02_마라샹궈_16000.jpg"
+    alt="마라샹궈"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라샹궈</strong></p>
+<p class="price">16,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_03_로제마라샹궈_18000.jpg"
+    alt="로제마라샹궈"
+    onclick="openModal(this.src)"
+/>
+<p><strong>로제마라샹궈</strong></p>
+<p class="price">18,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_04_꿔바로우(미니)_11000.jpg"
+    alt="꿔바로우(미니)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>꿔바로우(미니)</strong></p>
+<p class="price">11,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_05_통새우꿔바로우(미니)_12500.jpg"
+    alt="통새우꿔바로우(미니)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>통새우꿔바로우(미니)</strong></p>
+<p class="price">12,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_06_크림통새우꿔바로우(미니)_12500.jpg"
+    alt="크림통새우꿔바로우(미니)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>크림통새우꿔바로우(미니)</strong></p>
+<p class="price">12,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_07_마라돈등심꿔바로우(미니)_13000.jpg"
+    alt="마라돈등심꿔바로우(미니)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라돈등심꿔바로우(미니)</strong></p>
+<p class="price">13,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_08_마라통새우꿔바로우(미니)_14000.jpg"
+    alt="마라통새우꿔바로우(미니)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라통새우꿔바로우(미니)</strong></p>
+<p class="price">14,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_09_볶음밥_6000.jpg"
+    alt="볶음밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>볶음밥</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_10_마라볶음밥_8000.jpg"
+    alt="마라볶음밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라볶음밥</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_11_마라주먹밥_6000.jpg"
+    alt="마라주먹밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라주먹밥</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_12_블랙마라샹궈_16000.jpg"
+    alt="블랙마라샹궈"
+    onclick="openModal(this.src)"
+/>
+<p><strong>블랙마라샹궈</strong></p>
+<p class="price">16,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_13_마라갈비만두_6000.jpg"
+    alt="마라갈비만두"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라갈비만두</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_14_마라감자만두_5000.jpg"
+    alt="마라감자만두"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라감자만두</strong></p>
+<p class="price">5,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_15_멘보샤_6000.jpg"
+    alt="멘보샤"
+    onclick="openModal(this.src)"
+/>
+<p><strong>멘보샤</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/소림마라_4.4(74)/소림마라_menu_16_크림치즈볼_6500.jpg"
+    alt="크림치즈볼"
+    onclick="openModal(this.src)"
+/>
+<p><strong>크림치즈볼</strong></p>
+<p class="price">6,500원</p>
+</div>
+

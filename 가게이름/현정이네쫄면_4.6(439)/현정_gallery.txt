@@ -1,0 +1,64 @@
+<div class="gallery">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_place_01.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_place_02.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_place_03.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_place_04.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_place_05.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_place_06.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_place_07.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_place_08.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+

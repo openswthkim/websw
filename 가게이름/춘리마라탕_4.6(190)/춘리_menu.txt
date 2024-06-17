@@ -1,0 +1,70 @@
+<div class="menu">
+<img
+    src="/가게이름/춘리마라탕_4.6(190)/춘리_menu_01_마라탕_10500.jpg"
+    alt="마라탕"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라탕</strong></p>
+<p class="price">10,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/춘리마라탕_4.6(190)/춘리_menu_02_셀프마라탕_10500.jpg"
+    alt="셀프마라탕"
+    onclick="openModal(this.src)"
+/>
+<p><strong>셀프마라탕</strong></p>
+<p class="price">10,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/춘리마라탕_4.6(190)/춘리_menu_03_마라샹궈_19900.jpg"
+    alt="마라샹궈"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라샹궈</strong></p>
+<p class="price">19,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/춘리마라탕_4.6(190)/춘리_menu_04_셀프마라샹궈_19900.jpg"
+    alt="셀프마라샹궈"
+    onclick="openModal(this.src)"
+/>
+<p><strong>셀프마라샹궈</strong></p>
+<p class="price">19,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/춘리마라탕_4.6(190)/춘리_menu_05_꿔바로우(소)_11900.jpg"
+    alt="꿔바로우(소)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>꿔바로우(소)</strong></p>
+<p class="price">11,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/춘리마라탕_4.6(190)/춘리_menu_06_꿔바로우마라탕세트_17900.jpg"
+    alt="꿔바로우마라탕세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>꿔바로우마라탕세트</strong></p>
+<p class="price">17,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/춘리마라탕_4.6(190)/춘리_menu_07_볶음밥_7000.jpg"
+    alt="볶음밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>볶음밥</strong></p>
+<p class="price">7,000원</p>
+</div>
+

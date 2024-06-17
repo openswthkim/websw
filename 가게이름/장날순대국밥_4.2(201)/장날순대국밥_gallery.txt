@@ -1,0 +1,40 @@
+<div class="gallery">
+<img
+    src="/가게이름/장날순대국밥_4.2(201)/장날순대국밥_place_01.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장날순대국밥_4.2(201)/장날순대국밥_place_02.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장날순대국밥_4.2(201)/장날순대국밥_place_03.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장날순대국밥_4.2(201)/장날순대국밥_place_04.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장날순대국밥_4.2(201)/장날순대국밥_place_05.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+

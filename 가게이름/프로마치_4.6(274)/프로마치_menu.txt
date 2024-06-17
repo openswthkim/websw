@@ -1,0 +1,80 @@
+<div class="menu">
+<img
+    src="/가게이름/프로마치_4.6(274)/프로마치_menu_01_양송이수프_6600.jpg"
+    alt="양송이수프"
+    onclick="openModal(this.src)"
+/>
+<p><strong>양송이수프</strong></p>
+<p class="price">6,600원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/프로마치_4.6(274)/프로마치_menu_02_노르웨이안연어_7800.jpg"
+    alt="노르웨이안연어"
+    onclick="openModal(this.src)"
+/>
+<p><strong>노르웨이안연어</strong></p>
+<p class="price">7,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/프로마치_4.6(274)/프로마치_menu_03_페스토치킨_6000.jpg"
+    alt="페스토치킨"
+    onclick="openModal(this.src)"
+/>
+<p><strong>페스토치킨</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/프로마치_4.6(274)/프로마치_menu_04_포크파스트라미_6000.jpg"
+    alt="포크파스트라미"
+    onclick="openModal(this.src)"
+/>
+<p><strong>포크파스트라미</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/프로마치_4.6(274)/프로마치_menu_05_멕시칸타코_6400.jpg"
+    alt="멕시칸타코"
+    onclick="openModal(this.src)"
+/>
+<p><strong>멕시칸타코</strong></p>
+<p class="price">6,400원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/프로마치_4.6(274)/프로마치_menu_06_페스토치킨_6000.jpg"
+    alt="페스토치킨"
+    onclick="openModal(this.src)"
+/>
+<p><strong>페스토치킨</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/프로마치_4.6(274)/프로마치_menu_07_멕시칸타코_6400.jpg"
+    alt="멕시칸타코"
+    onclick="openModal(this.src)"
+/>
+<p><strong>멕시칸타코</strong></p>
+<p class="price">6,400원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/프로마치_4.6(274)/프로마치_menu_08_토마토수프_6600.jpg"
+    alt="토마토수프"
+    onclick="openModal(this.src)"
+/>
+<p><strong>토마토수프</strong></p>
+<p class="price">6,600원</p>
+</div>
+

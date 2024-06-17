@@ -1,0 +1,150 @@
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_01_삼겹살김치볶음_12000.jpg"
+    alt="삼겹살김치볶음"
+    onclick="openModal(this.src)"
+/>
+<p><strong>삼겹살김치볶음</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_02_베이컨청양크림파스타_12000.jpg"
+    alt="베이컨청양크림파스타"
+    onclick="openModal(this.src)"
+/>
+<p><strong>베이컨청양크림파스타</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_04_칼칼김치찌개_12000.jpg"
+    alt="칼칼김치찌개"
+    onclick="openModal(this.src)"
+/>
+<p><strong>칼칼김치찌개</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_05_햄듬뿍부대찌개_12000.jpg"
+    alt="햄듬뿍부대찌개"
+    onclick="openModal(this.src)"
+/>
+<p><strong>햄듬뿍부대찌개</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_06_순살매콤닭볶음탕_13000.jpg"
+    alt="순살매콤닭볶음탕"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순살매콤닭볶음탕</strong></p>
+<p class="price">13,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_07_돼지고기숙주볶음_10000.jpg"
+    alt="돼지고기숙주볶음"
+    onclick="openModal(this.src)"
+/>
+<p><strong>돼지고기숙주볶음</strong></p>
+<p class="price">10,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_08_제육볶음우동사리_12000.jpg"
+    alt="제육볶음우동사리"
+    onclick="openModal(this.src)"
+/>
+<p><strong>제육볶음우동사리</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_09_군만두_6000.jpg"
+    alt="군만두"
+    onclick="openModal(this.src)"
+/>
+<p><strong>군만두</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_10_경양식왕돈까스_11000.jpg"
+    alt="경양식왕돈까스"
+    onclick="openModal(this.src)"
+/>
+<p><strong>경양식왕돈까스</strong></p>
+<p class="price">11,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_11_순살후라이드치킨_12000.jpg"
+    alt="순살후라이드치킨"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순살후라이드치킨</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_12_달다구리토스트_8000.jpg"
+    alt="달다구리토스트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>달다구리토스트</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_13_얼음동동메밀소바_8000.jpg"
+    alt="얼음동동메밀소바"
+    onclick="openModal(this.src)"
+/>
+<p><strong>얼음동동메밀소바</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_14_시뻘건닭갈비_11000.jpg"
+    alt="시뻘건닭갈비"
+    onclick="openModal(this.src)"
+/>
+<p><strong>시뻘건닭갈비</strong></p>
+<p class="price">11,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_15_얼큰해물짬뽕탕_13000.jpg"
+    alt="얼큰해물짬뽕탕"
+    onclick="openModal(this.src)"
+/>
+<p><strong>얼큰해물짬뽕탕</strong></p>
+<p class="price">13,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_menu_16_오타쿠오코노미야끼_13000.jpg"
+    alt="오타쿠오코노미야끼"
+    onclick="openModal(this.src)"
+/>
+<p><strong>오타쿠오코노미야끼</strong></p>
+<p class="price">13,000원</p>
+</div>
+

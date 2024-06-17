@@ -1,0 +1,56 @@
+<div class="gallery">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_place_01.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_place_02.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_place_03.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_place_04.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_place_05.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_place_06.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/시민포차_4.8(65)/시민포차_place_07.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+

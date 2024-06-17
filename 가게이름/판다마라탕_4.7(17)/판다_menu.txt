@@ -1,0 +1,49 @@
+<div class="menu">
+<img
+    src="/가게이름/판다마라탕_4.7(17)/판다_menu_01_마라탕(100g)_1980.jpg"
+    alt="마라탕(100g)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라탕(100g)</strong></p>
+<p class="price">1,980원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/판다마라탕_4.7(17)/판다_menu_02_계란볶음밥_6000.jpg"
+    alt="계란볶음밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>계란볶음밥</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/판다마라탕_4.7(17)/판다_menu_03_판다탕수육_13000.jpg"
+    alt="판다탕수육"
+    onclick="openModal(this.src)"
+/>
+<p><strong>판다탕수육</strong></p>
+<p class="price">13,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/판다마라탕_4.7(17)/판다_menu_04_판다꿔바로우_10000.jpg"
+    alt="판다꿔바로우"
+    onclick="openModal(this.src)"
+/>
+<p><strong>판다꿔바로우</strong></p>
+<p class="price">10,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/판다마라탕_4.7(17)/판다_menu_05_마라샹궈(100g)_3000.jpg"
+    alt="마라샹궈(100g)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라샹궈(100g)</strong></p>
+<p class="price">3,000원</p>
+</div>

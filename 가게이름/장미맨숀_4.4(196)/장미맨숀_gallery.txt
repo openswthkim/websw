@@ -1,0 +1,72 @@
+<div class="gallery">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_place_01.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_place_02.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_place_03.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_place_04.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_place_05.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_place_06.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_place_07.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_place_08.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/장미맨숀_4.4(196)/장미맨숀_place_09.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+

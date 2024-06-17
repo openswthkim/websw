@@ -1,0 +1,99 @@
+<div class="menu">
+<img
+    src="/가게이름/서리서리멸치국수_4.4(503)/서리_menu_01_멸치국수(잔치국수)_6000.jpg"
+    alt="멸치국수(잔치국수)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>멸치국수(잔치국수)</strong></p>
+<p class="price">19,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/서리서리멸치국수_4.4(503)/서리_menu_02_비빔국수_7000.jpg"
+    alt="비빔국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>비빔국수</strong></p>
+<p class="price">7,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/서리서리멸치국수_4.4(503)/서리_menu_03_김치말이국수_7000.jpg"
+    alt="김치말이국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>김치말이국수</strong></p>
+<p class="price">7,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/서리서리멸치국수_4.4(503)/서리_menu_04_어묵국수_7000.jpg"
+    alt="어묵국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>어묵국수</strong></p>
+<p class="price">7,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/서리서리멸치국수_4.4(503)/서리_menu_05_메밀비빔국수_8000.jpg"
+    alt="메밀비빔국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>메밀비빔국수</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/서리서리멸치국수_4.4(503)/서리_menu_06_멸고국밥_8000.jpg"
+    alt="멸고국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>멸고국밥</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/서리서리멸치국수_4.4(503)/서리_menu_07_메밀국수(냉)_8000.jpg"
+    alt="메밀국수(냉)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>메밀국수(냉)</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/서리서리멸치국수_4.4(503)/서리_menu_08_콩국수_8000.jpg"
+    alt="콩국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>콩국수</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/서리서리멸치국수_4.4(503)/서리_menu_09_김치콩나물국밥_7000.jpg"
+    alt="김치콩나물국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>김치콩나물국밥</strong></p>
+<p class="price">7,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/서리서리멸치국수_4.4(503)/서리_menu_10_김밥_3500.jpg"
+    alt="김밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>김밥</strong></p>
+<p class="price">3,500원</p>
+</div>

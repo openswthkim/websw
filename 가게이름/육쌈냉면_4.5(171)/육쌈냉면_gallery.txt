@@ -1,0 +1,32 @@
+<div class="gallery">
+<img
+    src="/가게이름/육쌈냉면_4.5(171)/육쌈냉면_place_01.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/육쌈냉면_4.5(171)/육쌈냉면_place_02.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/육쌈냉면_4.5(171)/육쌈냉면_place_03.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/육쌈냉면_4.5(171)/육쌈냉면_place_04.jpg"
+    alt="가게사진"
+    onclick="openModal(this.src)"
+/>
+</div>
+

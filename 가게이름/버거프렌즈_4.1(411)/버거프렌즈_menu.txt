@@ -1,0 +1,139 @@
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_01_프렌즈버거(단품)_5900.jpg"
+    alt="프렌즈버거(단품)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>프렌즈버거(단품)</strong></p>
+<p class="price">5,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_02_프렌즈버거라이트(단품)_4900.jpg"
+    alt="프렌즈버거라이트(단품)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>프렌즈버거라이트(단품)</strong></p>
+<p class="price">4,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_03_프렌즈치즈버거라이트(단품)_5700.jpg"
+    alt="프렌즈치즈버거라이트(단품)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>프렌즈치즈버거라이트(단품)</strong></p>
+<p class="price">5,700원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_04_프렌즈치즈버거(단품)_6700.jpg"
+    alt="프렌즈치즈버거(단품)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>프렌즈치즈버거(단품)</strong></p>
+<p class="price">6,700원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_05_베이컨프렌즈버거라이트(단품)_6200.jpg"
+    alt="베이컨프렌즈버거라이트(단품)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>베이컨프렌즈버거라이트(단품)</strong></p>
+<p class="price">6,200원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_06_베이컨프렌즈버거세트_10300.jpg"
+    alt="베이컨프렌즈버거세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>베이컨프렌즈버거세트</strong></p>
+<p class="price">10,300원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_07_프렌즈버거세트_9800.jpg"
+    alt="프렌즈버거세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>프렌즈버거세트</strong></p>
+<p class="price">9,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_08_트러플머쉬룸버거세트_11700.jpg"
+    alt="트러플머쉬룸버거세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>트러플머쉬룸버거세트</strong></p>
+<p class="price">11,700원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_09_프렌즈버거라이트세트_8000.jpg"
+    alt="프렌즈버거라이트세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>프렌즈버거라이트세트</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_10_프렌즈버거세트_9000.jpg"
+    alt="프렌즈버거세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>프렌즈버거세트</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_11_프렌즈치즈버거라이트세트_9000.jpg"
+    alt="프렌즈치즈버거라이트세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>프렌즈치즈버거라이트세트</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_12_프렌즈치즈버거세트_9800.jpg"
+    alt="프렌즈치즈버거세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>프렌즈치즈버거세트</strong></p>
+<p class="price">9,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_13_순살양념강정_9800.jpg"
+    alt="순살양념강정"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순살양념강정</strong></p>
+<p class="price">9,800원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/버거프렌즈_4.1(411)/버거프렌즈_menu_14_매운순살양념강정_9800.jpg"
+    alt="매운순살양념강정"
+    onclick="openModal(this.src)"
+/>
+<p><strong>매운순살양념강정</strong></p>
+<p class="price">9,800원</p>
+</div>

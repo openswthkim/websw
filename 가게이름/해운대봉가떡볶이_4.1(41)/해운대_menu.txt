@@ -1,0 +1,70 @@
+<div class="menu">
+<img
+    src="/가게이름/해운대봉가떡볶이_4.1(41)/해운대_menu_01_봉가해운대떡볶이(1인분)_6900.jpg"
+    alt="봉가해운대떡볶이(1인분)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>봉가해운대떡볶이(1인분)</strong></p>
+<p class="price">6,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/해운대봉가떡볶이_4.1(41)/해운대_menu_02_로제떡볶이(1인분)_7900.jpg"
+    alt="로제떡볶이(1인분)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>로제떡볶이(1인분)</strong></p>
+<p class="price">7,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/해운대봉가떡볶이_4.1(41)/해운대_menu_03_해운대해물떡볶이쥔장추천(1인분)_8900.jpg"
+    alt="해운대해물떡볶이쥔장추천(1인분)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>해운대해물떡볶이-쥔장추천(1인분)</strong></p>
+<p class="price">8,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/해운대봉가떡볶이_4.1(41)/해운대_menu_04_순살후라이드치킨(중(300g))_7500.jpg"
+    alt="순살후라이드치킨(중(300g))"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순살후라이드치킨(중(300g))</strong></p>
+<p class="price">7,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/해운대봉가떡볶이_4.1(41)/해운대_menu_05_순살양념치킨(중(300g))_8000.jpg"
+    alt="순살양념치킨(중(300g))"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순살양념치킨(중(300g))</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/해운대봉가떡볶이_4.1(41)/해운대_menu_06_리얼마늘간장치킨쥔장추천(중(300g))_8000.jpg"
+    alt="리얼마늘간장치킨쥔장추천(중(300g))"
+    onclick="openModal(this.src)"
+/>
+<p><strong>리얼마늘간장치킨-쥔장추천(중(300g))</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/해운대봉가떡볶이_4.1(41)/해운대_menu_07_봉가무뼈닭발_15000.jpg"
+    alt="봉가무뼈닭발"
+    onclick="openModal(this.src)"
+/>
+<p><strong>봉가무뼈닭발</strong></p>
+<p class="price">15,000원</p>
+</div>
+

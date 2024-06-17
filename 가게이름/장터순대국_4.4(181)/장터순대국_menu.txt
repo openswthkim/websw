@@ -1,0 +1,60 @@
+<div class="menu">
+<img
+    src="/가게이름/장터순대국_4.4(181)/장터순대국_menu_01_순대국밥_8000.jpg"
+    alt="순대국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순대국밥</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장터순대국_4.4(181)/장터순대국_menu_02_수육국밥_8000.jpg"
+    alt="수육국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>수육국밥</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장터순대국_4.4(181)/장터순대국_menu_03_머릿고기국밥_8000.jpg"
+    alt="머릿고기국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>머릿고기국밥</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장터순대국_4.4(181)/장터순대국_menu_04_곱창전골_35000.jpg"
+    alt="곱창전골"
+    onclick="openModal(this.src)"
+/>
+<p><strong>곱창전골</strong></p>
+<p class="price">35,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장터순대국_4.4(181)/장터순대국_menu_05_모듬순대_15000.jpg"
+    alt="모듬순대"
+    onclick="openModal(this.src)"
+/>
+<p><strong>모듬순대</strong></p>
+<p class="price">15,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장터순대국_4.4(181)/장터순대국_menu_06_머릿고기수육_15000.jpg"
+    alt="머릿고기수육"
+    onclick="openModal(this.src)"
+/>
+<p><strong>머릿고기수육</strong></p>
+<p class="price">15,000원</p>
+</div>
+

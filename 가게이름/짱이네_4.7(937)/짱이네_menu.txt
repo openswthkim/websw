@@ -1,0 +1,60 @@
+<div class="menu">
+<img
+    src="/가게이름/짱이네_4.7(937)/짱이네_menu_01_짱돈까스_12000.jpg"
+    alt="짱돈까스"
+    onclick="openModal(this.src)"
+/>
+<p><strong>짱돈까스</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/짱이네_4.7(937)/짱이네_menu_02_돈냉면_12000.jpg"
+    alt="돈냉면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>돈냉면</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/짱이네_4.7(937)/짱이네_menu_03_우동_6000.jpg"
+    alt="우동"
+    onclick="openModal(this.src)"
+/>
+<p><strong>우동</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/짱이네_4.7(937)/짱이네_menu_04_한쪽돈까스_8500.jpg"
+    alt="한쪽돈까스"
+    onclick="openModal(this.src)"
+/>
+<p><strong>한쪽돈까스</strong></p>
+<p class="price">8,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/짱이네_4.7(937)/짱이네_menu_05_불냉면_9000.jpg"
+    alt="불냉면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>불냉면</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/짱이네_4.7(937)/짱이네_menu_06_물냉면_9000.jpg"
+    alt="물냉면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>물냉면</strong></p>
+<p class="price">9,000원</p>
+</div>
+

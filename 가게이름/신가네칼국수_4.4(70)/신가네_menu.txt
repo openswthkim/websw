@@ -1,0 +1,20 @@
+<div class="menu">
+<img
+    src="/가게이름/신가네칼국수_4.4(70)/신가네_menu_01_칼국수_7000.jpg"
+    alt="칼국수"
+    onclick="openModal(this.src)"
+/>
+<p><strong>칼국수</strong></p>
+<p class="price">7,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/신가네칼국수_4.4(70)/신가네_menu_02_김치찌개_8000.jpg"
+    alt="김치찌개"
+    onclick="openModal(this.src)"
+/>
+<p><strong>김치찌개</strong></p>
+<p class="price">8,000원</p>
+</div>
+

@@ -1,53 +1,5 @@
 <div class="gallery">
 <img
-    src="/가게이름/호랑가_5.0(126)/호랑가_outside_01.jpg"
-    alt="가게사진 1"
-    onclick="openModal(this.src)"
-/>
-</div>
-
-<div class="gallery">
-<img
-    src="/가게이름/호랑가_5.0(126)/호랑가_outside_02.jpg"
-    alt="가게사진 2"
-    onclick="openModal(this.src)"
-/>
-</div>
-
-<div class="gallery">
-<img
-    src="/가게이름/호랑가_5.0(126)/호랑가_outside_03.jpg"
-    alt="가게사진 3"
-    onclick="openModal(this.src)"
-/>
-</div>
-
-<div class="gallery">
-<img
-    src="/가게이름/호랑가_5.0(126)/호랑가_outside_04.jpg"
-    alt="가게사진 4"
-    onclick="openModal(this.src)"
-/>
-</div>
-
-<div class="gallery">
-<img
-    src="/가게이름/호랑가_5.0(126)/호랑가_outside_05.jpg"
-    alt="가게사진 5"
-    onclick="openModal(this.src)"
-/>
-</div>
-
-<div class="gallery">
-<img
-    src="/가게이름/호랑가_5.0(126)/호랑가_outside_06.jpg"
-    alt="가게사진 6"
-    onclick="openModal(this.src)"
-/>
-</div>
-
-<div class="gallery">
-<img
     src="/가게이름/호랑가_5.0(126)/호랑가_place_01.jpg"
     alt="가게사진 7"
     onclick="openModal(this.src)"

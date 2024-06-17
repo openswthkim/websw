@@ -1,0 +1,50 @@
+<div class="menu">
+<img
+    src="/가게이름/우주식탁_4.7(208)/우주식탁_menu_01_차돌된장정식_10000.jpg"
+    alt="차돌된장정식"
+    onclick="openModal(this.src)"
+/>
+<p><strong>차돌된장정식</strong></p>
+<p class="price">10,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/우주식탁_4.7(208)/우주식탁_menu_02_제육정식_10000.jpg"
+    alt="제육정식"
+    onclick="openModal(this.src)"
+/>
+<p><strong>제육정식</strong></p>
+<p class="price">10,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/우주식탁_4.7(208)/우주식탁_menu_03_소고기부추비빔밥미니차돌된장_12000.jpg"
+    alt="소고기부추비빔밥미니차돌된장"
+    onclick="openModal(this.src)"
+/>
+<p><strong>소고기부추비빔밥 & 미니차돌된장</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/우주식탁_4.7(208)/우주식탁_menu_04_미니제육볶음_5000.jpg"
+    alt="미니제육볶음"
+    onclick="openModal(this.src)"
+/>
+<p><strong>미니제육볶음</strong></p>
+<p class="price">5,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/우주식탁_4.7(208)/우주식탁_menu_05_미니차돌된장_5000.jpg"
+    alt="미니차돌된장"
+    onclick="openModal(this.src)"
+/>
+<p><strong>미니차돌된장</strong></p>
+<p class="price">5,000원</p>
+</div>
+

@@ -1,0 +1,340 @@
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_01_런치세트_23000.jpg"
+    alt="런치세트"
+    onclick="openModal(this.src)"
+/>
+<p><strong>런치세트</strong></p>
+<p class="price">23,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_02_빠네파스타_19000.jpg"
+    alt="빠네파스타"
+    onclick="openModal(this.src)"
+/>
+<p><strong>빠네파스타</strong></p>
+<p class="price">19,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_03_살치살스테이크_33000.jpg"
+    alt="살치살스테이크"
+    onclick="openModal(this.src)"
+/>
+<p><strong>살치살스테이크</strong></p>
+<p class="price">33,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_04_갈릭통삼겹스테이크_32000.jpg"
+    alt="갈릭통삼겹스테이크"
+    onclick="openModal(this.src)"
+/>
+<p><strong>갈릭통삼겹스테이크</strong></p>
+<p class="price">32,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_05_이베리코팬스테이크_29000.jpg"
+    alt="이베리코팬스테이크"
+    onclick="openModal(this.src)"
+/>
+<p><strong>이베리코팬스테이크</strong></p>
+<p class="price">29,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_06_꽃등심팬스테이크_39000.jpg"
+    alt="꽃등심팬스테이크"
+    onclick="openModal(this.src)"
+/>
+<p><strong>꽃등심팬스테이크</strong></p>
+<p class="price">39,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_07_마르게리따_14000.jpg"
+    alt="마르게리따"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마르게리따</strong></p>
+<p class="price">14,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_08_고르곤졸라피자_12000.jpg"
+    alt="고르곤졸라피자"
+    onclick="openModal(this.src)"
+/>
+<p><strong>고르곤졸라피자</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_09_페퍼로니_15000.jpg"
+    alt="페퍼로니"
+    onclick="openModal(this.src)"
+/>
+<p><strong>페퍼로니</strong></p>
+<p class="price">15,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_10_리코타치즈샐러드_12000.jpg"
+    alt="리코타치즈샐러드"
+    onclick="openModal(this.src)"
+/>
+<p><strong>리코타치즈샐러드</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_11_아보카도연어샐러드_16000.jpg"
+    alt="아보카도연어샐러드"
+    onclick="openModal(this.src)"
+/>
+<p><strong>아보카도연어샐러드</strong></p>
+<p class="price">16,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_12_콥샐러드_11000.jpg"
+    alt="콥샐러드"
+    onclick="openModal(this.src)"
+/>
+<p><strong>콥샐러드</strong></p>
+<p class="price">11,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_13_치킨텐더샐러드_17000.jpg"
+    alt="치킨텐더샐러드"
+    onclick="openModal(this.src)"
+/>
+<p><strong>치킨텐더샐러드</strong></p>
+<p class="price">17,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_14_뽈로필라프_12000.jpg"
+    alt="뽈로필라프"
+    onclick="openModal(this.src)"
+/>
+<p><strong>뽈로필라프</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_15_씨푸드필라프_13000.jpg"
+    alt="씨푸드필라프"
+    onclick="openModal(this.src)"
+/>
+<p><strong>씨푸드필라프</strong></p>
+<p class="price">13,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_16_우삼겹필라프_13000.jpg"
+    alt="우삼겹필라프"
+    onclick="openModal(this.src)"
+/>
+<p><strong>우삼겹필라프</strong></p>
+<p class="price">13,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_17_해산물토마토리조또_13000.jpg"
+    alt="해산물토마토리조또"
+    onclick="openModal(this.src)"
+/>
+<p><strong>해산물토마토리조또</strong></p>
+<p class="price">13,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_18_트러플버섯리조또_12000.jpg"
+    alt="트러플버섯리조또"
+    onclick="openModal(this.src)"
+/>
+<p><strong>트러플버섯리조또</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_19_봉골레_11000.jpg"
+    alt="봉골레"
+    onclick="openModal(this.src)"
+/>
+<p><strong>봉골레</strong></p>
+<p class="price">11,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_20_알리올리오_9000.jpg"
+    alt="알리올리오"
+    onclick="openModal(this.src)"
+/>
+<p><strong>알리올리오</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_21_우삼겹오일파스타_12000.jpg"
+    alt="우삼겹오일파스타"
+    onclick="openModal(this.src)"
+/>
+<p><strong>우삼겹오일파스타</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_22_명란오일파스타_12000.jpg"
+    alt="명란오일파스타"
+    onclick="openModal(this.src)"
+/>
+<p><strong>명란오일파스타</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_23_명란크레마_13000.jpg"
+    alt="명란크레마"
+    onclick="openModal(this.src)"
+/>
+<p><strong>명란크레마</strong></p>
+<p class="price">13,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_24_뽀모도로_11000.jpg"
+    alt="뽀모도로"
+    onclick="openModal(this.src)"
+/>
+<p><strong>뽀모도로</strong></p>
+<p class="price">11,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_25_아마트리치아나_12000.jpg"
+    alt="아마트리치아나"
+    onclick="openModal(this.src)"
+/>
+<p><strong>아마트리치아나</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_26_페스카토레_16000.jpg"
+    alt="페스카토레"
+    onclick="openModal(this.src)"
+/>
+<p><strong>페스카토레</strong></p>
+<p class="price">16,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_27_까르보나라_12000.jpg"
+    alt="까르보나라"
+    onclick="openModal(this.src)"
+/>
+<p><strong>까르보나라</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_28_빼쉐_19000.jpg"
+    alt="빼쉐"
+    onclick="openModal(this.src)"
+/>
+<p><strong>빼쉐</strong></p>
+<p class="price">19,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_29_빼쉐크레마_19000.jpg"
+    alt="빼쉐크레마"
+    onclick="openModal(this.src)"
+/>
+<p><strong>빼쉐크레마</strong></p>
+<p class="price">19,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_30_우삼겹로제_16000.jpg"
+    alt="우삼겹로제"
+    onclick="openModal(this.src)"
+/>
+<p><strong>우삼겹로제</strong></p>
+<p class="price">16,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_31_크랩로제_12000.jpg"
+    alt="크랩로제"
+    onclick="openModal(this.src)"
+/>
+<p><strong>크랩로제</strong></p>
+<p class="price">12,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_32_로제감베로니_15000.jpg"
+    alt="로제감베로니"
+    onclick="openModal(this.src)"
+/>
+<p><strong>로제감베로니</strong></p>
+<p class="price">15,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_33_상하이파스타_16000.jpg"
+    alt="상하이파스타"
+    onclick="openModal(this.src)"
+/>
+<p><strong>상하이파스타</strong></p>
+<p class="price">16,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/파브리카_4.5(1388)/파브리카_menu_34_라자냐_19000.jpg"
+    alt="라자냐"
+    onclick="openModal(this.src)"
+/>
+<p><strong>라자냐</strong></p>
+<p class="price">19,000원</p>
+</div>
+

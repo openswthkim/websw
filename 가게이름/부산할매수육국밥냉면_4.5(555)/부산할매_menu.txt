@@ -1,0 +1,70 @@
+<div class="menu">
+<img
+    src="/가게이름/부산할매수육국밥냉면_4.5(555)/부산할매수육국밥냉면_menu_01_순대국밥_8000.jpg"
+    alt="순대국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순대국밥</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/부산할매수육국밥냉면_4.5(555)/부산할매수육국밥냉면_menu_02_콩나물국밥_7000.jpg"
+    alt="콩나물국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>콩나물국밥</strong></p>
+<p class="price">7,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/부산할매수육국밥냉면_4.5(555)/부산할매수육국밥냉면_menu_03_야채순대_6000.jpg"
+    alt="야채순대"
+    onclick="openModal(this.src)"
+/>
+<p><strong>야채순대</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/부산할매수육국밥냉면_4.5(555)/부산할매수육국밥냉면_menu_04_뼈다귀해장국_9000.jpg"
+    alt="뼈다귀해장국"
+    onclick="openModal(this.src)"
+/>
+<p><strong>뼈다귀해장국</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/부산할매수육국밥냉면_4.5(555)/부산할매수육국밥냉면_menu_05_왕만두_5000.jpg"
+    alt="왕만두"
+    onclick="openModal(this.src)"
+/>
+<p><strong>왕만두</strong></p>
+<p class="price">5,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/부산할매수육국밥냉면_4.5(555)/부산할매수육국밥냉면_menu_06_물냉면_7000.jpg"
+    alt="물냉면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>물냉면</strong></p>
+<p class="price">7,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/부산할매수육국밥냉면_4.5(555)/부산할매수육국밥냉면_menu_07_비빔냉면_7000.jpg"
+    alt="비빔냉면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>비빔냉면</strong></p>
+<p class="price">7,000원</p>
+</div>
+

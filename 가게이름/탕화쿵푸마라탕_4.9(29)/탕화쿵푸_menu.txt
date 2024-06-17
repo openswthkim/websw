@@ -1,0 +1,60 @@
+<div class="menu">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_menu_01_셀프마라탕_9900.jpg"
+    alt="셀프마라탕"
+    onclick="openModal(this.src)"
+/>
+<p><strong>셀프마라탕</strong></p>
+<p class="price">9,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_menu_02_셀프마라샹궈_21900.jpg"
+    alt="셀프마라샹궈"
+    onclick="openModal(this.src)"
+/>
+<p><strong>셀프마라샹궈</strong></p>
+<p class="price">21,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_menu_03_꿔바로우(미니)_6900.jpg"
+    alt="꿔바로우(미니)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>꿔바로우(미니)</strong></p>
+<p class="price">6,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_menu_04_마라탕1인세트(500g)_16900.jpg"
+    alt="마라탕1인세트(500g)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라탕1인세트(500g)</strong></p>
+<p class="price">16,900원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_menu_05_마라샹궈세트(700g)_28500.jpg"
+    alt="마라샹궈세트(700g)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라샹궈세트(700g)</strong></p>
+<p class="price">28,500원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/탕화쿵푸마라탕_4.9(29)/탕화쿵푸_menu_06_계란볶음밥_6900.jpg"
+    alt="계란볶음밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>계란볶음밥</strong></p>
+<p class="price">6,900원</p>
+</div>
+

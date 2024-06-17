@@ -1,0 +1,70 @@
+<div class="menu">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_menu_01_쫄면_7000.jpg"
+    alt="쫄면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>쫄면</strong></p>
+<p class="price">7,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_menu_02_돈까스쫄면_7000.jpg"
+    alt="돈까스쫄면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>돈까스쫄면</strong></p>
+<p class="price">7,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_menu_03_군만두쫄면_9000.jpg"
+    alt="군만두쫄면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>군만두쫄면</strong></p>
+<p class="price">9,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_menu_04_순두부쫄면_8000.jpg"
+    alt="순두부쫄면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순두부쫄면</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_menu_05_온쫄면_7000.jpg"
+    alt="온쫄면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>온쫄면</strong></p>
+<p class="price">7,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_menu_06_아이스쫄면_8000.jpg"
+    alt="아이스쫄면"
+    onclick="openModal(this.src)"
+/>
+<p><strong>아이스쫄면</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/현정이네쫄면_4.6(439)/현정_menu_07_돈까스_7000.jpg"
+    alt="돈까스"
+    onclick="openModal(this.src)"
+/>
+<p><strong>돈까스</strong></p>
+<p class="price">7,000원</p>
+</div>
+

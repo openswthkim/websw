@@ -1,0 +1,60 @@
+<div class="menu">
+<img
+    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피엔비_menu_01_풀드포크(2인)_25000.jpg"
+    alt="풀드포크(2인)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>풀드포크(2인)</strong></p>
+<p class="price">25,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피엔비_menu_02_스페어립(2~3인)_35000.jpg"
+    alt="스페어립(2~3인)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>스페어립(2~3인)</strong></p>
+<p class="price">35,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피엔비_menu_03_로인립(2~3인)_35000.jpg"
+    alt="로인립(2~3인)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>로인립(2~3인)</strong></p>
+<p class="price">35,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피엔비_menu_04_비프립(2인)_55000.jpg"
+    alt="비프립(2인)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>비프립(2인)</strong></p>
+<p class="price">55,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피엔비_menu_05_비프플래터(4~5인)_75000.jpg"
+    alt="비프플래터(4~5인)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>비프플래터(4~5인)</strong></p>
+<p class="price">75,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피엔비_menu_06_포크플래터(4~5인)_55000.jpg"
+    alt="포크플래터(4~5인)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>포크플래터(4~5인)</strong></p>
+<p class="price">55,000원</p>
+</div>
+

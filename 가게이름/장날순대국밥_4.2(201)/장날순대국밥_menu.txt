@@ -1,0 +1,40 @@
+<div class="menu">
+<img
+    src="/가게이름/장날순대국밥_4.2(201)/장날순대국밥_menu_01_순대국밥_8000.jpg"
+    alt="순대국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>순대국밥</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장날순대국밥_4.2(201)/장날순대국밥_menu_02_내장국밥_8000.jpg"
+    alt="내장국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>내장국밥</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장날순대국밥_4.2(201)/장날순대국밥_menu_03_선지국밥_8000.jpg"
+    alt="선지국밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>선지국밥</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/장날순대국밥_4.2(201)/장날순대국밥_menu_04_철판야채대창볶음_28000.jpg"
+    alt="철판야채대창볶음"
+    onclick="openModal(this.src)"
+/>
+<p><strong>철판야채대창볶음</strong></p>
+<p class="price">28,000원</p>
+</div>
+

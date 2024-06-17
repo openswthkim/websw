@@ -1,0 +1,100 @@
+<div class="menu">
+<img
+    src="/가게이름/피자웨이브_4.7(215)/피자웨이브_menu_01_하프앤하프(반반)_변동.jpg"
+    alt="하프앤하프(반반)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>하프앤하프(반반)</strong></p>
+<p class="price">변동</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피자웨이브_4.7(215)/피자웨이브_menu_02_치즈피자_19000.jpg"
+    alt="치즈피자"
+    onclick="openModal(this.src)"
+/>
+<p><strong>치즈피자</strong></p>
+<p class="price">19,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피자웨이브_4.7(215)/피자웨이브_menu_03_불고기피자_19000.jpg"
+    alt="불고기피자"
+    onclick="openModal(this.src)"
+/>
+<p><strong>불고기피자</strong></p>
+<p class="price">19,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피자웨이브_4.7(215)/피자웨이브_menu_04_페퍼로니피자_20000.jpg"
+    alt="페퍼로니피자"
+    onclick="openModal(this.src)"
+/>
+<p><strong>페퍼로니피자</strong></p>
+<p class="price">20,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피자웨이브_4.7(215)/피자웨이브_menu_05_하와이안피자_19000.jpg"
+    alt="하와이안피자"
+    onclick="openModal(this.src)"
+/>
+<p><strong>하와이안피자</strong></p>
+<p class="price">19,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피자웨이브_4.7(215)/피자웨이브_menu_06_스윗콘피자_19000.jpg"
+    alt="스윗콘피자"
+    onclick="openModal(this.src)"
+/>
+<p><strong>스윗콘피자</strong></p>
+<p class="price">19,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피자웨이브_4.7(215)/피자웨이브_menu_07_메쉬포테이토피자_21000.jpg"
+    alt="메쉬포테이토피자"
+    onclick="openModal(this.src)"
+/>
+<p><strong>메쉬포테이토피자</strong></p>
+<p class="price">21,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피자웨이브_4.7(215)/피자웨이브_menu_08_칠리새우피자_25000.jpg"
+    alt="칠리새우피자"
+    onclick="openModal(this.src)"
+/>
+<p><strong>칠리새우피자</strong></p>
+<p class="price">25,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피자웨이브_4.7(215)/피자웨이브_menu_09_치즈오븐스파게티_8000.jpg"
+    alt="치즈오븐스파게티"
+    onclick="openModal(this.src)"
+/>
+<p><strong>치즈오븐스파게티</strong></p>
+<p class="price">8,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/피자웨이브_4.7(215)/피자웨이브_menu_10_치킨텐더(6pcs)_8000.jpg"
+    alt="치킨텐더(6pcs)"
+    onclick="openModal(this.src)"
+/>
+<p><strong>치킨텐더(6pcs)</strong></p>
+<p class="price">8,000원</p>
+</div>
+

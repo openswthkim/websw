@@ -1,0 +1,100 @@
+<div class="menu">
+<img
+    src="/가게이름/미미관마라탕_4.9(299)/미미관_menu_01_마라탕_10000.jpg"
+    alt="마라탕"
+    onclick="openModal(this.src)"
+/>
+<p><strong>마라탕</strong></p>
+<p class="price">10,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/미미관마라탕_4.9(299)/미미관_menu_02_셀프마라탕_10000.jpg"
+    alt="셀프마라탕"
+    onclick="openModal(this.src)"
+/>
+<p><strong>셀프마라탕</strong></p>
+<p class="price">10,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/미미관마라탕_4.9(299)/미미관_menu_03_불맛작렬마라샹궈_20000.jpg"
+    alt="불맛작렬마라샹궈"
+    onclick="openModal(this.src)"
+/>
+<p><strong>불맛작렬마라샹궈</strong></p>
+<p class="price">20,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/미미관마라탕_4.9(299)/미미관_menu_04_불맛작렬셀프마라샹궈_20000.jpg"
+    alt="불맛작렬셀프마라샹궈"
+    onclick="openModal(this.src)"
+/>
+<p><strong>불맛작렬셀프마라샹궈</strong></p>
+<p class="price">20,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/미미관마라탕_4.9(299)/미미관_menu_05_미미꿔바로우_11000.jpg"
+    alt="미미꿔바로우"
+    onclick="openModal(this.src)"
+/>
+<p><strong>미미꿔바로우</strong></p>
+<p class="price">11,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/미미관마라탕_4.9(299)/미미관_menu_06_바삭새우멘보샤_10000.jpg"
+    alt="바삭새우멘보샤"
+    onclick="openModal(this.src)"
+/>
+<p><strong>바삭새우멘보샤</strong></p>
+<p class="price">10,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/미미관마라탕_4.9(299)/미미관_menu_07_계란볶음밥_6000.jpg"
+    alt="계란볶음밥"
+    onclick="openModal(this.src)"
+/>
+<p><strong>계란볶음밥</strong></p>
+<p class="price">6,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/미미관마라탕_4.9(299)/미미관_menu_08_당면가득미미만두_5000.jpg"
+    alt="당면가득미미만두"
+    onclick="openModal(this.src)"
+/>
+<p><strong>당면가득미미만두</strong></p>
+<p class="price">5,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/미미관마라탕_4.9(299)/미미관_menu_09_소보루모짜치즈볼_5000.jpg"
+    alt="소보루모짜치즈볼"
+    onclick="openModal(this.src)"
+/>
+<p><strong>소보루모짜치즈볼</strong></p>
+<p class="price">5,000원</p>
+</div>
+
+<div class="menu">
+<img
+    src="/가게이름/미미관마라탕_4.9(299)/미미관_menu_10_체다콘치즈만두_4000.jpg"
+    alt="체다콘치즈만두"
+    onclick="openModal(this.src)"
+/>
+<p><strong>체다콘치즈만두</strong></p>
+<p class="price">4,000원</p>
+</div>
+

@@ -1,0 +1,120 @@
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_01.jpg"
+    alt="가게사진 1"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_02.jpg"
+    alt="가게사진 2"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_03.jpg"
+    alt="가게사진 3"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_04.jpg"
+    alt="가게사진 4"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_05.jpg"
+    alt="가게사진 5"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_06.jpg"
+    alt="가게사진 6"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_07.jpg"
+    alt="가게사진 7"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_08.jpg"
+    alt="가게사진 8"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_09.jpg"
+    alt="가게사진 9"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_10.jpg"
+    alt="가게사진 10"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_11.jpg"
+    alt="가게사진 11"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_12.jpg"
+    alt="가게사진 12"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_13.jpg"
+    alt="가게사진 13"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_14.jpg"
+    alt="가게사진 14"
+    onclick="openModal(this.src)"
+/>
+</div>
+
+<div class="gallery">
+<img
+    src="/가게이름/배마루_4.4(102)/배마루_place_15.jpg"
+    alt="가게사진 15"
+    onclick="openModal(this.src)"
+/>
+</div>
+
