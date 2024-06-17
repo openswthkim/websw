@@ -62,7 +62,7 @@
         font-size: 32px; /* 글씨 크기 키움 */
       }
       .form-group {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
       .form-group input[type="text"],
       .form-group input[type="password"],
@@ -70,36 +70,69 @@
       .form-group input[type="email"] {
         border: 3px solid rgba(217, 217, 217, 1);
         width: 100%; /* 100%로 수정 */
-        height: 50px;
+        height: 40px;
         box-sizing: border-box;
         margin-top: 5px;
       }
-      .submit-btn {
-        background-color: rgba(7.21, 7.21, 7.21, 1);
+      .submit-btn,
+      .cancel-btn,
+      .reset-btn {
         width: 100%;
         height: 48px;
         font-family: Inter;
         text-align: center;
         font-size: 20px;
-        color: white;
         letter-spacing: 0;
         border: none;
         cursor: pointer;
         margin-top: 10px;
       }
+      .submit-btn {
+        background-color: rgba(7.21, 7.21, 7.21, 1);
+        color: white;
+      }
       .submit-btn:active {
         background-color: rgb(0, 0, 0);
         color: white;
+      }
+      .cancel-btn {
+        background-color: white;
+        color: rgba(7.21, 7.21, 7.21, 1);
+        border: 3px solid rgba(217, 217, 217, 1);
+      }
+      .cancel-btn:active {
+        background-color: rgba(217, 217, 217, 1);
+        color: rgba(7.21, 7.21, 7.21, 1);
+      }
+      .reset-btn {
+        background-color: white;
+        color: rgba(7.21, 7.21, 7.21, 1);
+        border: none;
+        font-size: 14px;
+        height: auto;
+        width: auto;
+        position: relative;
+        left: 0;
+        margin-top: 5px;
+        cursor: pointer;
+      }
+      .agree {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .agree input {
+        margin-right: 5px;
       }
       .top-right-buttons {
         position: absolute;
         top: 20px;
         right: 20px;
-    }
-    .top-right-buttons button {
-        border:1px solid rgba(161, 161, 161, 1);
-        width:89px;
-        height:39px;
+      }
+      .top-right-buttons button {
+        border: 1px solid rgba(161, 161, 161, 1);
+        width: 89px;
+        height: 39px;
         background-color: white;
         color: black;
         font-family: Inter;
@@ -108,10 +141,16 @@
         line-height: 39px;
         cursor: pointer;
         margin-left: 10px;
-    }
-    .top-right-buttons button:hover {
+      }
+      .top-right-buttons button:hover {
         background-color: rgba(230, 230, 230, 1);
-    }
+      }
+      .error-message {
+        color: red;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
+      }
     </style>
   </head>
   <body>
@@ -124,13 +163,20 @@
       <div class="top-right-buttons">
         <button onclick="location.href='login.html'">로그인</button>
         <button onclick="location.href='membership.html'">회원가입</button>
-    </div>
-      <form action="login.html">
+      </div>
+      <form id="membershipForm" action="main.html" onsubmit="return valid()">
         <div class="form-container">
           <div class="form-group">
             <input type="text" id="userid" class="text" placeholder="ID" />
           </div>
-
+          <div class="form-group">
+            <input
+              type="text"
+              id="email"
+              class="email-input"
+              placeholder="email"
+            />
+          </div>
           <div class="form-group">
             <input
               type="password"
@@ -139,7 +185,6 @@
               placeholder="password"
             />
           </div>
-
           <div class="form-group">
             <input
               type="password"
@@ -148,31 +193,54 @@
               placeholder="verify password"
             />
           </div>
-
-          <div class="form-group">
-            <input type="text" id="name" class="text" placeholder="name" />
+          <div class="agree">
+            <input type="checkbox" id="agree" />
+            <label for="agree">약관 정책에 동의합니다</label>
           </div>
-
-          <div class="form-group">
-            <div class="email-group">
-              <input
-                type="text"
-                id="email"
-                class="email-input"
-                placeholder="email"
-              />
-            </div>
-          </div>
+          <div class="error-message" id="errorMessage"></div>
           <div class="form-group">
             <input
               type="submit"
               value="가입하기"
               class="submit-btn"
-              onclick="alert('가입 성공!')"
             />
+          </div>
+          <div class="form-group">
+            <button type="button" class="cancel-btn" onclick="history.back()">취소</button>
+          </div>
+          <div class="form-group">
+            <button type="reset" class="reset-btn">다시쓰기</button>
           </div>
         </div>
       </form>
     </div>
+    <script>
+      function valid() {
+        var userid = document.getElementById("userid").value;
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        var confirmPassword = document.getElementById("confirm-password").value;
+        var agree = document.getElementById("agree").checked;
+        var errorMessage = document.getElementById("errorMessage");
+
+        if (!userid || !email || !password || !confirmPassword) {
+          errorMessage.textContent = "모든 필드를 입력해주세요.";
+          return false;
+        }
+
+        if (password !== confirmPassword) {
+          errorMessage.textContent = "비밀번호가 일치하지 않습니다.";
+          return false;
+        }
+
+        if (!agree) {
+          errorMessage.textContent = "약관 정책에 동의해주세요.";
+          return false;
+        }
+
+        alert('가입 성공!');
+        return true;
+      }
+    </script>
   </body>
 </html>
