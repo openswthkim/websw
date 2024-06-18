@@ -1,0 +1,291 @@
+<!-- 
+ 수정 필요한 부분은 주석처리 해놨습니다. 
+ 참고하시고 각각 context 맞게 수정하시면 됩니다. 
+ {korean}/{korean_메뉴} 안에 넣어주시면 됩니다.
+ comment by Hyungmin Kim
+  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 필요시 수정 -->
+    <title>japanese_라멘</title>
+    <link rel="stylesheet" href="/style/food_style.css" />
+    <script
+      src="https://kit.fontawesome.com/03f93ebafa.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function openModal(src) {
+        document.getElementById("myModal").style.display = "block";
+        document.getElementById("img01").src = src;
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      function showPopup(popupId) {
+        var popup = document.getElementById(popupId);
+        popup.style.visibility = "visible";
+        setTimeout(function () {
+          popup.style.visibility = "hidden";
+        }, 1000);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("heartIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("heartOn");
+          } else {
+            showPopup("heartOff");
+          }
+        };
+
+        document.getElementById("bookmarkIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("bookmarkOn");
+          } else {
+            showPopup("bookmarkOff");
+          }
+        };
+
+        document.getElementById("shareIcon").onclick = function () {
+          navigator.clipboard.writeText(window.location.href).then(function () {
+            showPopup("popup");
+          });
+        };
+      });
+    </script>
+  </head>
+
+  <body>
+    <nav>
+      <!-- 브레드크럼 수정해주세요 -->
+      <ul class="breadcrumb">
+        <li><a href="/main/index.html">메인</a></li>
+        <li><a href="/main_japanese/index.html">일식</a></li>
+        <li><a href="/japanese/japanese_라멘/index.html">라멘</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <!-- 돌아가기 링크 필요시 수정 -->
+    <a href="/main_japanese/index.html" class="back-button">&lt; 돌아가기</a>
+
+    <!-- 메뉴이름 수정 -->
+    <div class="main">라멘</div>
+
+    <div class="icons">
+      <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+      <div id="heartOn">좋아요가 반영되었습니다</div>
+      <div id="heartOff">좋아요가 해제되었습니다</div>
+      <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+      <div id="bookmarkOn">북마크가 설정되었습니다</div>
+      <div id="bookmarkOff">북마크가 해제되었습니다</div>
+      <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+      <div id="popup">URL이 복사되었습니다!</div>
+    </div>
+
+    <!-- desription 수정 -->
+    <div class="description">
+      진한 육수와 면
+    </div>
+
+    <div class="container">
+      <h2>재료 및 영양소</h2>
+      <hr />
+      <div class="content">
+
+        <!-- src 및 alt 수정 -->
+        <img
+          src="/main_japanese/images/01_라멘.jpg"
+          alt="라멘"
+          onclick="openModal(this.src)"
+        />
+
+        <div class="info">
+          <div class="source">
+            <h3>재료</h3>
+            <ul>
+
+              <!-- ingredient와 amount 수정해주세요 -->
+              <li>
+                <span class="ingredient">라멘 면</span
+                ><span class="amount">150g</span>
+              </li>
+              <li>
+                <span class="ingredient">돼지고기(차슈)</span
+                ><span class="amount">50g</span>
+              </li>
+              <li>
+                <span class="ingredient">라멘 육수</span
+                ><span class="amount">2컵(약 500ml)</span>
+              </li>
+              <li>
+                <span class="ingredient">미소(된장) 또는 간장</span
+                ><span class="amount">1큰술</span>
+              </li>
+              <li>
+                <span class="ingredient">삶은 달걀</span
+                ><span class="amount">1개</span>
+              </li>
+              <li>
+                <span class="ingredient">대파</span
+                ><span class="amount">20g</span>
+              </li>
+              <li>
+                <span class="ingredient">죽순</span
+                ><span class="amount">30g</span>
+              </li>
+              <li>
+                <span class="ingredient">김</span
+                ><span class="amount">1장</span>
+              </li>
+              <li>
+                <span class="ingredient">식용유</span
+                ><span class="amount">1큰술</span>
+              </li>
+              <li>
+                <span class="ingredient">마늘</span
+                ><span class="amount">1쪽</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nutrition">
+            <h3>영양소 (1인분 기준, 추정치)</h3>
+            <ul>
+
+              <!-- ingredient는 그대로 / amout부분을 수정해주세요 -->
+              <li>
+                <span class="ingredient">칼로리</span
+                ><span class="amount">600kcal</span>
+              </li>
+              <li>
+                <span class="ingredient">탄수화물</span
+                ><span class="amount">70g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">단백질</span
+                ><span class="amount">25g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">지방</span
+                ><span class="amount">20g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">식이섬유</span
+                ><span class="amount">3g</span>
+              </li>
+              <li>
+                <span class="ingredient">나트륨</span
+                ><span class="amount">2,500mg</span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="steps">
+        <h2>조리 단계</h2>
+        <hr />
+        <ol>
+
+          <!-- 조리단계 작성해주세요 -->
+          <li>
+            냄비에 라멘 육수를 끓인다. 미소 또는 간장 1큰술을 넣고 잘 섞는다. 
+          </li>
+          <li>돼지고기와 대파를 얇게 썰고, 마늘을 다진다. </li>
+          <li>끓는 물에 라멘 면을 넣고 3~4분간 삶은 뒤, 찬물에 헹궈 물기를 뺀다. </li>
+          <li>그릇에 삶은 면을 담고, 육수를 부은 후, 차슈, 대파, 죽순, 김, 삶은 달걀을 올린다. </li>
+          <li>기호에 따라 간을 한다. </li>
+
+        </ol>
+      </div>
+      <div class="nearby-places">
+        <div class="map">
+
+          <!-- 링크와 이미지 소스 수정해주세요 
+           네이버지도->해당메뉴검색 후 링크 복사하면 됩니다. -->
+          <a
+            href="https://map.naver.com/p/search/%EB%9D%BC%EB%A9%98?c=15.44,0,0,0,dh"
+            target="_blank"
+          >
+            <img src="/japanese/japanese_라멘/라멘_map.JPG" alt="지도_라멘" />
+          </a>
+        </div>
+        <div class="places">
+          <h2>근처 맛집</h2>
+          <hr />
+          <ul>
+            <!-- 맛집 리스트 수정해주세요 
+             평점 및 가게설명.txt 참고해서 작성해주세요-->
+            <li>
+              <a href="/restaurant/간바레간바로우/index.html">
+                <div class="place-title">
+                  <span>간바레간바로우</span>
+                  <span>4.8 ★★★★★ (148)</span>
+                </div>
+                <div class="place-description">
+                  일식이 떙긴다? 여기로 오라!<br>
+                  11:00 ~ 22:00 (15:00 ~ 17:00 브레이크타임)
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/니와토리/index.html">
+                <div class="place-title">
+                  <span>니와토리</span>
+                  <span>4.8 ★★★★☆ (137)</span>
+                </div>
+                <div class="place-description">
+                  닭에 진심인 청주 유일 닭 전문점<br>
+                  16:00 ~ 01:00
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/멘야마쯔리/index.html">
+                <div class="place-title">
+                  <span>멘야마쯔리</span>
+                  <span>4.5 ★★★★★ (465)</span>
+                </div>
+                <div class="place-description">
+                  넌 지금 라멘이 땡긴다<br>
+                  10:30 ~ 21:00 (16:00 ~ 17:00 브레이크타임)
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/면식당/index.html">
+                <div class="place-title">
+                  <span>면식당</span>
+                  <span>4.5 ★★★★★ (3105)</span>
+                </div>
+                <div class="place-description">
+                  면요리가 먹고플 때 그냥 들어와<br>
+                  10:30 ~ 21:00 (16:00 ~ 17:00 브레이크타임)
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="img01" />
+    </div>
+  </body>
+</html>

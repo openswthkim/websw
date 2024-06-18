@@ -1,6 +1,6 @@
 <div class="gallery">
 <img
-    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피앤비_place_01.jpg"
+    src="/가게이름/피엔비텍사스바베큐_4.1(51)/피엔비_place_01.jpg"
     alt="가게사진"
     onclick="openModal(this.src)"
 />
@@ -8,7 +8,7 @@
 
 <div class="gallery">
 <img
-    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피앤비_place_02.jpg"
+    src="/가게이름/피엔비텍사스바베큐_4.1(51)/피엔비_place_02.jpg"
     alt="가게사진"
     onclick="openModal(this.src)"
 />
@@ -16,7 +16,7 @@
 
 <div class="gallery">
 <img
-    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피앤비_place_03.jpg"
+    src="/가게이름/피엔비텍사스바베큐_4.1(51)/피엔비_place_03.jpg"
     alt="가게사진"
     onclick="openModal(this.src)"
 />
@@ -24,7 +24,7 @@
 
 <div class="gallery">
 <img
-    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피앤비_place_04.jpg"
+    src="/가게이름/피엔비텍사스바베큐_4.1(51)/피엔비_place_04.jpg"
     alt="가게사진"
     onclick="openModal(this.src)"
 />
@@ -32,7 +32,7 @@
 
 <div class="gallery">
 <img
-    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피앤비_place_05.jpg"
+    src="/가게이름/피엔비텍사스바베큐_4.1(51)/피엔비_place_05.jpg"
     alt="가게사진"
     onclick="openModal(this.src)"
 />
@@ -40,7 +40,7 @@
 
 <div class="gallery">
 <img
-    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피앤비_place_06.jpg"
+    src="/가게이름/피엔비텍사스바베큐_4.1(51)/피엔비_place_06.jpg"
     alt="가게사진"
     onclick="openModal(this.src)"
 />
@@ -48,7 +48,7 @@
 
 <div class="gallery">
 <img
-    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피앤비_place_07.jpg"
+    src="/가게이름/피엔비텍사스바베큐_4.1(51)/피엔비_place_07.jpg"
     alt="가게사진"
     onclick="openModal(this.src)"
 />
@@ -56,7 +56,7 @@
 
 <div class="gallery">
 <img
-    src="/가게이름/피앤비텍사스바베큐_4.1(51)/피앤비_place_08.jpg"
+    src="/가게이름/피엔비텍사스바베큐_4.1(51)/피엔비_place_08.jpg"
     alt="가게사진"
     onclick="openModal(this.src)"
 />

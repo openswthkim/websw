@@ -1,118 +1,70 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>일식 메뉴</title>
-    <meta name="description" content="main_korean">
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="main_japanese" />
+    <link rel="stylesheet" href="/main/styles.css" />
 
-    <style>
-
-    </style>
-</head>
-<body>
+    <style></style>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-            <img src="images/menu_japanese.jpg" alt="일식">
-            <h1>일식</h1>
+      <div class="header">
+        <img src="images/menu_japanese.jpg" alt="일식" />
+        <h1>일식</h1>
+      </div>
+      <div class="description-container">
+        <div class="description">
+          일식은 일본의 전통 요리로, 신선한 재료와 섬세한 조리법을 중시하며,
+          주로 생선, 쌀, 채소 등을 활용합니다. 대표적인 일식 요리로는 초밥,
+          사시미, 라멘, 텐푸라 등이 있으며, 그 특유의 간장, 미소, 와사비 등의
+          소스와 조미료가 맛을 더해줍니다.
         </div>
-        <div class="description-container">
-            <div class="description">
-                일식은 일본의 전통 요리로, 신선한 재료와 섬세한 조리법을 중시하며, 주로 생선, 쌀, 채소 등을 활용합니다. 대표적인 일식 요리로는 초밥, 사시미, 라멘, 텐푸라 등이 있으며, 그 특유의 간장, 미소, 와사비 등의 소스와 조미료가 맛을 더해줍니다.
-            </div>
-            <a href="/main/index.html" class="back-link">&lt; 돌아가기 </a>
+        <a href="/main/index.html" class="back-link">&lt; 돌아가기 </a>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <a href="/japanese/japanese_라멘/index.html">
+            <img src="images/01_라멘.jpg" alt="라멘"
+          ></a>
+          <div class="details">
+            <h2>라멘</h2>
+            <p>진한 육수와 면</p>
+            <p class="price">8,000￦ ~ 12,000￦</p>
+          </div>
         </div>
-        <div class="menu-grid">
-            <div class="menu-item">
-                <img src="images/01_라멘.jpg" alt="라멘" onclick="openModal(this.src)">
-                <div class="details">
-                  <h2><a href="/japanese/japanese_라멘/index.html">라멘</a></h2>
-                  <p>진한 육수와 면</p>
-                  <p class="price">8,000￦ ~ 12,000￦</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="/main_japanese/images/02_초밥.jpg" alt="초밥" onclick="openModal(this.src)">
-                <div class="details">
-                    <h2><a href="/japanese/japanese_초밥/index.html">초밥</a></h2>
-                    <p>신선한 생선과 해산물의 조화</p>
-                    <p class="price">3,000￦ ~ 33,000￦</p>
-                </div>
-            </div> 
-            <div class="menu-item">
-                <img src="/main_japanese/images/03_우동.jpg" alt="우동" onclick="openModal(this.src)">
-                <div class="details">
-                    <h2><a href="/japanese/japanese_우동/index.html">우동</a></h2>
-                    <p>구수한 맛의 집밥, 된장찌개</p>
-                    <p class="price">7,000￦ ~ 10,000￦</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="images/냉면.png" alt="냉면" onclick="openModal(this.src)">
-                <div class="details">
-                    <h2><a href="/korean/korean_냉면/index.html">냉면</a></h2>
-                    <p>차가운 육수에 시원한 면 요리</p>
-                    <p class="price">6,000￦ ~ 11,000￦</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="images/순대국.png" alt="순대국" onclick="openModal(this.src)">
-                <div class="details">
-                    <h2><a href="/korean/korean_순대국/index.html">순대국</a></h2>
-                    <p>순대와 돼지 내장을 넣은 진한 국물</p>
-                    <p class="price">7,000￦ ~ 10,000￦</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="images/부대찌개.png" alt="부대찌개" onclick="openModal(this.src)">
-                <div class="details">
-                    <h2><a href="/korean/korean_부대찌개/index.html">부대찌개</a></h2>
-                    <p>다양한 재료가 어우러진 매콤한 찌개</p>
-                    <p class="price">6,000￦ ~ 13,000￦</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="images/제육볶음.png" alt="제육볶음" onclick="openModal(this.src)">
-                <div class="details">
-                    <h2><a href="/korean/korean_제육볶음/index.html">제육볶음</a></h2>
-                    <p>남녀노소 호불호 없는 메뉴</p>
-                    <p class="price">5,000￦ ~ 13,000￦</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="images/칼국수.png" alt="칼국수" onclick="openModal(this.src)">
-                <div class="details">
-                    <h2><a href="/korean/korean_칼국수/index.html">칼국수</a></h2>
-                    <p>수타면을 넣은 따뜻한 면 요리</p>
-                    <p class="price">7,000￦ ~ 11,000￦</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <img src="images/닭갈비.png" alt="닭갈비" onclick="openModal(this.src)">
-                <div class="details">
-                    <h2><a href="/korean/korean_닭갈비/index.html">닭갈비</a></h2>
-                    <p>매콤한 양념에 볶은 닭고기와 채소</p>
-                    <p class="price">7,000￦ ~ 13,000￦</p>
-                </div>
-            </div>
+        <div class="menu-item">
+          <a href="/japanese/japanese_초밥/index.html">
+            <img src="images/02_초밥.jpg" alt="초밥"
+          ></a>
+          <div class="details">
+            <h2>초밥</h2>
+            <p>신선한 생선과 해산물의 조화</p>
+            <p class="price">3,000￦ ~ 33,000￦</p>
+          </div>
         </div>
+        <div class="menu-item">
+          <a href="/japanese/japanese_우동/index.html">
+            <img src="images/03_우동.jpg" alt="우동"
+          ></a>
+          <div class="details">
+            <h2>우동</h2>
+            <p>굵고 쫄깃한 면발</p>
+            <p class="price">5,000￦ ~ 10,000￦</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <a href="/japanese/japanese_소바/index.html">
+            <img src="images/04_소바.jpg" alt="소바"
+          ></a>
+          <div class="details">
+            <h2>소바</h2>
+            <p>메밀로 만든 면 요리</p>
+            <p class="price">7,000￦ ~ 11,000￦</p>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div id="myModal" class="modal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="img01">
-    </div>
-
-    <script>
-        function openModal(src) {
-            document.getElementById('myModal').style.display = "block";
-            document.getElementById('img01').src = src;
-        }
-
-        function closeModal() {
-            document.getElementById('myModal').style.display = "none";
-        }
-    </script>
-</body>
+  </body>
 </html>

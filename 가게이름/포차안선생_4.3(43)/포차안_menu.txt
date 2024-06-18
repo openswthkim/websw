@@ -1,6 +1,6 @@
 <div class="menu">
 <img
-    src="/가게이름/포차안_4.3(43)/포차안_menu_01_옛날통닭_12500.jpg"
+    src="/가게이름/포차안선생_4.3(43)/포차안_menu_01_옛날통닭_12500.jpg"
     alt="옛날통닭"
     onclick="openModal(this.src)"
 />
@@ -10,7 +10,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/포차안_4.3(43)/포차안_menu_02_삼겹살김밥_15500.jpg"
+    src="/가게이름/포차안선생_4.3(43)/포차안_menu_02_삼겹살김밥_15500.jpg"
     alt="삼겹살김"
     onclick="openModal(this.src)"
 />
@@ -20,7 +20,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/포차안_4.3(43)/포차안_menu_03_새우감바스_16900.jpg"
+    src="/가게이름/포차안선생_4.3(43)/포차안_menu_03_새우감바스_16900.jpg"
     alt="새우감바스"
     onclick="openModal(this.src)"
 />
@@ -30,7 +30,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/포차안_4.3(43)/포차안_menu_04_석쇠삼겹갈비_16900.jpg"
+    src="/가게이름/포차안선생_4.3(43)/포차안_menu_04_석쇠삼겹갈비_16900.jpg"
     alt="석쇠삼겹갈비"
     onclick="openModal(this.src)"
 />
