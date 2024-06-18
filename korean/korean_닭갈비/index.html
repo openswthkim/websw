@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>korean_닭갈비</title>
+    <link rel="stylesheet" href="/style/food_style.css" />
+    <script
+      src="https://kit.fontawesome.com/03f93ebafa.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function openModal(src) {
+        document.getElementById("myModal").style.display = "block";
+        document.getElementById("img01").src = src;
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      function showPopup(popupId) {
+        var popup = document.getElementById(popupId);
+        popup.style.visibility = "visible";
+        setTimeout(function () {
+          popup.style.visibility = "hidden";
+        }, 1000);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("heartIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("heartOn");
+          } else {
+            showPopup("heartOff");
+          }
+        };
+
+        document.getElementById("bookmarkIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("bookmarkOn");
+          } else {
+            showPopup("bookmarkOff");
+          }
+        };
+
+        document.getElementById("shareIcon").onclick = function () {
+          navigator.clipboard.writeText(window.location.href).then(function () {
+            showPopup("popup");
+          });
+        };
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- 돌아가기 링크 필요시 수정 -->
+    <a href="/main_korean/index.html" class="back-button">&lt; 돌아가기</a>
+    <!-- 메뉴이름 수정 -->
+    <div class="main">닭갈비</div>
+    <div class="icons">
+      <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+      <div id="heartOn">좋아요가 반영되었습니다</div>
+      <div id="heartOff">좋아요가 해제되었습니다</div>
+      <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+      <div id="bookmarkOn">북마크가 설정되었습니다</div>
+      <div id="bookmarkOff">북마크가 해제되었습니다</div>
+      <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+      <div id="popup">URL이 복사되었습니다!</div>
+    </div>
+    <!-- 메뉴소개 수정 -->
+    <div class="description">
+      매콤한 양념에 볶은 닭고기와 채소
+    </div>
+    <div class="container">
+      <h2>재료 및 영양소</h2>
+      <hr />
+      <div class="content">
+        <!-- 이미지소스 수정 -->
+        <img
+          src="/main_korean/images/닭갈비.png"
+          alt="닭갈비"
+          onclick="openModal(this.src)"
+        />
+        <div class="info">
+          <div class="source">
+            <h3>재료</h3>
+            <ul>
+              <!-- 재료와 필요량 수정해주세요 -->
+              <li>
+                <span class="ingredient">닭고기(다리살)</span
+                ><span class="amount">200g</span>
+              </li>
+              <li>
+                <span class="ingredient">양배추</span
+                ><span class="amount">100g</span>
+              </li>
+              <li>
+                <span class="ingredient">고구마</span
+                ><span class="amount">50g</span>
+              </li>
+              <li>
+                <span class="ingredient">당근</span
+                ><span class="amount">30g</span>
+              </li>
+              <li>
+                <span class="ingredient">양파</span
+                ><span class="amount">50g</span>
+              </li>
+              <li>
+                <span class="ingredient">대파</span
+                ><span class="amount">20g</span>
+              </li>
+              <li>
+                <span class="ingredient">꺳잎</span
+                ><span class="amount">5장</span>
+              </li>
+              <li>
+                <span class="ingredient">떡볶이 떡</span
+                ><span class="amount">50g</span>
+              </li>
+              <li>
+                <span class="ingredient">고추장, 고춧가루</span
+                ><span class="amount">1큰술</span>
+              </li>
+              <li>
+                <span class="ingredient">간장, 설탕</span
+                ><span class="amount">1큰술</span>
+              </li>
+              <li>
+                <span class="ingredient">다진 마늘</span
+                ><span class="amount">1작은술</span>
+              </li>
+              <li>
+                <span class="ingredient">생강즙</span
+                ><span class="amount">1/2작은술</span>
+              </li>
+              <li>
+                <span class="ingredient">참기름</span
+                ><span class="amount">1작은술</span>
+              </li>
+              <li>
+                <span class="ingredient">후추, 깨소금</span
+                ><span class="amount">약간</span>
+              </li>
+
+            </ul>
+          </div>
+          <div class="nutrition">
+            <h3>영양소 (1인분 기준, 추정치)</h3>
+            <ul>
+              <!-- amout부분을 수정해주세요 -->
+              <li>
+                <span class="ingredient">칼로리</span
+                ><span class="amount">450kcal</span>
+              </li>
+              <li>
+                <span class="ingredient">탄수화물</span
+                ><span class="amount">45g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">단백질</span
+                ><span class="amount">30g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">지방</span
+                ><span class="amount">15g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">식이섬유</span
+                ><span class="amount">5g</span>
+              </li>
+              <li>
+                <span class="ingredient">나트륨</span
+                ><span class="amount">1,200mg</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="steps">
+        <h2>조리 단계</h2>
+        <hr />
+        <ol>
+          <!-- 조리단계 작성해주세요 -->
+          <li>닭고기와 양배추, 고구마, 당근, 양파, 대파를 먹기 좋은 크기로 썬다. </li>
+          <li>고추장, 고춧가루, 간장, 설탕, 다진 마늘, 참기름, 후추를 섞어 양념장을 만든다.</li>
+          <li>큰 볼에 닭고기와 채소들을 넣고, 양념장을 넣어 잘 섞어 30분 정도 재워둔다. </li>
+          <li>큰 팬에 식용유를 두르고 양념에 재운 닭고기와 채소를 넣어 중간 불에서 볶는다.  </li>          
+          <li>떡과 깻잎을 넢고 재료가 잘 익으면 간을 맞추어 완성한다. </li>
+        </ol>
+      </div>
+      <div class="nearby-places">
+        <div class="map">
+          <!-- 링크와 이미지 소스 수정해주세요 -->
+          <a
+            href="https://map.naver.com/p/search/%EB%8B%AD%EA%B0%88%EB%B9%84?c=16.81,0,0,0,dh"
+            target="_blank"
+          >
+            <img src="/korean/korean_닭갈비/닭갈비_map.jpg" alt="지도_닭갈비" />
+          </a>
+        </div>
+        <div class="places">
+          <h2>근처 맛집</h2>
+          <hr />
+          <ul>
+            <!-- 맛집 리스트 수정해주세요 -->
+            <li>
+              <a href="/restaurant/꼬불꼬불닭갈비/index.html">
+                <div class="place-title">
+                  <span>꼬불꼬불닭갈비</span>
+                  <span>4.6 ★★★★★ (241)</span>
+                </div>
+                <div class="place-description">
+                  19년 전통 철판 닭갈비 전문점<br>
+                  11:30 ~ 22:30
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/니와토리/index.html">
+                <div class="place-title">
+                  <span>니와토리</span>
+                  <span>4.8 ★★★★★ (137)</span>
+                </div>
+                <div class="place-description">
+                  닭에 진심인 청주 유일 닭 전문점<br>
+                  16:00 ~ 01:00
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/마초불고기/index.html">
+                <div class="place-title">
+                  <span>마초불고기</span>
+                  <span>4.5 ★★★★★ (162)</span>
+                </div>
+                <div class="place-description">
+                  덮밥으로 극락을 맛보세요<br>
+                  11:00 ~ 21:00
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/시민포차/index.html">
+                <div class="place-title">
+                  <span>시민포차</span>
+                  <span>4.8 ★★★★★ (65)</span>
+                </div>
+                <div class="place-description">
+                  학생을 위한 킹성비 안주포차<br>
+                  17:00 ~ 07:00
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/청춘상회/index.html">
+                <div class="place-title">
+                  <span>청춘상회</span>
+                  <span>5.0 ★★★★★ (126)</span>
+                </div>
+                <div class="place-description">
+                  빛나는 청춘을 위한 먹거리가 가득<br>
+                  11:00 ~ 22:00
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="img01" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>korean_순대국</title>
+    <link rel="stylesheet" href="/style/food_style.css" />
+    <script
+      src="https://kit.fontawesome.com/03f93ebafa.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function openModal(src) {
+        document.getElementById("myModal").style.display = "block";
+        document.getElementById("img01").src = src;
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      function showPopup(popupId) {
+        var popup = document.getElementById(popupId);
+        popup.style.visibility = "visible";
+        setTimeout(function () {
+          popup.style.visibility = "hidden";
+        }, 1000);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("heartIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("heartOn");
+          } else {
+            showPopup("heartOff");
+          }
+        };
+
+        document.getElementById("bookmarkIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("bookmarkOn");
+          } else {
+            showPopup("bookmarkOff");
+          }
+        };
+
+        document.getElementById("shareIcon").onclick = function () {
+          navigator.clipboard.writeText(window.location.href).then(function () {
+            showPopup("popup");
+          });
+        };
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- 돌아가기 링크 필요시 수정 -->
+    <a href="/main_korean/index.html" class="back-button">&lt; 돌아가기</a>
+    <!-- 메뉴이름 수정 -->
+    <div class="main">순대국</div>
+    <div class="icons">
+      <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+      <div id="heartOn">좋아요가 반영되었습니다</div>
+      <div id="heartOff">좋아요가 해제되었습니다</div>
+      <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+      <div id="bookmarkOn">북마크가 설정되었습니다</div>
+      <div id="bookmarkOff">북마크가 해제되었습니다</div>
+      <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+      <div id="popup">URL이 복사되었습니다!</div>
+    </div>
+    <!-- 메뉴소개 수정 -->
+    <div class="description">
+      순대와 돼지 내장을 넣은 진한 국물
+    </div>
+    <div class="container">
+      <h2>재료 및 영양소</h2>
+      <hr />
+      <div class="content">
+        <!-- 이미지소스 수정 -->
+        <img
+          src="/main_korean/images/순대국.png"
+          alt="냉면"
+          onclick="openModal(this.src)"
+        />
+        <div class="info">
+          <div class="source">
+            <h3>재료</h3>
+            <ul>
+              <!-- 재료와 필요량 수정해주세요 -->
+              <li>
+                <span class="ingredient">순대</span
+                ><span class="amount">150g</span>
+              </li>
+              <li>
+                <span class="ingredient">간, 허파, 머리고기</span
+                ><span class="amount">총 100g</span>
+              </li>
+              <li>
+                <span class="ingredient">부추</span
+                ><span class="amount">20g</span>
+              </li>
+              <li>
+                <span class="ingredient">대파</span
+                ><span class="amount">1/2대</span>
+              </li>
+              <li>
+                <span class="ingredient">양파</span
+                ><span class="amount">1/4대</span>
+              </li>
+              <li>
+                <span class="ingredient">고춧가루, 다진마늘</span
+                ><span class="amount">각 1큰술</span>
+              </li>
+              <li>
+                <span class="ingredient">소금, 후추, 새우젓</span
+                ><span class="amount">약간</span>
+              </li>
+              <li>
+                <span class="ingredient">사골 육수</span
+                ><span class="amount">500ml</span>
+              </li>
+              <li>
+                <span class="ingredient">겨자, 참기름</span
+                ><span class="amount">약간</span>
+              </li>
+
+            </ul>
+          </div>
+          <div class="nutrition">
+            <h3>영양소 (1인분 기준, 추정치)</h3>
+            <ul>
+              <!-- amout부분을 수정해주세요 -->
+              <li>
+                <span class="ingredient">칼로리</span
+                ><span class="amount">450kcal</span>
+              </li>
+              <li>
+                <span class="ingredient">탄수화물</span
+                ><span class="amount">40g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">단백질</span
+                ><span class="amount">20g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">지방</span
+                ><span class="amount">20g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">식이섬유</span
+                ><span class="amount">5g</span>
+              </li>
+              <li>
+                <span class="ingredient">나트륨</span
+                ><span class="amount">1,500mg</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="steps">
+        <h2>조리 단계</h2>
+        <hr />
+        <ol>
+          <!-- 조리단계 작성해주세요 -->
+          <li>순대와 고기를 먹기 좋은 크기로 썬다. 부추, 대파, 양파를 얇게 썬다. </li>
+          <li>육수를 끓인다. 끓어오르면 순대와 고기를 넣는다. </li>
+          <li>고춧가루, 다진마늘, 소금, 후추를 넣고 약한 불에서 끓인다. </li>
+          <li>모든 재료가 익으면 부추, 대파, 양파를 넣고 한 번 더 끓인다. </li>          
+          <li>기호에 따라 새우젓을 넣고 간을 맞춘다. </li>
+        </ol>
+      </div>
+      <div class="nearby-places">
+        <div class="map">
+          <!-- 링크와 이미지 소스 수정해주세요 -->
+          <a
+            href="https://map.naver.com/p/search/%EC%88%9C%EB%8C%80%EA%B5%AD?c=16.74,0,0,0,dh"
+            target="_blank"
+          >
+            <img src="/korean/korean_순대국/순대국_map.jpg" alt="지도_순대국" />
+          </a>
+        </div>
+        <div class="places">
+          <h2>근처 맛집</h2>
+          <hr />
+          <ul>
+            <!-- 맛집 리스트 수정해주세요 -->
+            <li>
+              <a href="/restaurant/기울어진뚝배기/index.html">
+                <div class="place-title">
+                  <span>기울어진뚝배기</span>
+                  <span>4.2 ★★★★☆ (299)</span>
+                </div>
+                <div class="place-description">
+                  국물이 땡길 땐 중문 앞 기뚝<br>
+                  09:00 ~ 21:00
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/보승회관/index.html">
+                <div class="place-title">
+                  <span>보승회관</span>
+                  <span>4.4 ★★★★☆ (541)</span>
+                </div>
+                <div class="place-description">
+                  속 풀리는 국밥 맛집<br>
+                  24시간 영업
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/부산할매수육국밥냉면/index.html">
+                <div class="place-title">
+                  <span>부산할매수육국밥냉면</span>
+                  <span>4.5 ★★★★★ (555)</span>
+                </div>
+                <div class="place-description">
+                  국밥에 소주 한 잔하기 좋은 곳<br>
+                  24시간 영업
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/장날순대국밥/index.html">
+                <div class="place-title">
+                  <span>장날순대국밥</span>
+                  <span>4.2 ★★★★☆ (201)</span>
+                </div>
+                <div class="place-description">
+                  쌀쌀한 날 생각나는 뜨끈한 국밥<br>
+                  24시간 영업
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/장터순대국/index.html">
+                <div class="place-title">
+                  <span>장터순대국</span>
+                  <span>4.4 ★★★★☆ (181)</span>
+                </div>
+                <div class="place-description">
+                  깔끔하고 깊은 국물<br>
+                  08:00 ~ 24:00
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="img01" />
+    </div>
+  </body>
+</html>
