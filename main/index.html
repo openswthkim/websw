@@ -9,7 +9,151 @@
     <link rel="stylesheet" href="styles.css">
 
     <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #E5E5E5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: auto;
+        }
+        .container {
+            background-color: #fff;
+            width: 100vw;
+            min-height: 100vh;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            align-items: center;
+            justify-items: center;
+        }
+        .header {
+            width: 100%;
+            text-align: left;
+            padding: 2vw;
+            box-sizing: border-box;
+        }
+        .header h1 {
+            font-size: 4vw;
+            margin: 0;
+        }
+        .header p {
+            font-size: 1.5vw;
+            color: #828282;
+            margin: 10px 0;
+        }
+        .menu-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5vw;
+            width: 100%;
+            padding: 0 5vw;
+            box-sizing: border-box;
+        }
+        .menu-row {
+            display: flex;
+            justify-content: center;
+            gap: 10vw;
+            width: 100%;
+        }
+        .menu-item {
+            width: 15vw;
+            height: 15vw;
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .menu-item span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2vw;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            font-size: 1vw;
+            color: #828282;
+            padding: 10px 0;
+            width: 100%;
+        }
+        .auth-buttons {
+            position: absolute;
+            top: 2vw;
+            right: 2vw;
+        }
+        .auth-buttons a {
+            border: 1px solid #A1A1A1;
+            color: #A1A1A1;
+            padding: 0.5vw 1vw;
+            text-decoration: none;
+            font-size: 1vw;
+            margin-left: 1vw;
+            border-radius: 0.5vw;
+        }
 
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 6vw;
+            }
+            .header p {
+                font-size: 3vw;
+            }
+            .menu-item {
+                width: 25vw;
+                height: 25vw;
+            }
+            .menu-item span {
+                font-size: 4vw;
+            }
+            .auth-buttons a {
+                font-size: 2vw;
+                padding: 1vw 2vw;
+                margin-left: 2vw;
+                border-radius: 1vw;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 8vw;
+            }
+            .header p {
+                font-size: 4vw;
+            }
+            .menu-item {
+                width: 35vw;
+                height: 35vw;
+            }
+            .menu-item span {
+                font-size: 6vw;
+            }
+            .auth-buttons a {
+                font-size: 3vw;
+                padding: 1.5vw 3vw;
+                margin-left: 3vw;
+                border-radius: 1.5vw;
+            }
+        }
     </style>
 </head>
 <body>
