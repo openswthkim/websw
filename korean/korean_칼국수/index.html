@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>korean_칼국수</title>
+    <link rel="stylesheet" href="/style/food_style.css" />
+    <script
+      src="https://kit.fontawesome.com/03f93ebafa.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function openModal(src) {
+        document.getElementById("myModal").style.display = "block";
+        document.getElementById("img01").src = src;
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      function showPopup(popupId) {
+        var popup = document.getElementById(popupId);
+        popup.style.visibility = "visible";
+        setTimeout(function () {
+          popup.style.visibility = "hidden";
+        }, 1000);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("heartIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("heartOn");
+          } else {
+            showPopup("heartOff");
+          }
+        };
+
+        document.getElementById("bookmarkIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("bookmarkOn");
+          } else {
+            showPopup("bookmarkOff");
+          }
+        };
+
+        document.getElementById("shareIcon").onclick = function () {
+          navigator.clipboard.writeText(window.location.href).then(function () {
+            showPopup("popup");
+          });
+        };
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- 돌아가기 링크 필요시 수정 -->
+    <a href="/main_korean/index.html" class="back-button">&lt; 돌아가기</a>
+    <!-- 메뉴이름 수정 -->
+    <div class="main">칼국수</div>
+    <div class="icons">
+      <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+      <div id="heartOn">좋아요가 반영되었습니다</div>
+      <div id="heartOff">좋아요가 해제되었습니다</div>
+      <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+      <div id="bookmarkOn">북마크가 설정되었습니다</div>
+      <div id="bookmarkOff">북마크가 해제되었습니다</div>
+      <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+      <div id="popup">URL이 복사되었습니다!</div>
+    </div>
+    <!-- 메뉴소개 수정 -->
+    <div class="description">
+      수타면을 넣은 따뜻한 면 요리
+    </div>
+    <div class="container">
+      <h2>재료 및 영양소</h2>
+      <hr />
+      <div class="content">
+        <!-- 이미지소스 수정 -->
+        <img
+          src="/main_korean/images/칼국수.png"
+          alt="칼국수"
+          onclick="openModal(this.src)"
+        />
+        <div class="info">
+          <div class="source">
+            <h3>재료</h3>
+            <ul>
+              <!-- 재료와 필요량 수정해주세요 -->
+              <li>
+                <span class="ingredient">칼국수 면</span
+                ><span class="amount">150g</span>
+              </li>
+              <li>
+                <span class="ingredient">닭고기(가슴살 또는 다리살)</span
+                ><span class="amount">100g</span>
+              </li>
+              <li>
+                <span class="ingredient">애호박</span
+                ><span class="amount">50g</span>
+              </li>
+              <li>
+                <span class="ingredient">당근</span
+                ><span class="amount">30g</span>
+              </li>
+              <li>
+                <span class="ingredient">양파</span
+                ><span class="amount">50g</span>
+              </li>
+              <li>
+                <span class="ingredient">대파</span
+                ><span class="amount">20g</span>
+              </li>
+              <li>
+                <span class="ingredient">마늘</span
+                ><span class="amount">2쪽</span>
+              </li>
+              <li>
+                <span class="ingredient">국간장</span
+                ><span class="amount">1큰술</span>
+              </li>
+              <li>
+                <span class="ingredient">소금, 후추</span
+                ><span class="amount">약간</span>
+              </li>
+              <li>
+                <span class="ingredient">물</span
+                ><span class="amount">3컵(약 750ml)</span>
+              </li>
+              <li>
+                <span class="ingredient">참기름</span
+                ><span class="amount">1작은술</span>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="nutrition">
+            <h3>영양소 (1인분 기준, 추정치)</h3>
+            <ul>
+              <!-- amout부분을 수정해주세요 -->
+              <li>
+                <span class="ingredient">칼로리</span
+                ><span class="amount">400kcal</span>
+              </li>
+              <li>
+                <span class="ingredient">탄수화물</span
+                ><span class="amount">60g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">단백질</span
+                ><span class="amount">20g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">지방</span
+                ><span class="amount">8g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">식이섬유</span
+                ><span class="amount">4g</span>
+              </li>
+              <li>
+                <span class="ingredient">나트륨</span
+                ><span class="amount">1,000mg</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="steps">
+        <h2>조리 단계</h2>
+        <hr />
+        <ol>
+          <!-- 조리단계 작성해주세요 -->
+          <li>닭고기와 애호박, 당근, 양파는 얇게 썬다. 대파는 어슷썰기하고, 마늘은 다진다. </li>
+          <li>냄비에 물을 넣고 끓인다. 물이 끓으면 닭고기를 넣고 5분정도 더 끓인다. </li>
+          <li>국간장 1큰술과 애호박, 당근, 양파, 다진 마늘을 넣는다. </li>
+          <li>칼국수 면을 넣고 면이 익을 때 까지 5~7분간 끓인다. </li>          
+          <li>대파를 넣고 1~2분 더 끓인 뒤, 소금과 후추로 간을 한다. </li>
+        </ol>
+      </div>
+      <div class="nearby-places">
+        <div class="map">
+          <!-- 링크와 이미지 소스 수정해주세요 -->
+          <a
+            href="https://map.naver.com/p/search/%EC%B9%BC%EA%B5%AD%EC%88%98?c=16.50,0,0,0,dh"
+            target="_blank"
+          >
+            <img src="/korean/korean_칼국수/칼국수_map.jpg" alt="지도_칼국수" />
+          </a>
+        </div>
+        <div class="places">
+          <h2>근처 맛집</h2>
+          <hr />
+          <ul>
+            <!-- 맛집 리스트 수정해주세요 -->
+            <li>
+              <a href="/restaurant/신가네칼국수/index.html">
+                <div class="place-title">
+                  <span>신가네칼국수</span>
+                  <span>4.4 ★★★★☆ (70)</span>
+                </div>
+                <div class="place-description">
+                  역사가 오래된 칼국수 맛집<br>
+                  11:00 ~ 20:00
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/간바레간바로우/index.html">
+                <div class="place-title">
+                  <span>간바레간바로우</span>
+                  <span>4.8 ★★★★★ (148)</span>
+                </div>
+                <div class="place-description">
+                  일식이 땡긴다? 여기로 오라!<br>
+                  11:00 ~ 22:00 (15:00 ~ 17:00 브레이크타임)
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/수작/index.html">
+                <div class="place-title">
+                  <span>수작</span>
+                  <span>4.1 ★★★★★ (131)</span>
+                </div>
+                <div class="place-description">
+                  연인과 가기 좋은 안주가 맛있는 집<br>
+                  17:00 ~ 05:00
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="img01" />
+    </div>
+  </body>
+</html>
