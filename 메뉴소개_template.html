@@ -1,0 +1,327 @@
+<!-- 
+ 수정 필요한 부분은 주석처리 해놨습니다. 
+ 참고하시고 각각 context 맞게 수정하시면 됩니다. 
+ {korean}/{korean_메뉴} 안에 넣어주시면 됩니다.
+ comment by Hyungmin Kim
+  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 필요시 수정 -->
+    <title>korean_김치찌개</title>
+    <link rel="stylesheet" href="/style/food_style.css" />
+    <script
+      src="https://kit.fontawesome.com/03f93ebafa.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function openModal(src) {
+        document.getElementById("myModal").style.display = "block";
+        document.getElementById("img01").src = src;
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      function showPopup(popupId) {
+        var popup = document.getElementById(popupId);
+        popup.style.visibility = "visible";
+        setTimeout(function () {
+          popup.style.visibility = "hidden";
+        }, 1000);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("heartIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("heartOn");
+          } else {
+            showPopup("heartOff");
+          }
+        };
+
+        document.getElementById("bookmarkIcon").onclick = function () {
+          this.classList.toggle("fa-solid");
+          if (this.classList.contains("fa-solid")) {
+            showPopup("bookmarkOn");
+          } else {
+            showPopup("bookmarkOff");
+          }
+        };
+
+        document.getElementById("shareIcon").onclick = function () {
+          navigator.clipboard.writeText(window.location.href).then(function () {
+            showPopup("popup");
+          });
+        };
+      });
+    </script>
+  </head>
+
+  <body>
+    <nav>
+      <!-- 브레드크럼 수정해주세요 -->
+      <ul class="breadcrumb">
+        <li><a href="/main/index.html">메인</a></li>
+        <li><a href="/main_korean/index.html">한식</a></li>
+        <li><a href="/korean_김치찌개/index.html">김치찌개</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <!-- 돌아가기 링크 필요시 수정 -->
+    <a href="/main_korean/index.html" class="back-button">&lt; 돌아가기</a>
+
+    <!-- 메뉴이름 수정 -->
+    <div class="main">김치찌개</div>
+
+    <div class="icons">
+      <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+      <div id="heartOn">좋아요가 반영되었습니다</div>
+      <div id="heartOff">좋아요가 해제되었습니다</div>
+      <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+      <div id="bookmarkOn">북마크가 설정되었습니다</div>
+      <div id="bookmarkOff">북마크가 해제되었습니다</div>
+      <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+      <div id="popup">URL이 복사되었습니다!</div>
+    </div>
+
+    <!-- desription 수정 -->
+    <div class="description">
+      매콤한 김치찌개 한 그릇으로 스트레스를 날려보세요! 얼큰한 국물에 푹 빠진
+      두부와 돼지고기의 환상적인 맛!
+    </div>
+
+    <div class="container">
+      <h2>재료 및 영양소</h2>
+      <hr />
+      <div class="content">
+
+        <!-- src 및 alt 수정 -->
+        <img
+          src="/main_korean/images/김치찌개.png"
+          alt="김치찌개"
+          onclick="openModal(this.src)"
+        />
+
+        <div class="info">
+          <div class="source">
+            <h3>재료</h3>
+            <ul>
+
+              <!-- ingredient와 amount 수정해주세요 -->
+              <li>
+                <span class="ingredient">신김치</span
+                ><span class="amount">400g</span>
+              </li>
+              <li>
+                <span class="ingredient">돼지고기</span
+                ><span class="amount">200g</span>
+              </li>
+              <li>
+                <span class="ingredient">두부</span
+                ><span class="amount">1/2모 (약 200g)</span>
+              </li>
+              <li>
+                <span class="ingredient">양파</span
+                ><span class="amount">1개</span>
+              </li>
+              <li>
+                <span class="ingredient">고추가루</span
+                ><span class="amount">1큰술</span>
+              </li>
+              <li>
+                <span class="ingredient">참기름</span
+                ><span class="amount">1작은술</span>
+              </li>
+              <li>
+                <span class="ingredient">대파</span
+                ><span class="amount">1대</span>
+              </li>
+              <li>
+                <span class="ingredient">마늘</span
+                ><span class="amount">4쪽</span>
+              </li>
+              <li>
+                <span class="ingredient">고추장</span
+                ><span class="amount">1큰술</span>
+              </li>
+              <li>
+                <span class="ingredient">간장</span
+                ><span class="amount">1작은술</span>
+              </li>
+              <li>
+                <span class="ingredient">물</span
+                ><span class="amount">4컵 (약 800ml)</span>
+              </li>
+              <li>
+                <span class="ingredient">소금, 후추</span
+                ><span class="amount">약간</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nutrition">
+            <h3>영양소 (1인분 기준, 추정치)</h3>
+            <ul>
+
+              <!-- ingredient는 그대로 / amout부분을 수정해주세요 -->
+              <li>
+                <span class="ingredient">칼로리</span
+                ><span class="amount">350kcal</span>
+              </li>
+              <li>
+                <span class="ingredient">탄수화물</span
+                ><span class="amount">15g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">단백질</span
+                ><span class="amount">25g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">지방</span
+                ><span class="amount">20g</span>
+              </li>
+
+              <li>
+                <span class="ingredient">식이섬유</span
+                ><span class="amount">4g</span>
+              </li>
+              <li>
+                <span class="ingredient">나트륨</span
+                ><span class="amount">1,500mg</span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="steps">
+        <h2>조리 단계</h2>
+        <hr />
+        <ol>
+
+          <!-- 조리단계 작성해주세요 -->
+          <li>
+            김치는 한 입 크기로 자르고, 돼지고기는 먹기 좋은 크기로 썬다. 두부는
+            사방 2cm 크기로 자른다. 양파는 채 썰고, 대파는 어슷하게 썬다.
+          </li>
+          <li>냄비에 돼지고기를 넣어 김치를 넣고 볶는다.</li>
+          <li>물에 고추장, 간장, 고춧가루를 풀어 냄비에 붓고 끓인다.</li>
+          <li>양파와 대파를 넣고 끓인다.</li>
+          <li>두부를 넣고 2분 정도 추가로 끓인다.</li>
+
+        </ol>
+      </div>
+      <div class="nearby-places">
+        <div class="map">
+
+          <!-- 링크와 이미지 소스 수정해주세요 
+           네이버지도->해당메뉴검색 후 링크 복사하면 됩니다. -->
+          <a
+            href="https://map.naver.com/p/search/%EA%B9%80%EC%B9%98%EC%B0%8C%EA%B0%9C"
+            target="_blank"
+          >
+            <img src="/korean/korean_김치찌개/김치찌개_map.png" alt="지도_김치찌개" />
+          </a>
+        </div>
+        <div class="places">
+          <h2>근처 맛집</h2>
+          <hr />
+          <ul>
+            <!-- 맛집 리스트 수정해주세요 
+             평점 및 가게설명.txt 참고해서 작성해주세요-->
+            <li>
+              <a href="/restaurant/호랑가/index.html">
+                <div class="place-title">
+                  <span>호랑가</span>
+                  <span>5.0 ★★★★★ (126)</span>
+                </div>
+                <div class="place-description">
+                  가성비 좋은 충북대 대표 맛집<br>
+                  11:00 ~ 21:00 (16:00 ~ 17:00 브레이크타임)
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/이제곧망할집/index.html">
+                <div class="place-title">
+                  <span>이제곧망할집</span>
+                  <span>3.5 ★★★★☆ (15)</span>
+                </div>
+                <div class="place-description">
+                  이름만큼 스페셜한 김치찌개 맛집<br>
+                  24시간 영업
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/시민포차/index.html">
+                <div class="place-title">
+                  <span>시민포차</span>
+                  <span>4.8 ★★★★★ (65)</span>
+                </div>
+                <div class="place-description">
+                  학생을 위한 킹성비 안주포차<br>
+                  17:00 ~ 07:00
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/자연을담은돈까스/index.html">
+                <div class="place-title">
+                  <span>자연을담은돈까스</span>
+                  <span>4.5 ★★★★★ (669)</span>
+                </div>
+                <div class="place-description">
+                  메뉴가 다양한 대한민국 대표 맛집<br>
+                  07:00 ~ 24:00
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/청춘상회/index.html">
+                <div class="place-title">
+                  <span>청춘상회</span>
+                  <span>4.3 ★★★★☆ (89)</span>
+                </div>
+                <div class="place-description">
+                  빛나는 청춘을 위한 먹거리가 가득<br>
+                  11:00 ~ 22:00
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/restaurant/신가네칼국수/index.html">
+                <div class="place-title">
+                  <span>신가네칼국수</span>
+                  <span>4.4 ★★★★☆ (70)</span>
+                </div>
+                <div class="place-description">
+                  역사가 오래된 칼국수 맛집<br>
+                  11:00 ~ 20:00
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="img01" />
+    </div>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_01_순대국밥_8500.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_01_순대국밥_8500.jpg"
     alt="순대국밥"
     onclick="openModal(this.src)"
 />
@@ -10,7 +10,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_02_수육국밥_8500.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_02_수육국밥_8500.jpg"
     alt="수육국밥"
     onclick="openModal(this.src)"
 />
@@ -20,7 +20,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_03_얼큰순대국밥_9000.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_03_얼큰순대국밥_9000.jpg"
     alt="얼큰순대국밥"
     onclick="openModal(this.src)"
 />
@@ -30,7 +30,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_04_얼큰수육국밥_9000.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_04_얼큰수육국밥_9000.jpg"
     alt="얼큰수육국밥"
     onclick="openModal(this.src)"
 />
@@ -40,7 +40,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_05_내장국밥_9000.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_05_내장국밥_9000.jpg"
     alt="내장국밥"
     onclick="openModal(this.src)"
 />
@@ -50,7 +50,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_06_뼈해장국_10000.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_06_뼈해장국_10000.jpg"
     alt="뼈해장국"
     onclick="openModal(this.src)"
 />
@@ -60,7 +60,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_07_오소리국밥_8500.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_07_오소리국밥_8500.jpg"
     alt="오소리국밥"
     onclick="openModal(this.src)"
 />
@@ -70,7 +70,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_08_순대지옥국밥_9500.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_08_순대지옥국밥_9500.jpg"
     alt="순대지옥국밥"
     onclick="openModal(this.src)"
 />
@@ -80,7 +80,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_09_수육지옥국밥_9500.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_09_수육지옥국밥_9500.jpg"
     alt="수육지옥국밥"
     onclick="openModal(this.src)"
 />
@@ -90,7 +90,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_10_순대곱창전골_23000.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_10_순대곱창전골_23000.jpg"
     alt="순대곱창전골"
     onclick="openModal(this.src)"
 />
@@ -100,7 +100,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_11_뼈감자탕_26000.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_11_뼈감자탕_26000.jpg"
     alt="뼈감자탕"
     onclick="openModal(this.src)"
 />
@@ -110,7 +110,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_12_모듬순대_6500.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_12_모듬순대_6500.jpg"
     alt="모듬순대"
     onclick="openModal(this.src)"
 />
@@ -120,7 +120,7 @@
 
 <div class="menu">
 <img
-    src="/가게이름/보승회관_menu/보승회관_menu_13_물만두_4000.jpg"
+    src="/가게이름/보승회관_4.4(541)/보승회관_menu_13_물만두_4000.jpg"
     alt="물만두"
     onclick="openModal(this.src)"
 />
