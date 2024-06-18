@@ -12,11 +12,11 @@
     <!-- 가게연결 -->
     <script>
       const locations = [
-        "/가게이름/호랑가_5.0(126)/호랑가_menu.txt",
-        "/가게이름/호랑가_5.0(126)/호랑가_gallery.txt",
+        "/가게이름/에그문_4.5(181)/에그문_menu.txt",
+        "/가게이름/에그문_4.5(181)/에그문_gallery.txt",
       ];
 
-      const files = ["호랑가_menu", "호랑가_gallery"];
+      const files = ["에그문_menu", "에그문_gallery"];
 
       for (let i = 0; i < locations.length; i++) {
         fetch(locations[i])
@@ -83,9 +83,9 @@
       <div class="header">
         <!-- 식당 이름 및 별점 -->
         <div>
-          <h1>호랑가</h1>
-          <p>★★★★★ 5.0 (126)</p>
-          <p>가성비 좋은 충북대 대표 맛집.</p>
+          <h1>에그문</h1>
+          <p>★★★★★ 4.5 (181)</p>
+          <p>계란만 먹고 산 1인 운영식당</p>
         </div>
         <div class="icons">
           <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
@@ -114,12 +114,12 @@
 
         <div class="content_menu">
           <!-- 메뉴 업데이트 -->
-          <div id="호랑가_menu"></div>
+          <div id="에그문_menu"></div>
         </div>
 
         <div class="content_gallery">
           <!-- 가게사진 업데이트 -->
-          <div id="호랑가_gallery"></div>
+          <div id="에그문_gallery"></div>
         </div>
       </div>
     </div>

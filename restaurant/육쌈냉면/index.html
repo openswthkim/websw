@@ -12,11 +12,11 @@
     <!-- 가게연결 -->
     <script>
       const locations = [
-        "/가게이름/호랑가_5.0(126)/호랑가_menu.txt",
-        "/가게이름/호랑가_5.0(126)/호랑가_gallery.txt",
+        "/가게이름/육쌈냉면_4.5(171)/육쌈냉면_menu.txt",
+        "/가게이름/육쌈냉면_4.5(171)/육쌈냉면_gallery.txt",
       ];
 
-      const files = ["호랑가_menu", "호랑가_gallery"];
+      const files = ["육쌈냉면_menu", "육쌈냉면_gallery"];
 
       for (let i = 0; i < locations.length; i++) {
         fetch(locations[i])
@@ -83,9 +83,9 @@
       <div class="header">
         <!-- 식당 이름 및 별점 -->
         <div>
-          <h1>호랑가</h1>
-          <p>★★★★★ 5.0 (126)</p>
-          <p>가성비 좋은 충북대 대표 맛집.</p>
+          <h1>육쌈냉면</h1>
+          <p>★★★★★ 4.5 (171)</p>
+          <p>고기주는 냉면집</p>
         </div>
         <div class="icons">
           <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
@@ -114,12 +114,12 @@
 
         <div class="content_menu">
           <!-- 메뉴 업데이트 -->
-          <div id="호랑가_menu"></div>
+          <div id="육쌈냉면_menu"></div>
         </div>
 
         <div class="content_gallery">
           <!-- 가게사진 업데이트 -->
-          <div id="호랑가_gallery"></div>
+          <div id="육쌈냉면_gallery"></div>
         </div>
       </div>
     </div>
