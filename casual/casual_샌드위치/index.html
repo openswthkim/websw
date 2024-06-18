@@ -1,0 +1,261 @@
+<!-- 
+ 수정 필요한 부분은 주석처리 해놨습니다. 
+ 참고하시고 각각 context 맞게 수정하시면 됩니다. 
+ {korean}/{korean_메뉴} 안에 넣어주시면 됩니다.
+ comment by Hyungmin Kim
+  -->
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <!-- 필요시 수정 -->
+      <title>casual_샌드위치</title>
+      <link rel="stylesheet" href="/style/food_style.css" />
+      <script
+        src="https://kit.fontawesome.com/03f93ebafa.js"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script>
+        function openModal(src) {
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("img01").src = src;
+        }
+  
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+  
+        function showPopup(popupId) {
+          var popup = document.getElementById(popupId);
+          popup.style.visibility = "visible";
+          setTimeout(function () {
+            popup.style.visibility = "hidden";
+          }, 1000);
+        }
+  
+        document.addEventListener("DOMContentLoaded", function () {
+          document.getElementById("heartIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("heartOn");
+            } else {
+              showPopup("heartOff");
+            }
+          };
+  
+          document.getElementById("bookmarkIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("bookmarkOn");
+            } else {
+              showPopup("bookmarkOff");
+            }
+          };
+  
+          document.getElementById("shareIcon").onclick = function () {
+            navigator.clipboard.writeText(window.location.href).then(function () {
+              showPopup("popup");
+            });
+          };
+        });
+      </script>
+    </head>
+  
+    <body>
+      <nav>
+        <!-- 브레드크럼 수정해주세요 -->
+        <ul class="breadcrumb">
+          <li><a href="/main/index.html">메인</a></li>
+          <li><a href="/main_casual/index.html">분식</a></li>
+          <li><a href="/casual/casual_샌드위치/index.html">샌드위치</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <!-- 돌아가기 링크 필요시 수정 -->
+      <a href="/main_casual/index.html" class="back-button">&lt; 돌아가기</a>
+  
+      <!-- 메뉴이름 수정 -->
+      <div class="main">샌드위치</div>
+  
+      <div class="icons">
+        <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+        <div id="heartOn">좋아요가 반영되었습니다</div>
+        <div id="heartOff">좋아요가 해제되었습니다</div>
+        <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+        <div id="bookmarkOn">북마크가 설정되었습니다</div>
+        <div id="bookmarkOff">북마크가 해제되었습니다</div>
+        <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+        <div id="popup">URL이 복사되었습니다!</div>
+      </div>
+  
+      <!-- desription 수정 -->
+      <div class="description">
+        신선한 재료로 채워진 미식의 만남
+      </div>
+  
+      <div class="container">
+        <h2>재료 및 영양소</h2>
+        <hr />
+        <div class="content">
+  
+          <!-- src 및 alt 수정 -->
+          <img
+            src="/main_casual/images/03_샌드위치.jpg"
+            alt="샌드위치"
+            onclick="openModal(this.src)"
+          />
+  
+          <div class="info">
+            <div class="source">
+              <h3>재료</h3>
+              <ul>
+  
+                <!-- ingredient와 amount 수정해주세요 -->
+                <li>
+                  <span class="ingredient">식빵</span
+                  ><span class="amount">2조각</span>
+                </li>
+                <li>
+                  <span class="ingredient">상추,토마토,오이</span
+                  ><span class="amount">약간</span>
+                </li>
+                <li>
+                  <span class="ingredient">당면</span
+                  ><span class="amount">약20g</span>
+                </li>
+                <li>
+                  <span class="ingredient">닭가슴살 또는 햄</span
+                  ><span class="amount">50g</span>
+                </li>
+                <li>
+                  <span class="ingredient">치즈</span
+                  ><span class="amount">1장</span>
+                </li>
+                <li>
+                  <span class="ingredient">마요네즈,머스타드</span
+                  ><span class="amount">약간</span>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="nutrition">
+              <h3>영양소 (1인분 기준, 추정치)</h3>
+              <ul>
+  
+                <!-- ingredient는 그대로 / amout부분을 수정해주세요 -->
+                <li>
+                  <span class="ingredient">칼로리</span
+                  ><span class="amount">300kcal</span>
+                </li>
+                <li>
+                  <span class="ingredient">탄수화물</span
+                  ><span class="amount">30g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">단백질</span
+                  ><span class="amount">15g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">지방</span
+                  ><span class="amount">10g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">식이섬유</span
+                  ><span class="amount">3g</span>
+                </li>
+                <li>
+                  <span class="ingredient">나트륨</span
+                  ><span class="amount">800mg</span>
+                </li>
+  
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="steps">
+          <h2>조리 단계</h2>
+          <hr />
+          <ol>
+  
+            <!-- 조리단계 작성해주세요 -->
+            <li>
+                빵 한 조각 위에 야채를 올리고 그 위에 닭 가슴살 혹은 햄을 얹습니다.
+            </li>
+            <li>치즈를 원하면 추가하고, 다른 빵 조각을 덮습니다.</li>
+            <li>샌드위치를 잘라서 고정하고, 마요네즈나 머스타드를 곁들여 서빙합니다</li>
+          </ol>
+        </div>
+        <div class="nearby-places">
+          <div class="map">
+  
+            <!-- 링크와 이미지 소스 수정해주세요 
+             네이버지도->해당메뉴검색 후 링크 복사하면 됩니다. -->
+            <a
+              href="https://map.naver.com/p/search/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98?c=15.00,0,0,0,dh"
+              target="_blank"
+            >
+              <img src="/casual/casual_샌드위치/샌드위치_map.JPG" alt="지도_샌드위치" />
+            </a>
+          </div>
+          <div class="places">
+            <h2>근처 맛집</h2>
+            <hr />
+            <ul>
+              <!-- 맛집 리스트 수정해주세요 
+               평점 및 가게설명.txt 참고해서 작성해주세요-->
+              <li>
+                <a href="/restaurant/라바게트/index.html">
+                  <div class="place-title">
+                    <span>라바게트</span>
+                    <span>4.7 ★★★★★ (117)</span>
+                  </div>
+                  <div class="place-description">
+                    항상 신선하고 부드러운 바게트 샌드위치<br>
+                    08:00 ~ 22:00
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/써브웨이/index.html">
+                  <div class="place-title">
+                    <span>써브웨이</span>
+                    <span> 4.5 ★★★★★ (5023)</span>
+                  </div>
+                  <div class="place-description">
+                    바쁜 점심 호다닥 헤치우고 싶을 땐?<br>
+                    08:00 ~ 23:00
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="/restaurant/프로마치/index.html">
+                  <div class="place-title">
+                    <span>프로마치</span>
+                    <span>4.6 ★★★★★ (274)</span>
+                  </div>
+                  <div class="place-description">
+                    언제든지 유럽의 맛을 즐겨보세요!<br>
+                    10:00 ~ 21:00
+                  </div>
+                </a>
+              </li>
+     
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01" />
+      </div>
+    </body>
+  </html>
+  

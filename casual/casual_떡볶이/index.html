@@ -1,0 +1,294 @@
+<!-- 
+ 수정 필요한 부분은 주석처리 해놨습니다. 
+ 참고하시고 각각 context 맞게 수정하시면 됩니다. 
+ {korean}/{korean_메뉴} 안에 넣어주시면 됩니다.
+ comment by Hyungmin Kim
+  -->
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <!-- 필요시 수정 -->
+      <title>casual_떡볶이</title>
+      <link rel="stylesheet" href="/style/food_style.css" />
+      <script
+        src="https://kit.fontawesome.com/03f93ebafa.js"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script>
+        function openModal(src) {
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("img01").src = src;
+        }
+  
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+  
+        function showPopup(popupId) {
+          var popup = document.getElementById(popupId);
+          popup.style.visibility = "visible";
+          setTimeout(function () {
+            popup.style.visibility = "hidden";
+          }, 1000);
+        }
+  
+        document.addEventListener("DOMContentLoaded", function () {
+          document.getElementById("heartIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("heartOn");
+            } else {
+              showPopup("heartOff");
+            }
+          };
+  
+          document.getElementById("bookmarkIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("bookmarkOn");
+            } else {
+              showPopup("bookmarkOff");
+            }
+          };
+  
+          document.getElementById("shareIcon").onclick = function () {
+            navigator.clipboard.writeText(window.location.href).then(function () {
+              showPopup("popup");
+            });
+          };
+        });
+      </script>
+    </head>
+  
+    <body>
+      <nav>
+        <!-- 브레드크럼 수정해주세요 -->
+        <ul class="breadcrumb">
+          <li><a href="/main/index.html">메인</a></li>
+          <li><a href="/main_casual/index.html">분식</a></li>
+          <li><a href="/casual/casual_떡볶이/index.html">떡볶이</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <!-- 돌아가기 링크 필요시 수정 -->
+      <a href="/main_casual/index.html" class="back-button">&lt; 돌아가기</a>
+  
+      <!-- 메뉴이름 수정 -->
+      <div class="main">떡볶이</div>
+  
+      <div class="icons">
+        <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+        <div id="heartOn">좋아요가 반영되었습니다</div>
+        <div id="heartOff">좋아요가 해제되었습니다</div>
+        <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+        <div id="bookmarkOn">북마크가 설정되었습니다</div>
+        <div id="bookmarkOff">북마크가 해제되었습니다</div>
+        <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+        <div id="popup">URL이 복사되었습니다!</div>
+      </div>
+  
+      <!-- desription 수정 -->
+      <div class="description">
+        매콤한 소스에 고소한 떡
+      </div>
+  
+      <div class="container">
+        <h2>재료 및 영양소</h2>
+        <hr />
+        <div class="content">
+  
+          <!-- src 및 alt 수정 -->
+          <img
+            src="/main_casual/images/02_떡볶이.jpg"
+            alt="떡볶이"
+            onclick="openModal(this.src)"
+          />
+  
+          <div class="info">
+            <div class="source">
+              <h3>재료</h3>
+              <ul>
+  
+                <!-- ingredient와 amount 수정해주세요 -->
+                <li>
+                  <span class="ingredient">떡</span
+                  ><span class="amount">150g</span>
+                </li>
+                <li>
+                  <span class="ingredient">어묵</span
+                  ><span class="amount">50g</span>
+                </li>
+                <li>
+                  <span class="ingredient">당면</span
+                  ><span class="amount">약20g</span>
+                </li>
+                <li>
+                  <span class="ingredient">양파</span
+                  ><span class="amount">1/4개</span>
+                </li>
+                <li>
+                  <span class="ingredient">청양고추</span
+                  ><span class="amount">1개</span>
+                </li>
+                <li>
+                  <span class="ingredient">고추장</span
+                  ><span class="amount">2큰술</span>
+                </li>
+                <li>
+                  <span class="ingredient">고춧가루</span
+                  ><span class="amount">1큰술</span>
+                </li>
+                <li>
+                  <span class="ingredient">설탕,간장</span
+                  ><span class="amount">1큰술</span>
+                </li>
+                <li>
+                    <span class="ingredient">다진마늘</span
+                    ><span class="amount">1/2큰술</span>
+                  </li>
+                  <li>
+                    <span class="ingredient">물</span
+                    ><span class="amount">1컵</span>
+                  </li>
+                  <li>
+                    <span class="ingredient">참기름,깨</span
+                    ><span class="amount">약간</span>
+                  </li>
+              </ul>
+            </div>
+  
+            <div class="nutrition">
+              <h3>영양소 (1인분 기준, 추정치)</h3>
+              <ul>
+  
+                <!-- ingredient는 그대로 / amout부분을 수정해주세요 -->
+                <li>
+                  <span class="ingredient">칼로리</span
+                  ><span class="amount">300kcal</span>
+                </li>
+                <li>
+                  <span class="ingredient">탄수화물</span
+                  ><span class="amount">70g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">단백질</span
+                  ><span class="amount">10g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">지방</span
+                  ><span class="amount">10g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">식이섬유</span
+                  ><span class="amount">3g</span>
+                </li>
+                <li>
+                  <span class="ingredient">나트륨</span
+                  ><span class="amount">1000mg</span>
+                </li>
+  
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="steps">
+          <h2>조리 단계</h2>
+          <hr />
+          <ol>
+  
+            <!-- 조리단계 작성해주세요 -->
+            <li>
+                고추장, 고춧가루, 설탕, 간장, 다진 마늘을 물에 잘 섞어 양념장을 만듭니다.
+            </li>
+            <li>냄비에 물을 끓이고 떡을 넣어 불린 뒤, 양념장과 어묵, 양파를 넣고 중불에서 끓입니다. (달걀, 청양고추 추가)</li>
+            <li>참기름과 깨를 뿌려 완성합니다.</li>
+          </ol>
+        </div>
+        <div class="nearby-places">
+          <div class="map">
+  
+            <!-- 링크와 이미지 소스 수정해주세요 
+             네이버지도->해당메뉴검색 후 링크 복사하면 됩니다. -->
+            <a
+              href="https://map.naver.com/p/search/%EB%96%A1%EB%B3%B6%EC%9D%B4?c=14.00,0,0,0,dh"
+              target="_blank"
+            >
+              <img src="/casual/casual_떡볶이/떡볶이_map.JPG" alt="지도_떡볶이" />
+            </a>
+          </div>
+          <div class="places">
+            <h2>근처 맛집</h2>
+            <hr />
+            <ul>
+              <!-- 맛집 리스트 수정해주세요 
+               평점 및 가게설명.txt 참고해서 작성해주세요-->
+              <li>
+                <a href="/restaurant/와와떡볶이/index.html">
+                  <div class="place-title">
+                    <span>와와떡볶이</span>
+                    <span>4.5 ★★★★★ (633)</span>
+                  </div>
+                  <div class="place-description">
+                    달콤하고 쫄깃한 떡볶이<br>
+                    12:00 ~ 24:00
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/쩔어떡볶이포차/index.html">
+                  <div class="place-title">
+                    <span>쩔어떡볶이포차</span>
+                    <span> 4.2 ★★★★☆ (390)</span>
+                  </div>
+                  <div class="place-description">
+                    한 번만 오는 사람이 없는 맛집<br>
+                    15:00 ~ 04:00
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="/restaurant/청춘상회/index.html">
+                  <div class="place-title">
+                    <span>청춘상회</span>
+                    <span>4.3 ★★★★☆ (89)</span>
+                  </div>
+                  <div class="place-description">
+                    빛나는 청춘을 위한 먹거리가 가득<br>
+                    11:00 ~ 22:00
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="/restaurant/해운대봉가떡볶이/index.html">
+                  <div class="place-title">
+                    <span>해운데봉가떡볶이</span>
+                    <span>4.1 ★★★★☆ (41)</span>
+                  </div>
+                  <div class="place-description">
+                    부산에서 날아온 원조 떡볶이 <br>
+                    16:30 ~ 06:00
+                  </div>
+                </a>
+              </li>
+     
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01" />
+      </div>
+    </body>
+  </html>
+  

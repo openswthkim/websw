@@ -1,0 +1,277 @@
+<!-- 
+ 수정 필요한 부분은 주석처리 해놨습니다. 
+ 참고하시고 각각 context 맞게 수정하시면 됩니다. 
+ {korean}/{korean_메뉴} 안에 넣어주시면 됩니다.
+ comment by Hyungmin Kim
+  -->
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <!-- 필요시 수정 -->
+      <title>casual_쫄면</title>
+      <link rel="stylesheet" href="/style/food_style.css" />
+      <script
+        src="https://kit.fontawesome.com/03f93ebafa.js"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script>
+        function openModal(src) {
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("img01").src = src;
+        }
+  
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+  
+        function showPopup(popupId) {
+          var popup = document.getElementById(popupId);
+          popup.style.visibility = "visible";
+          setTimeout(function () {
+            popup.style.visibility = "hidden";
+          }, 1000);
+        }
+  
+        document.addEventListener("DOMContentLoaded", function () {
+          document.getElementById("heartIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("heartOn");
+            } else {
+              showPopup("heartOff");
+            }
+          };
+  
+          document.getElementById("bookmarkIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("bookmarkOn");
+            } else {
+              showPopup("bookmarkOff");
+            }
+          };
+  
+          document.getElementById("shareIcon").onclick = function () {
+            navigator.clipboard.writeText(window.location.href).then(function () {
+              showPopup("popup");
+            });
+          };
+        });
+      </script>
+    </head>
+  
+    <body>
+      <nav>
+        <!-- 브레드크럼 수정해주세요 -->
+        <ul class="breadcrumb">
+          <li><a href="/main/index.html">메인</a></li>
+          <li><a href="/main_casual/index.html">분식</a></li>
+          <li><a href="/casual/casual_/index.html">쫄면</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <!-- 돌아가기 링크 필요시 수정 -->
+      <a href="/main_casual/index.html" class="back-button">&lt; 돌아가기</a>
+  
+      <!-- 메뉴이름 수정 -->
+      <div class="main">쫄면</div>
+  
+      <div class="icons">
+        <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+        <div id="heartOn">좋아요가 반영되었습니다</div>
+        <div id="heartOff">좋아요가 해제되었습니다</div>
+        <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+        <div id="bookmarkOn">북마크가 설정되었습니다</div>
+        <div id="bookmarkOff">북마크가 해제되었습니다</div>
+        <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+        <div id="popup">URL이 복사되었습니다!</div>
+      </div>
+  
+      <!-- desription 수정 -->
+      <div class="description">
+        신선한 재료로 채워진 미식의 만남
+      </div>
+  
+      <div class="container">
+        <h2>재료 및 영양소</h2>
+        <hr />
+        <div class="content">
+  
+          <!-- src 및 alt 수정 -->
+          <img
+            src="/main_casual/images/06_쫄면.jpg"
+            alt=""
+            onclick="openModal(this.src)"
+          />
+  
+          <div class="info">
+            <div class="source">
+              <h3>재료</h3>
+              <ul>
+  
+                <!-- ingredient와 amount 수정해주세요 -->
+                <li>
+                  <span class="ingredient">쫄면</span
+                  ><span class="amount">100g</span>
+                </li>
+                <li>
+                  <span class="ingredient">신김치</span
+                  ><span class="amount">50g</span>
+                </li>
+                <li>
+                  <span class="ingredient">당근</span
+                  ><span class="amount">1/4개</span>
+                </li>
+                <li>
+                  <span class="ingredient">오이</span
+                  ><span class="amount">1/4개</span>
+                </li>
+                <li>
+                  <span class="ingredient">계란</span
+                  ><span class="amount">1개</span>
+                </li>
+                <li>
+                  <span class="ingredient">참기름,깨</span
+                  ><span class="amount">약간</span>
+                </li>
+                <li>
+                    <span class="ingredient">간장</span
+                    ><span class="amount">2큰술</span>
+                  </li>
+                  <li>
+                    <span class="ingredient">설탕,식초</span
+                    ><span class="amount">1작은술</span>
+                  </li>
+                  <li>
+                    <span class="ingredient">다진마늘</span
+                    ><span class="amount">1/2작은술</span>
+                  </li>
+                  <li>
+                    <span class="ingredient">고춧가루</span
+                    ><span class="amount">약간</span>
+                  </li>
+              </ul>
+            </div>
+  
+            <div class="nutrition">
+              <h3>영양소 (1인분 기준, 추정치)</h3>
+              <ul>
+  
+                <!-- ingredient는 그대로 / amout부분을 수정해주세요 -->
+                <li>
+                  <span class="ingredient">칼로리</span
+                  ><span class="amount">400kcal</span>
+                </li>
+                <li>
+                  <span class="ingredient">탄수화물</span
+                  ><span class="amount">70g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">단백질</span
+                  ><span class="amount">10g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">지방</span
+                  ><span class="amount">5g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">식이섬유</span
+                  ><span class="amount">3g</span>
+                </li>
+                <li>
+                  <span class="ingredient">나트륨</span
+                  ><span class="amount">1000mg</span>
+                </li>
+  
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="steps">
+          <h2>조리 단계</h2>
+          <hr />
+          <ol>
+  
+            <!-- 조리단계 작성해주세요 -->
+            <li>
+                냄비에 물을 끓여 쫄면을 살짝 익힙니다. 물이 끓기 시작하면 쫄면을 넣고 중약 불에서 약 5분간 삶아줍니다.
+            </li>
+            <li>당근과 오이는 깍뚝 썰어 준비하고, 신김치는 적당히 잘게 썰어 준비합니다.</li>
+            <li>간장, 설탕, 식초, 다진 마늘을 섞어 소스를 만들어 준비합니다.</li>
+            <li>삶은 쫄면을 찬물에 헹구어 물기를 제거한 후 준비된 채소와 소스를 모두 넣고 고루 섞고, 참기름과 깨를 뿌려 완성합니다.</li>
+          </ol>
+        </div>
+        <div class="nearby-places">
+          <div class="map">
+  
+            <!-- 링크와 이미지 소스 수정해주세요 
+             네이버지도->해당메뉴검색 후 링크 복사하면 됩니다. -->
+            <a
+              href="https://map.naver.com/p/search/%EC%AB%84%EB%A9%B4?c=15.00,0,0,0,dh"
+              target="_blank"
+            >
+              <img src="/casual/casual_쫄면/쫄면_map.JPG" alt="지도_쫄면" />
+            </a>
+          </div>
+          <div class="places">
+            <h2>근처 맛집</h2>
+            <hr />
+            <ul>
+              <!-- 맛집 리스트 수정해주세요 
+               평점 및 가게설명.txt 참고해서 작성해주세요-->
+               <li>
+                <a href="/restaurant/자연을담은돈까스/index.html">
+                  <div class="place-title">
+                    <span>자연을담은돈까스</span>
+                    <span>4.5 ★★★★★ (407)</span>
+                  </div>
+                  <div class="place-description">
+                    메뉴가 다양한 대한민국 대표 맛집<br>
+                    07:00 ~ 24:00
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/현정이네쫄면/index.html">
+                  <div class="place-title">
+                    <span>현정이네쫄면</span>
+                    <span>4.6 ★★★★★ (439)</span>
+                  </div>
+                  <div class="place-description">
+                    10년 역사의 쫄면 전문 음식점 <br>
+                    11:00 ~ 20:00
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="/restaurant/관평밥상457/index.html">
+                  <div class="place-title">
+                    <span>관평밥상457</span>
+                    <span>4.7 ★★★★★ (28)</span>
+                  </div>
+                  <div class="place-description">
+                    나만 아는 숨겨진 비밀맛집 <br>
+                    12:00 ~ 20:30
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01" />
+      </div>
+    </body>
+  </html>
+  

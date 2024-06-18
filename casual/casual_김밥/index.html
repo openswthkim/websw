@@ -1,0 +1,326 @@
+<!-- 
+ 수정 필요한 부분은 주석처리 해놨습니다. 
+ 참고하시고 각각 context 맞게 수정하시면 됩니다. 
+ {korean}/{korean_메뉴} 안에 넣어주시면 됩니다.
+ comment by Hyungmin Kim
+  -->
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <!-- 필요시 수정 -->
+      <title>casual_김밥</title>
+      <link rel="stylesheet" href="/style/food_style.css" />
+      <script
+        src="https://kit.fontawesome.com/03f93ebafa.js"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script>
+        function openModal(src) {
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("img01").src = src;
+        }
+  
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+  
+        function showPopup(popupId) {
+          var popup = document.getElementById(popupId);
+          popup.style.visibility = "visible";
+          setTimeout(function () {
+            popup.style.visibility = "hidden";
+          }, 1000);
+        }
+  
+        document.addEventListener("DOMContentLoaded", function () {
+          document.getElementById("heartIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("heartOn");
+            } else {
+              showPopup("heartOff");
+            }
+          };
+  
+          document.getElementById("bookmarkIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("bookmarkOn");
+            } else {
+              showPopup("bookmarkOff");
+            }
+          };
+  
+          document.getElementById("shareIcon").onclick = function () {
+            navigator.clipboard.writeText(window.location.href).then(function () {
+              showPopup("popup");
+            });
+          };
+        });
+      </script>
+    </head>
+  
+    <body>
+      <nav>
+        <!-- 브레드크럼 수정해주세요 -->
+        <ul class="breadcrumb">
+          <li><a href="/main/index.html">메인</a></li>
+          <li><a href="/main_casual/index.html">분식</a></li>
+          <li><a href="/casual/casual_김밥/index.html">김밥</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <!-- 돌아가기 링크 필요시 수정 -->
+      <a href="/main_casual/index.html" class="back-button">&lt; 돌아가기</a>
+  
+      <!-- 메뉴이름 수정 -->
+      <div class="main">김밥</div>
+  
+      <div class="icons">
+        <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+        <div id="heartOn">좋아요가 반영되었습니다</div>
+        <div id="heartOff">좋아요가 해제되었습니다</div>
+        <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+        <div id="bookmarkOn">북마크가 설정되었습니다</div>
+        <div id="bookmarkOff">북마크가 해제되었습니다</div>
+        <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+        <div id="popup">URL이 복사되었습니다!</div>
+      </div>
+  
+      <!-- desription 수정 -->
+      <div class="description">
+        한입에 즐기는 한국의 대표음식
+      </div>
+  
+      <div class="container">
+        <h2>재료 및 영양소</h2>
+        <hr />
+        <div class="content">
+  
+          <!-- src 및 alt 수정 -->
+          <img
+            src="/main_casual/images/01_김밥.jpg"
+            alt="김밥"
+            onclick="openModal(this.src)"
+          />
+  
+          <div class="info">
+            <div class="source">
+              <h3>재료</h3>
+              <ul>
+  
+                <!-- ingredient와 amount 수정해주세요 -->
+                <li>
+                  <span class="ingredient">밥</span
+                  ><span class="amount">1공기</span>
+                </li>
+                <li>
+                  <span class="ingredient">식초</span
+                  ><span class="amount">1큰술</span>
+                </li>
+                <li>
+                  <span class="ingredient">설탕</span
+                  ><span class="amount">1작은술</span>
+                </li>
+                <li>
+                  <span class="ingredient">소금</span
+                  ><span class="amount">약간</span>
+                </li>
+                <li>
+                  <span class="ingredient">김</span
+                  ><span class="amount">1장</span>
+                </li>
+                <li>
+                  <span class="ingredient">단무지</span
+                  ><span class="amount">2조각</span>
+                </li>
+                <li>
+                  <span class="ingredient">달걀(지단)</span
+                  ><span class="amount">1개</span>
+                </li>
+                <li>
+                  <span class="ingredient">햄</span
+                  ><span class="amount">30g</span>
+                </li>
+                <li>
+                    <span class="ingredient">참기름,통깨</span
+                    ><span class="amount">약간</span>
+                  </li>
+              </ul>
+            </div>
+  
+            <div class="nutrition">
+              <h3>영양소 (1인분 기준, 추정치)</h3>
+              <ul>
+  
+                <!-- ingredient는 그대로 / amout부분을 수정해주세요 -->
+                <li>
+                  <span class="ingredient">칼로리</span
+                  ><span class="amount">300kcal</span>
+                </li>
+                <li>
+                  <span class="ingredient">탄수화물</span
+                  ><span class="amount">70g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">단백질</span
+                  ><span class="amount">10g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">지방</span
+                  ><span class="amount">10g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">식이섬유</span
+                  ><span class="amount">3g</span>
+                </li>
+                <li>
+                  <span class="ingredient">나트륨</span
+                  ><span class="amount">1000mg</span>
+                </li>
+  
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="steps">
+          <h2>조리 단계</h2>
+          <hr />
+          <ol>
+  
+            <!-- 조리단계 작성해주세요 -->
+            <li>
+                밥에 식초, 설탕, 소금을 넣고 섞어 식힙니다
+            </li>
+            <li>달걀을 흰자와 노른자로 분리한 후 지단을 부드럽게 지져줍니다</li>
+            <li>김밥 김 위에 밥을 고르게 펴놓고, 중앙에 달걀 지단, 단무지, 햄 등을 놓습니다  </li>
+            <li>뒤집어서 반대쪽도 3-4분 동안 굽고, 다진 마늘과 허브를 추가하여 향을 냅니다. </li>
+            <li>참기름을 조금 떨어트려 주름살을 잘게 접어 롤러프로 꾸러미를 만든 후 통깨를 뿌려 마무리합니다.</li>
+            <li>김밥을 한 입 크기로 잘라서 서빙합니다.</li>
+  
+          </ol>
+        </div>
+        <div class="nearby-places">
+          <div class="map">
+  
+            <!-- 링크와 이미지 소스 수정해주세요 
+             네이버지도->해당메뉴검색 후 링크 복사하면 됩니다. -->
+            <a
+              href="https://map.naver.com/p/search/%EA%B9%80%EB%B0%A5?c=15.00,0,0,0,dh"
+              target="_blank"
+            >
+              <img src="/casual/casual_김밥/김밥_map.JPG" alt="지도_김밥" />
+            </a>
+          </div>
+          <div class="places">
+            <h2>근처 맛집</h2>
+            <hr />
+            <ul>
+              <!-- 맛집 리스트 수정해주세요 
+               평점 및 가게설명.txt 참고해서 작성해주세요-->
+              <li>
+                <a href="/restaurant/김밥천국/index.html">
+                  <div class="place-title">
+                    <span>김밥천국</span>
+                    <span>4.4 ★★★★☆ (269)</span>
+                  </div>
+                  <div class="place-description">
+                    항상 맛있는 메뉴가 가득한 곳<br>
+                    07:00 ~ 22:30
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/수작/index.html">
+                  <div class="place-title">
+                    <span>수작</span>
+                    <span> 4.1 ★★★★☆ (131)</span>
+                  </div>
+                  <div class="place-description">
+                    연인과 가기 좋은 안주가 맛있는 집<br>
+                    17:00 ~ 05:00
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/자연을담은돈까스/index.html">
+                  <div class="place-title">
+                    <span>자연을담은돈까스</span>
+                    <span>4.5 ★★★★★ (407)</span>
+                  </div>
+                  <div class="place-description">
+                    메뉴가 다양한 대한민국 대표 맛집<br>
+                    07:00 ~ 24:00
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/서리서리멸치국수/index.html">
+                  <div class="place-title">
+                    <span>서리서리멸치국수</span>
+                    <span>4.4 ★★★★☆ (503)</span>
+                  </div>
+                  <div class="place-description">
+                    후루룩 한그릇 뚝딱<br>
+                    10:00 ~ 21:00 (15:00 ~ 16:00 브레이크타임)
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/restaurant/포차안선생/index.html">
+                  <div class="place-title">
+                    <span>포차안선생</span>
+                    <span>4.3 ★★★★★ (43)</span>
+                  </div>
+                  <div class="place-description">
+                    고급스러운 감성술집<br>
+                    18:00 ~ 06:00
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="/restaurant/현정이네쫄면/index.html">
+                  <div class="place-title">
+                    <span>현정이네쫄면</span>
+                    <span>4.6 ★★★★★ (439)</span>
+                  </div>
+                  <div class="place-description">
+                    10년 역사의 쫄면 전문 음식점 <br>
+                    11:00 ~ 20:00
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/restaurant/관평밥상457/index.html">
+                  <div class="place-title">
+                    <span>관평밥상457</span>
+                    <span>4.7 ★★★★★ (28)</span>
+                  </div>
+                  <div class="place-description">
+                    나만 아는 숨겨진 비밀맛집 <br>
+                    12:00 ~ 20:30
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01" />
+      </div>
+    </body>
+  </html>
+  

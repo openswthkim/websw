@@ -1,0 +1,358 @@
+<!-- 
+ 수정 필요한 부분은 주석처리 해놨습니다. 
+ 참고하시고 각각 context 맞게 수정하시면 됩니다. 
+ {korean}/{korean_메뉴} 안에 넣어주시면 됩니다.
+ comment by Hyungmin Kim
+  -->
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <!-- 필요시 수정 -->
+      <title>casual_돈까스</title>
+      <link rel="stylesheet" href="/style/food_style.css" />
+      <script
+        src="https://kit.fontawesome.com/03f93ebafa.js"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script>
+        function openModal(src) {
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("img01").src = src;
+        }
+  
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+  
+        function showPopup(popupId) {
+          var popup = document.getElementById(popupId);
+          popup.style.visibility = "visible";
+          setTimeout(function () {
+            popup.style.visibility = "hidden";
+          }, 1000);
+        }
+  
+        document.addEventListener("DOMContentLoaded", function () {
+          document.getElementById("heartIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("heartOn");
+            } else {
+              showPopup("heartOff");
+            }
+          };
+  
+          document.getElementById("bookmarkIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("bookmarkOn");
+            } else {
+              showPopup("bookmarkOff");
+            }
+          };
+  
+          document.getElementById("shareIcon").onclick = function () {
+            navigator.clipboard.writeText(window.location.href).then(function () {
+              showPopup("popup");
+            });
+          };
+        });
+      </script>
+    </head>
+  
+    <body>
+      <nav>
+        <!-- 브레드크럼 수정해주세요 -->
+        <ul class="breadcrumb">
+          <li><a href="/main/index.html">메인</a></li>
+          <li><a href="/main_casual/index.html">분식</a></li>
+          <li><a href="/casual/casual_돈까스/index.html">돈까스</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <!-- 돌아가기 링크 필요시 수정 -->
+      <a href="/main_casual/index.html" class="back-button">&lt; 돌아가기</a>
+  
+      <!-- 메뉴이름 수정 -->
+      <div class="main">돈까스</div>
+  
+      <div class="icons">
+        <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+        <div id="heartOn">좋아요가 반영되었습니다</div>
+        <div id="heartOff">좋아요가 해제되었습니다</div>
+        <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+        <div id="bookmarkOn">북마크가 설정되었습니다</div>
+        <div id="bookmarkOff">북마크가 해제되었습니다</div>
+        <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+        <div id="popup">URL이 복사되었습니다!</div>
+      </div>
+  
+      <!-- desription 수정 -->
+      <div class="description">
+        바삭하고 부드러운 대표분식
+      </div>
+  
+      <div class="container">
+        <h2>재료 및 영양소</h2>
+        <hr />
+        <div class="content">
+  
+          <!-- src 및 alt 수정 -->
+          <img
+            src="/main_casual/images/05_돈까스.jpg"
+            alt="돈까스"
+            onclick="openModal(this.src)"
+          />
+  
+          <div class="info">
+            <div class="source">
+              <h3>재료</h3>
+              <ul>
+  
+                <!-- ingredient와 amount 수정해주세요 -->
+                <li>
+                  <span class="ingredient">돈육</span
+                  ><span class="amount">200g</span>
+                </li>
+                <li>
+                  <span class="ingredient">소금,후추</span
+                  ><span class="amount">약간</span>
+                </li>
+                <li>
+                  <span class="ingredient">밀가루</span
+                  ><span class="amount">1/4컵</span>
+                </li>
+                <li>
+                  <span class="ingredient">계란</span
+                  ><span class="amount">1개</span>
+                </li>
+                <li>
+                  <span class="ingredient">빵가루</span
+                  ><span class="amount">1/2컵</span>
+                </li>
+                <li>
+                  <span class="ingredient">식용유</span
+                  ><span class="amount">약간</span>
+                </li>
+                <li>
+                  <span class="ingredient">양상추</span
+                  ><span class="amount">약간</span>
+                </li>
+                <li>
+                  <span class="ingredient">레몬</span
+                  ><span class="amount">1/4개</span>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="nutrition">
+              <h3>영양소 (1인분 기준, 추정치)</h3>
+              <ul>
+  
+                <!-- ingredient는 그대로 / amout부분을 수정해주세요 -->
+                <li>
+                  <span class="ingredient">칼로리</span
+                  ><span class="amount">600kcal</span>
+                </li>
+                <li>
+                  <span class="ingredient">탄수화물</span
+                  ><span class="amount">50g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">단백질</span
+                  ><span class="amount">40g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">지방</span
+                  ><span class="amount">30g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">식이섬유</span
+                  ><span class="amount">3g</span>
+                </li>
+                <li>
+                  <span class="ingredient">나트륨</span
+                  ><span class="amount">1000mg</span>
+                </li>
+  
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="steps">
+          <h2>조리 단계</h2>
+          <hr />
+          <ol>
+  
+            <!-- 조리단계 작성해주세요 -->
+            <li>
+                돈육을 얇게 썰어 소금과 후추로 밑간을 합니다
+            </li>
+            <li>밀가루, 달걀, 빵가루 순서로 돈육을 묻힙니다</li>
+            <li>중약 불로 예열된 팬에 식용유를 두르고 돈육을 골고루 굽습니다. 
+                각 면이 고르게 갈색이 될 때까지 약 3-4분씩 구워줍니다.</li>
+            <li>돈까스를 접시에 담고, 양배추 혹은 양상추를 곁들여 레몬과 함께 서빙합니다. </li>
+          </ol>
+        </div>
+        <div class="nearby-places">
+          <div class="map">
+  
+            <!-- 링크와 이미지 소스 수정해주세요 
+             네이버지도->해당메뉴검색 후 링크 복사하면 됩니다. -->
+            <a
+              href="https://map.naver.com/p/search/%EB%8F%88%EA%B9%8C%EC%8A%A4?c=15.00,0,0,0,dh"
+              target="_blank"
+            >
+              <img src="/casual/casual_돈까스/돈까스_map.JPG" alt="지도_돈까스" />
+            </a>
+          </div>
+          <div class="places">
+            <h2>근처 맛집</h2>
+            <hr />
+            <ul>
+              <!-- 맛집 리스트 수정해주세요 
+               평점 및 가게설명.txt 참고해서 작성해주세요-->
+              <li>
+                <a href="/restaurant/김밥천국/index.html">
+                  <div class="place-title">
+                    <span>김밥천국</span>
+                    <span>4.4 ★★★★☆ (269)</span>
+                  </div>
+                  <div class="place-description">
+                    항상 맛있는 메뉴가 가득한 곳<br>
+                    07:00 ~ 22:30
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/용우동/index.html">
+                  <div class="place-title">
+                    <span>용우동</span>
+                    <span> 4.2 ★★★★☆ (215)</span>
+                  </div>
+                  <div class="place-description">
+                    혼밥하기 좋은 맛집<br>
+                    10:00 ~ 20:30
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="/restaurant/시민포차/index.html">
+                  <div class="place-title">
+                    <span>시민포차</span>
+                    <span>4.8 ★★★★★ (65)</span>
+                  </div>
+                  <div class="place-description">
+                    학생을 위한 킹성비 안주포차 <br>
+                    17:00 ~ 07:00
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="/restaurant/간바레간바로우/index.html">
+                  <div class="place-title">
+                    <span>간바레간바로우</span>
+                    <span>4.8 ★★★★★ (65)</span>
+                  </div>
+                  <div class="place-description">
+                    일식이 땡긴다? 여기로 오라! <br>
+                    11:00 ~ 22:00 (15:00 ~ 17:00 브레이크타임)
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/자연을담은돈까스/index.html">
+                  <div class="place-title">
+                    <span>자연을담은돈까스</span>
+                    <span>4.5 ★★★★★ (407)</span>
+                  </div>
+                  <div class="place-description">
+                    메뉴가 다양한 대한민국 대표 맛집<br>
+                    07:00 ~ 24:00
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/짱이네/index.html">
+                  <div class="place-title">
+                    <span>짱이네</span>
+                    <span>4.7 ★★★★★ (937)</span>
+                  </div>
+                  <div class="place-description">
+                    이 집 정말 짱이네<br>
+                    11:00 ~ 20:00 (15:30 ~ 17:00 브레이크타임
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/restaurant/면식당/index.html">
+                  <div class="place-title">
+                    <span>면식당</span>
+                    <span>4.5 ★★★★★ (3105)</span>
+                  </div>
+                  <div class="place-description">
+                    면요리가 먹고플 때 그냥 들어와<br>
+                    10:30 ~ 21:00 (16:00 ~ 17:00 브레이크타임)
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/restaurant/에그문/index.html">
+                  <div class="place-title">
+                    <span>에그문</span>
+                    <span>4.5 ★★★★★ (181)</span>
+                  </div>
+                  <div class="place-description">
+                    계란만 먹고 산 1인 운영식당<br>
+                    11:00 ~ 20:00 (14:30 ~ 17:00 브레이크타임)
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="/restaurant/현정이네쫄면/index.html">
+                  <div class="place-title">
+                    <span>현정이네쫄면</span>
+                    <span>4.6 ★★★★★ (439)</span>
+                  </div>
+                  <div class="place-description">
+                    10년 역사의 쫄면 전문 음식점 <br>
+                    11:00 ~ 20:00
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/restaurant/관평밥상457/index.html">
+                  <div class="place-title">
+                    <span>관평밥상457</span>
+                    <span>4.7 ★★★★★ (28)</span>
+                  </div>
+                  <div class="place-description">
+                    나만 아는 숨겨진 비밀맛집 <br>
+                    12:00 ~ 20:30
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01" />
+      </div>
+    </body>
+  </html>
+  
