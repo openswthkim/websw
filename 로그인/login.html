@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<style>
+    .header-bar { 
+        background-color:rgba(7.21, 7.21, 7.21, 1);
+        width:422px;
+        height:47px;
+        position:absolute;
+        left:0px;
+        top:0px;
+    }
+    .header-text { 
+        color:rgba(255, 255, 255, 1);
+        width:224px;
+        height:28px;
+        position:absolute;
+        left:96px;
+        top:9px;
+        font-family:Inter;
+        text-align:center;
+        font-size:20px;
+        letter-spacing:0;
+    }
+    .page-title { 
+        color:rgba(0, 0, 0, 1);
+        width:324px;
+        height:44px;
+        position:absolute;
+        left:554px;
+        top:363px;
+        font-family:Inter;
+        text-align:center;
+        font-size:40px;
+        letter-spacing:0;
+    }
+    .content-container { 
+        width:1230px;
+        height:137px;
+        position:absolute;
+        left:105px;
+        top:100px;
+    }
+    .profile-icon { 
+        width:89px;
+        height:39px;
+        position:absolute;
+        left:1141px;
+        top:21px;
+    }
+    .border-line { 
+        border:1px solid rgba(0, 0, 0, 1);
+        position: relative;
+        top: 70px;
+    }
+    .title-text { 
+        color:rgba(0, 0, 0, 1);
+        width:516px;
+        height:70px;
+        position:absolute;
+        left:0px;
+        top:-20px;
+        font-family:Inter;
+        text-align:left;
+        font-size:64px;
+        letter-spacing:0;
+    }
+    .back-link { 
+        color:rgba(0, 0, 0, 1);
+        width:125px;
+        height:26px;
+        position:absolute;
+        left:0px;
+        top:111px;
+        font-family:Inter;
+        text-align:left;
+        font-size:22px;
+        letter-spacing:0;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .form-container {
+        width: 280px;
+        margin: auto;
+        font-size: 15px;
+    }
+    .input-container {
+        width:410px;
+        height:45px;
+        position:absolute;
+        left:420px;
+        top:250px;
+    }
+    .password-container{
+        width:410px;
+        height:45px;
+        position:absolute;
+        left:420px;
+        top:320px;
+    }
+    input[type="text"], input[type="password"] {
+        border:3px solid rgba(217, 217, 217, 1);
+        width:422px;
+        height:47px;
+        position:absolute;
+        left:0px;
+        top:0px;
+    }
+    .login-button {
+        background-color:rgba(7.21, 7.21, 7.21, 1);
+        width:420px;
+        height:48px;
+        position:absolute;
+        left:420px;
+        top:430px;
+        font-family:Inter;
+        text-align:center;
+        font-size:20px;
+        color: white;
+        letter-spacing:0;
+        border: none;
+        cursor: pointer;
+    }
+    .login-button:active {
+        background-color: rgb(12, 12, 12);
+    }
+    a {
+        font-size: 12px;
+        color: darkgray;
+        text-decoration: none;
+    }
+    .join-link {
+        text-align: center;
+    }
+    .welcome-header {
+        color:rgba(0, 0, 0, 1);
+        width:324px;
+        height:40px;
+        position:absolute;
+        left:470px;
+        top:156px;
+        font-family:Inter;
+        text-align:center;
+        font-size:25px;
+        letter-spacing:0;
+    }
+    .checkbox-container {
+        position:absolute;
+        width: 422px;
+        height: 47px;
+        left:420px;
+        top:385px;
+    }
+    .checkbox-container label {
+        display: flex;
+        align-items: center;
+    }
+    .checkbox-container input[type="checkbox"] {
+        margin-right: 10px;
+        width: 28px;
+        height: 27px;
+        border: 3px solid rgba(217, 217, 217, 1);
+    }
+    .top-right-buttons {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .top-right-buttons button {
+        border:1px solid rgba(161, 161, 161, 1);
+        width:89px;
+        height:39px;
+        background-color: white;
+        color: black;
+        font-family: Inter;
+        font-size: 15px;
+        text-align: center;
+        line-height: 39px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .top-right-buttons button:hover {
+        background-color: rgba(230, 230, 230, 1);
+    }
+    .error-message {
+        color: red;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 500px;
+    }
+</style>
+</head>
+<body>
+<div class="content-container">
+    <div class="border-line"></div><span class="title-text">점심뭐먹지?</span>
+    <button class="back-link" onclick="history.back()"><  돌아가기</button>
+    <div class="profile-icon"></div>
+    <div class="top-right-buttons">
+        <button onclick="location.href='/로그인/login.html'">로그인</button>
+        <button onclick="location.href='/회원가입/membership.html'">회원가입</button>
+    </div>
+    <div class="form-container">
+        <div class="welcome-header">
+            <h2>환영합니다!</h2>
+        </div>
+        <div id="loginForm">
+            <div class="input-container">
+                <input type="text" id="userid" placeholder="ID">
+            </div>
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <div class="checkbox-container">
+                <label>
+                    <input type="checkbox"> 로그인 상태 유지
+                </label>
+            </div>
+            <div class="error-message" id="errorMessage"></div>
+            <div class="login-button-container">
+                <button type="button" class="login-button" onclick="valid()">로그인</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function valid() {
+        var userid = document.getElementById("userid").value;
+        var password = document.getElementById("password").value;
+        var errorMessage = document.getElementById("errorMessage");
+
+        if (!userid || !password) {
+            errorMessage.textContent = "아이디와 비밀번호를 모두 입력해주세요.";
+            return;
+        }
+
+        alert('로그인 성공!');
+        window.location.href = '/main/index.html'; // 로그인 성공 시 페이지 이동
+    }
+</script>
+</body>
+</html>
