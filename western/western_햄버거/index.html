@@ -1,0 +1,303 @@
+<!-- 
+ 수정 필요한 부분은 주석처리 해놨습니다. 
+ 참고하시고 각각 context 맞게 수정하시면 됩니다. 
+ {korean}/{korean_메뉴} 안에 넣어주시면 됩니다.
+ comment by Hyungmin Kim
+  -->
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <!-- 필요시 수정 -->
+      <title>western_햄버거</title>
+      <link rel="stylesheet" href="/style/food_style.css" />
+      <script
+        src="https://kit.fontawesome.com/03f93ebafa.js"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script>
+        function openModal(src) {
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("img01").src = src;
+        }
+  
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+  
+        function showPopup(popupId) {
+          var popup = document.getElementById(popupId);
+          popup.style.visibility = "visible";
+          setTimeout(function () {
+            popup.style.visibility = "hidden";
+          }, 1000);
+        }
+  
+        document.addEventListener("DOMContentLoaded", function () {
+          document.getElementById("heartIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("heartOn");
+            } else {
+              showPopup("heartOff");
+            }
+          };
+  
+          document.getElementById("bookmarkIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("bookmarkOn");
+            } else {
+              showPopup("bookmarkOff");
+            }
+          };
+  
+          document.getElementById("shareIcon").onclick = function () {
+            navigator.clipboard.writeText(window.location.href).then(function () {
+              showPopup("popup");
+            });
+          };
+        });
+      </script>
+    </head>
+  
+    <body>
+      <nav>
+        <!-- 브레드크럼 수정해주세요 -->
+        <ul class="breadcrumb">
+          <li><a href="/main/index.html">메인</a></li>
+          <li><a href="/main_western/index.html">양식</a></li>
+          <li><a href="/western/western_햄버거/index.html">햄버거</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <!-- 돌아가기 링크 필요시 수정 -->
+      <a href="/main_western/index.html" class="back-button">&lt; 돌아가기</a>
+  
+      <!-- 메뉴이름 수정 -->
+      <div class="main">햄버거</div>
+  
+      <div class="icons">
+        <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+        <div id="heartOn">좋아요가 반영되었습니다</div>
+        <div id="heartOff">좋아요가 해제되었습니다</div>
+        <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+        <div id="bookmarkOn">북마크가 설정되었습니다</div>
+        <div id="bookmarkOff">북마크가 해제되었습니다</div>
+        <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+        <div id="popup">URL이 복사되었습니다!</div>
+      </div>
+  
+      <!-- desription 수정 -->
+      <div class="description">
+        한입에 요동치는 서양의 맛!
+      </div>
+  
+      <div class="container">
+        <h2>재료 및 영양소</h2>
+        <hr />
+        <div class="content">
+  
+          <!-- src 및 alt 수정 -->
+          <img
+            src="/main_western/images/03_햄버거.jpg"
+            alt="햄버거"
+            onclick="openModal(this.src)"
+          />
+  
+          <div class="info">
+            <div class="source">
+              <h3>재료</h3>
+              <ul>
+  
+                <!-- ingredient와 amount 수정해주세요 -->
+                <li>
+                  <span class="ingredient">소고기 다짐육</span
+                  ><span class="amount">150g</span>
+                </li>
+                <li>
+                  <span class="ingredient">소금,후추</span
+                  ><span class="amount">약간</span>
+                </li>
+                <li>
+                  <span class="ingredient">번</span
+                  ><span class="amount">1개</span>
+                </li>
+                <li>
+                  <span class="ingredient">양상추</span
+                  ><span class="amount">한 장</span>
+                </li>
+                <li>
+                  <span class="ingredient">토마토,양파</span
+                  ><span class="amount">1~2조각</span>
+                </li>
+                <li>
+                  <span class="ingredient">피클</span
+                  ><span class="amount">2~3조각</span>
+                </li>
+                <li>
+                  <span class="ingredient">케첩,마요네즈</span
+                  ><span class="amount">1큰술</span>
+                </li>
+                <li>
+                  <span class="ingredient">머스타드</span
+                  ><span class="amount">약간</span>
+                </li>
+                <li>
+                    <span class="ingredient">치즈 슬라이스</span
+                    ><span class="amount">1장</span>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="nutrition">
+              <h3>영양소 (1인분 기준, 추정치)</h3>
+              <ul>
+  
+                <!-- ingredient는 그대로 / amout부분을 수정해주세요 -->
+                <li>
+                  <span class="ingredient">칼로리</span
+                  ><span class="amount">700kcal</span>
+                </li>
+                <li>
+                  <span class="ingredient">탄수화물</span
+                  ><span class="amount">50g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">단백질</span
+                  ><span class="amount">30g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">지방</span
+                  ><span class="amount">25g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">식이섬유</span
+                  ><span class="amount">5g</span>
+                </li>
+                <li>
+                  <span class="ingredient">나트륨</span
+                  ><span class="amount">1000mg</span>
+                </li>
+  
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="steps">
+          <h2>조리 단계</h2>
+          <hr />
+          <ol>
+  
+            <!-- 조리단계 작성해주세요 -->
+            <li>
+                소고기 다짐육에 소금과 후추를 넣고 잘 섞어 패티 모양을 만듭니다.
+            </li>
+            <li>팬이나 그릴을 중간 불로 예열한 뒤 패티를 넣고 한쪽 면이 갈색이 될 때까지 약 3-4분간 굽습니다.
+                뒤집어서 반대쪽도 3-4분간 구워줍니다. (치즈를 사용할 경우, 패티 위에 치즈를 올려 녹입니다.)</li>
+            <li> 햄버거 번을 반으로 갈라 팬에 살짝 구워줍니다 </li>
+            <li>햄버거 번의 아랫부분에 케첩과 마요네즈를 바르고 양상추, 토마토, 양파, 피클을 순서대로 올립니다.</li>
+            <li>구운 패티를 올린 후, 햄버거 번 윗부분을 덮어 완성합니다. </li>
+          </ol>
+        </div>
+        <div class="nearby-places">
+          <div class="map">
+  
+            <!-- 링크와 이미지 소스 수정해주세요 
+             네이버지도->해당메뉴검색 후 링크 복사하면 됩니다. -->
+            <a
+              href="https://map.naver.com/p/search/%ED%96%84%EB%B2%84%EA%B1%B0?c=15.00,0,0,0,dh"
+              target="_blank"
+            >
+              <img src="/western/western_햄버거/햄버거_map.JPG" alt="지도_햄버거" />
+            </a>
+          </div>
+          <div class="places">
+            <h2>근처 맛집</h2>
+            <hr />
+            <ul>
+              <!-- 맛집 리스트 수정해주세요 
+               평점 및 가게설명.txt 참고해서 작성해주세요-->
+              <li>
+                <a href="/restaurant/맘스터치/index.html">
+                  <div class="place-title">
+                    <span>맘스터치</span>
+                    <span>4.5 ★★★★★ (685)</span>
+                  </div>
+                  <div class="place-description">
+                    말해 뭐해? 맘스터치!<br>
+                    11:00 ~ 21:00
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/버거프렌즈/index.html">
+                  <div class="place-title">
+                    <span>버거프렌즈</span>
+                    <span> 4.1 ★★★★☆ (411)</span>
+                  </div>
+                  <div class="place-description">
+                    100% 프리미엄 소고기 패티<br>
+                    10:30 ~ 20:40 (15:00 ~ 16:00 브레이크타임)
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/롯데리아/index.html">
+                  <div class="place-title">
+                    <span>롯데리아</span>
+                    <span>4.5 ★★★★★ (2020)</span>
+                  </div>
+                  <div class="place-description">
+                    행복한 버거와 맛있는 하루<br>
+                    09:00 ~ 24:00
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/버거킹/index.html">
+                  <div class="place-title">
+                    <span>버거킹</span>
+                    <span>4.5 ★★★★★ (2313)</span>
+                  </div>
+                  <div class="place-description">
+                    더욱 더 새로워진 뉴 와퍼<br>
+                    10:00 ~ 22:00
+                  </div>
+                </a>
+              </li>
+
+              
+              <li>
+                <a href="/restaurant/프랭크버거/index.html">
+                  <div class="place-title">
+                    <span>프랭크버거</span>
+                    <span>4.7 ★★★★★ (17)</span>
+                  </div>
+                  <div class="place-description">
+                    정통 미국식 프리미엄 수제치즈버거<br>
+                    11:00 ~ 21:00
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01" />
+      </div>
+    </body>
+  </html>
+  

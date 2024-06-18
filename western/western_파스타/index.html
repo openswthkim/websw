@@ -1,0 +1,297 @@
+<!-- 
+ 수정 필요한 부분은 주석처리 해놨습니다. 
+ 참고하시고 각각 context 맞게 수정하시면 됩니다. 
+ {korean}/{korean_메뉴} 안에 넣어주시면 됩니다.
+ comment by Hyungmin Kim
+  -->
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <!-- 필요시 수정 -->
+      <title>western_파스타</title>
+      <link rel="stylesheet" href="/style/food_style.css" />
+      <script
+        src="https://kit.fontawesome.com/03f93ebafa.js"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script>
+        function openModal(src) {
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("img01").src = src;
+        }
+  
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+  
+        function showPopup(popupId) {
+          var popup = document.getElementById(popupId);
+          popup.style.visibility = "visible";
+          setTimeout(function () {
+            popup.style.visibility = "hidden";
+          }, 1000);
+        }
+  
+        document.addEventListener("DOMContentLoaded", function () {
+          document.getElementById("heartIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("heartOn");
+            } else {
+              showPopup("heartOff");
+            }
+          };
+  
+          document.getElementById("bookmarkIcon").onclick = function () {
+            this.classList.toggle("fa-solid");
+            if (this.classList.contains("fa-solid")) {
+              showPopup("bookmarkOn");
+            } else {
+              showPopup("bookmarkOff");
+            }
+          };
+  
+          document.getElementById("shareIcon").onclick = function () {
+            navigator.clipboard.writeText(window.location.href).then(function () {
+              showPopup("popup");
+            });
+          };
+        });
+      </script>
+    </head>
+  
+    <body>
+      <nav>
+        <!-- 브레드크럼 수정해주세요 -->
+        <ul class="breadcrumb">
+          <li><a href="/main/index.html">메인</a></li>
+          <li><a href="/main_western/index.html">양식</a></li>
+          <li><a href="/western/western_파스타/index.html">파스타</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <!-- 돌아가기 링크 필요시 수정 -->
+      <a href="/main_western/index.html" class="back-button">&lt; 돌아가기</a>
+  
+      <!-- 메뉴이름 수정 -->
+      <div class="main">파스타</div>
+  
+      <div class="icons">
+        <i class="fa-regular fa-heart fa-lg" id="heartIcon"></i>
+        <div id="heartOn">좋아요가 반영되었습니다</div>
+        <div id="heartOff">좋아요가 해제되었습니다</div>
+        <i class="fa-regular fa-bookmark fa-lg" id="bookmarkIcon"></i>
+        <div id="bookmarkOn">북마크가 설정되었습니다</div>
+        <div id="bookmarkOff">북마크가 해제되었습니다</div>
+        <i class="fa-solid fa-share-nodes fa-lg" id="shareIcon"></i>
+        <div id="popup">URL이 복사되었습니다!</div>
+      </div>
+  
+      <!-- desription 수정 -->
+      <div class="description">
+        냄비에서 시작되는 이탈리아의 전통
+      </div>
+  
+      <div class="container">
+        <h2>재료 및 영양소</h2>
+        <hr />
+        <div class="content">
+  
+          <!-- src 및 alt 수정 -->
+          <img
+            src="/main_western/images/02_파스타.jpg"
+            alt="파스타"
+            onclick="openModal(this.src)"
+          />
+  
+          <div class="info">
+            <div class="source">
+              <h3>재료</h3>
+              <ul>
+  
+                <!-- ingredient와 amount 수정해주세요 -->
+                <li>
+                  <span class="ingredient">스파게티 면</span
+                  ><span class="amount">200g</span>
+                </li>
+                <li>
+                  <span class="ingredient">다진 토마토</span
+                  ><span class="amount">200g</span>
+                </li>
+                <li>
+                  <span class="ingredient">양파</span
+                  ><span class="amount">1/4개</span>
+                </li>
+                <li>
+                  <span class="ingredient">다진 마늘</span
+                  ><span class="amount">2쪽</span>
+                </li>
+                <li>
+                  <span class="ingredient">올리브유</span
+                  ><span class="amount">1큰술</span>
+                </li>
+                <li>
+                  <span class="ingredient">소금,후추</span
+                  ><span class="amount">약간</span>
+                </li>
+                <li>
+                  <span class="ingredient">바질 또는 오레가노</span
+                  ><span class="amount">약간</span>
+                </li>
+                <li>
+                  <span class="ingredient">파마산 치즈</span
+                  ><span class="amount">약간</span>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="nutrition">
+              <h3>영양소 (1인분 기준, 추정치)</h3>
+              <ul>
+  
+                <!-- ingredient는 그대로 / amout부분을 수정해주세요 -->
+                <li>
+                  <span class="ingredient">칼로리</span
+                  ><span class="amount">450kcal</span>
+                </li>
+                <li>
+                  <span class="ingredient">탄수화물</span
+                  ><span class="amount">50g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">단백질</span
+                  ><span class="amount">15g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">지방</span
+                  ><span class="amount">15g</span>
+                </li>
+  
+                <li>
+                  <span class="ingredient">식이섬유</span
+                  ><span class="amount">5g</span>
+                </li>
+                <li>
+                  <span class="ingredient">나트륨</span
+                  ><span class="amount">800mg</span>
+                </li>
+  
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="steps">
+          <h2>조리 단계</h2>
+          <hr />
+          <ol>
+  
+            <!-- 조리단계 작성해주세요 -->
+            <li>
+                큰 냄비에 물을 끓이고 소금을 약간 넣습니다. 스파게티 면을 넣고 포장지에 적힌 시간대로 삶습니다 (약 8-10분).
+            </li>
+            <li>팬에 올리브유를 두르고 다진 마늘과 양파를 중간 불에서 볶아 향을 냅니다. </li>
+            <li> 다진 토마토를 넣고 소금과 후추로 간을 맞춥니다. 소스를 약한 불에서 10분 정도 끓여서 농도를 맞춥니다.
+                기호에 따라 바질 또는 오레가노를 추가합니다. </li>
+            <li>삶은 스파게티 면을 토마토 소스에 넣고 잘 섞습니다. 면과 소스가 잘 어우러지도록 몇 분간 더 끓입니다.</li>
+            <li>접시에 파스타를 담고, 기호에 따라 파마산 치즈와 신선한 바질 잎을 뿌립니다.</li>
+          </ol>
+        </div>
+        <div class="nearby-places">
+          <div class="map">
+  
+            <!-- 링크와 이미지 소스 수정해주세요 
+             네이버지도->해당메뉴검색 후 링크 복사하면 됩니다. -->
+            <a
+              href="https://map.naver.com/p/search/%ED%8C%8C%EC%8A%A4%ED%83%80?c=15.00,0,0,0,dh"
+              target="_blank"
+            >
+              <img src="/western/western_파스타/파스타_map.JPG" alt="지도_파스타" />
+            </a>
+          </div>
+          <div class="places">
+            <h2>근처 맛집</h2>
+            <hr />
+            <ul>
+              <!-- 맛집 리스트 수정해주세요 
+               평점 및 가게설명.txt 참고해서 작성해주세요-->
+              <li>
+                <a href="/restaurant/브릿지파스타/index.html">
+                  <div class="place-title">
+                    <span>브릿지파스타</span>
+                    <span>4.5 ★★★★★ (167)</span>
+                  </div>
+                  <div class="place-description">
+                    파스타로 유학까지 다녀왔단 사실<br>
+                    11:00 ~ 21:00 (15:00 ~ 17:30 브레이크타임)
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/시민포차/index.html">
+                  <div class="place-title">
+                    <span>시민포차</span>
+                    <span> 4.8 ★★★★★ (65)</span>
+                  </div>
+                  <div class="place-description">
+                    학생을 위한 킹성비 안주포차<br>
+                    17:00 ~ 07:00
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/도미노피자/index.html">
+                  <div class="place-title">
+                    <span>도미노피자</span>
+                    <span>4.5 ★★★★★ (407)</span>
+                  </div>
+                  <div class="place-description">
+                    완벽한 한 끼. Life Food Domino's<br>
+                    11:30 ~ 21:30
+                  </div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="/restaurant/파브리카/index.html">
+                  <div class="place-title">
+                    <span>파브리카</span>
+                    <span>4.5 ★★★★★ (407)</span>
+                  </div>
+                  <div class="place-description">
+                    15년 역사가 함꼐하는 이탈리안 레스토랑<br>
+                    11:00 ~ 21:30 (15:00 ~ 17:00 브레이크타임)
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="/restaurant/장미맨숀/index.html">
+                  <div class="place-title">
+                    <span>장미맨숀</span>
+                    <span>4.4 ★★★★☆ (196)</span>
+                  </div>
+                  <div class="place-description">
+                    여기는 술집인가 맛집인가<br>
+                    17:30 ~ 03:00
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01" />
+      </div>
+    </body>
+  </html>
+  
